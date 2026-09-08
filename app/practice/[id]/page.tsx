@@ -130,8 +130,8 @@ export default function PracticeQuestionPage({
         <div className="grid lg:grid-cols-2 gap-6 items-start">
           <div className="space-y-6">
             <Card variant="elevated">
-              <CardContent className="p-6">
-                <h2 className="text-xl font-semibold text-slate-900 mb-6 leading-relaxed">
+              <CardContent standalone>
+                <h2 className="text-xl font-semibold text-slate-900 mb-6 leading-snug">
                   {question.question}
                 </h2>
 
@@ -233,9 +233,9 @@ export default function PracticeQuestionPage({
           <div className="space-y-6">
             {answerState === "unanswered" && !showHint && (
               <Card variant="elevated" className="bg-green-50 border-green-200">
-                <CardContent className="p-6">
+                <CardContent standalone>
                   <div className="flex items-start space-x-3">
-                    <Lightbulb className="w-6 h-6 text-green-700 flex-shrink-0 mt-1" />
+                    <Lightbulb className="w-6 h-6 text-green-700 flex-shrink-0 mt-0.5" />
                     <div className="flex-1">
                       <h3 className="font-semibold text-slate-900 mb-2">
                         Need a hint?
@@ -259,9 +259,9 @@ export default function PracticeQuestionPage({
 
             {answerState === "unanswered" && showHint && question.tips && (
               <Card variant="elevated" className="bg-amber-50 border-amber-200">
-                <CardContent className="p-6">
+                <CardContent standalone>
                   <div className="flex items-start space-x-3">
-                    <Lightbulb className="w-6 h-6 text-amber-700 flex-shrink-0 mt-1" />
+                    <Lightbulb className="w-6 h-6 text-amber-700 flex-shrink-0 mt-0.5" />
                     <div>
                       <h3 className="font-semibold text-slate-900 mb-2">Hint</h3>
                       <p className="text-slate-700">{question.tips}</p>
@@ -273,9 +273,9 @@ export default function PracticeQuestionPage({
 
             {answerState === "correct" && (
               <Card variant="elevated" className="bg-emerald-50 border-emerald-200">
-                <CardContent className="p-6">
+                <CardContent standalone>
                   <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-8 h-8 text-emerald-600 flex-shrink-0" />
+                    <CheckCircle className="w-6 h-6 text-emerald-600 flex-shrink-0 mt-0.5" />
                     <div>
                       <h3 className="text-lg font-semibold text-emerald-900 mb-1">
                         Correct! Well done!
@@ -291,9 +291,9 @@ export default function PracticeQuestionPage({
 
             {answerState === "incorrect" && (
               <Card variant="elevated" className="bg-rose-50 border-rose-200">
-                <CardContent className="p-6">
+                <CardContent standalone>
                   <div className="flex items-start space-x-3">
-                    <XCircle className="w-8 h-8 text-rose-600 flex-shrink-0" />
+                    <XCircle className="w-6 h-6 text-rose-600 flex-shrink-0 mt-0.5" />
                     <div>
                       <h3 className="text-lg font-semibold text-rose-900 mb-1">
                         Not quite right
@@ -309,7 +309,7 @@ export default function PracticeQuestionPage({
 
             {showExplanation && (
               <Card variant="elevated">
-                <CardContent className="p-6">
+                <CardContent standalone>
                   <h3 className="font-semibold text-slate-900 mb-3 flex items-center">
                     <Sparkles className="w-5 h-5 mr-2 text-green-600" />
                     Explanation
@@ -330,7 +330,7 @@ export default function PracticeQuestionPage({
 
             {showExplanation && (
               <Card variant="elevated" className="border-2 border-green-200">
-                <CardContent className="p-6">
+                <CardContent standalone>
                   <div className="flex items-center space-x-2 mb-4">
                     <Sparkles className="w-5 h-5 text-green-700" />
                     <h3 className="font-semibold text-slate-900">

@@ -31,7 +31,7 @@ export default function PracticeModePage() {
         </div>
 
         <Card variant="elevated" className="bg-gradient-to-r from-green-50 to-green-100 border-green-200">
-          <CardContent className="p-6">
+          <CardContent standalone>
             <div className="flex items-start space-x-4">
               <div className="w-12 h-12 bg-green-700 rounded-lg flex items-center justify-center flex-shrink-0">
                 <BookOpen className="w-6 h-6 text-white" />

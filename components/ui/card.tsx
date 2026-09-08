@@ -49,11 +49,22 @@ const CardTitle = forwardRef<HTMLHeadingElement, HTMLAttributes<HTMLHeadingEleme
 );
 CardTitle.displayName = "CardTitle";
 
-const CardContent = forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
-  ({ className, ...props }, ref) => (
+/**
+ * Content region of a Card.
+ *
+ * The default `pt-0` assumes a CardHeader sits directly above and has already
+ * supplied the top padding. When CardContent is used on its own, pass
+ * `standalone` so it keeps a full `p-6` box instead of collapsing its top edge.
+ */
+interface CardContentProps extends HTMLAttributes<HTMLDivElement> {
+  standalone?: boolean;
+}
+
+const CardContent = forwardRef<HTMLDivElement, CardContentProps>(
+  ({ className, standalone = false, ...props }, ref) => (
     <div
       ref={ref}
-      className={cn("p-6 pt-0", className)}
+      className={cn(standalone ? "p-6" : "p-6 pt-0", className)}
       {...props}
     />
   )
