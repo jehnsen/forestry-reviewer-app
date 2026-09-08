@@ -39,7 +39,7 @@ http://localhost:3000
 
 **First, visit:** [http://localhost:3000](http://localhost:3000) to see the landing page
 
-**Then navigate to:** [http://localhost:3000/practice/q1](http://localhost:3000/practice/q1) to see the critical question review interface
+**Then navigate to:** [http://localhost:3000/practice/fbm-001](http://localhost:3000/practice/fbm-001) to see the critical question review interface
 
 ---
 
@@ -184,7 +184,10 @@ forestry-reviewer-app/
 │
 ├── lib/
 │   ├── types.ts                    # TypeScript interfaces
-│   ├── mock-data.ts                # 12 sample questions
+│   ├── questions.ts                # Server-side question fetching
+│   ├── answers.ts                  # Answer recording (browser)
+│   ├── progress.ts                 # Per-subject accuracy (browser)
+│   ├── supabase/                   # Server + browser clients
 │   └── utils.ts                    # Utility functions
 │
 ├── supabase/
@@ -209,7 +212,7 @@ forestry-reviewer-app/
 - [ ] Landing page loads
 - [ ] Navigate to Dashboard
 - [ ] Click "Continue Reviewing"
-- [ ] Open question `/practice/q1`
+- [ ] Open question `/practice/fbm-001`
 - [ ] Select an answer
 - [ ] Submit answer
 - [ ] View explanation
@@ -221,13 +224,13 @@ forestry-reviewer-app/
 - [ ] Check all pages load correctly
 
 ### Test All 12 Questions:
-- `/practice/q1` - Mensuration (tree volume)
-- `/practice/q2` - Silviculture (systems)
-- `/practice/q3` - Forest Policy (PD 705)
-- `/practice/q4` - Wood Science (FSP)
-- `/practice/q5` - Surveying (traverse)
-- `/practice/q6` - Forest Management (area control)
-- `/practice/q7` ... `/practice/q12` - remaining subjects
+- `/practice/fbm-001` - Mensuration (tree volume)
+- `/practice/sil-002` - Silviculture (systems)
+- `/practice/sfp-001` - Forest Policy (PD 705)
+- `/practice/wsf-001` - Wood Science (FSP)
+- `/practice/fes-001` - Surveying (traverse)
+- `/practice/frm-001` - Forest Management (area control)
+- `/practice/sil-007` ... `/practice/frm-002` - remaining subjects
 
 ---
 
@@ -263,10 +266,10 @@ forestry-reviewer-app/
 
 ## 🔜 Next Phase: Backend Integration
 
-Currently uses mock data. To make it production-ready:
+Questions, answers, and progress are live in Supabase. Still to do:
 
-1. **Database** - Store questions, user progress, analytics
-2. **Authentication** - User registration and login
+1. ~~**Database**~~ - ✅ Questions, answers, and analytics in Supabase
+2. **Authentication** - Upgrade anonymous sessions to real accounts
 3. **Real AI** - OpenAI/Anthropic API integration
 4. **Payments** - Stripe for Season Pass (₱399)
 5. **Email** - Notifications and reminders

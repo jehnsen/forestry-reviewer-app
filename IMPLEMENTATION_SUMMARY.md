@@ -189,7 +189,7 @@ npm run dev
    - `/` → Click "Start Reviewing Now" → `/dashboard`
 
 2. **Question Review Flow** (Priority)
-   - `/dashboard` → "Continue Reviewing" → `/practice` → Select subject → `/practice/q1`
+   - `/dashboard` → "Continue Reviewing" → `/practice` → Select subject → `/practice/fbm-001`
    - Test all 3 states of the interface
    - Test AI chat interaction
 

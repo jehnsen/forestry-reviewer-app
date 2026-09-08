@@ -36,7 +36,7 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 - Or choose "Start Mixed Practice"
 
 ### ✏️ Question Review (CRITICAL - Must Test!)
-**URL:** `/practice/q1` (or q2, q3, q4, q5, q6)
+**URL:** `/practice/fbm-001` (or q2, q3, q4, q5, q6)
 
 **Test Flow:**
 1. Read the question
@@ -71,18 +71,18 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 
 Navigate directly to these questions:
 
-1. **Mensuration (tree volume):** [/practice/q1](http://localhost:3000/practice/q1)
-2. **Silviculture (silvicultural systems):** [/practice/q2](http://localhost:3000/practice/q2)
-3. **Forest Policy (PD 705 slope rule):** [/practice/q3](http://localhost:3000/practice/q3)
-4. **Wood Science (fiber saturation point):** [/practice/q4](http://localhost:3000/practice/q4)
-5. **Surveying (closed traverse):** [/practice/q5](http://localhost:3000/practice/q5)
-6. **Forest Management (area control):** [/practice/q6](http://localhost:3000/practice/q6)
-7. **Ecology (primary succession):** [/practice/q7](http://localhost:3000/practice/q7)
-8. **Wood Science (heartwood):** [/practice/q8](http://localhost:3000/practice/q8)
-9. **Social Forestry (CBFMA):** [/practice/q9](http://localhost:3000/practice/q9)
-10. **Mensuration (prism / BAF):** [/practice/q10](http://localhost:3000/practice/q10)
-11. **Surveying (road gradient):** [/practice/q11](http://localhost:3000/practice/q11)
-12. **Forest Management (DENR mandate):** [/practice/q12](http://localhost:3000/practice/q12)
+1. **Mensuration (tree volume):** [/practice/fbm-001](http://localhost:3000/practice/fbm-001)
+2. **Silviculture (silvicultural systems):** [/practice/sil-002](http://localhost:3000/practice/sil-002)
+3. **Forest Policy (PD 705 slope rule):** [/practice/sfp-001](http://localhost:3000/practice/sfp-001)
+4. **Wood Science (fiber saturation point):** [/practice/wsf-001](http://localhost:3000/practice/wsf-001)
+5. **Surveying (closed traverse):** [/practice/fes-001](http://localhost:3000/practice/fes-001)
+6. **Forest Management (area control):** [/practice/frm-001](http://localhost:3000/practice/frm-001)
+7. **Ecology (primary succession):** [/practice/sil-007](http://localhost:3000/practice/sil-007)
+8. **Wood Science (heartwood):** [/practice/wsf-002](http://localhost:3000/practice/wsf-002)
+9. **Social Forestry (CBFMA):** [/practice/sfp-002](http://localhost:3000/practice/sfp-002)
+10. **Mensuration (prism / BAF):** [/practice/fbm-002](http://localhost:3000/practice/fbm-002)
+11. **Surveying (road gradient):** [/practice/fes-002](http://localhost:3000/practice/fes-002)
+12. **Forest Management (DENR mandate):** [/practice/frm-002](http://localhost:3000/practice/frm-002)
 
 ## Testing Checklist
 

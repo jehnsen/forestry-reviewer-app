@@ -194,10 +194,37 @@ accuracy for the calling user.
 - **Balanced answer key.** The correct answer is distributed evenly across a/b/c/d
   (15 each), so the exam cannot be gamed by always guessing one letter.
 
-The app currently reads from `lib/mock-data.ts` rather than the database. Those 12
-sample questions mirror rows in the seed — each carries a `seedId` pointing at its
-SQL counterpart — so wiring up the Supabase client later will not change any
-answer keys.
+### How the app reads the data
+
+Questions are fetched **on the server** (`lib/questions.ts`) using the service role
+key, which never reaches the browser — `lib/supabase/server.ts` imports
+`server-only`, so the build fails if it is ever pulled into a Client Component.
+
+This keeps the strict RLS policy on `questions` (authenticated-only) in place
+without requiring visitors to log in. The `/practice` routes are marked
+`force-dynamic` so they always reflect the current database rather than a
+build-time snapshot.
+
+Answer recording (`lib/answers.ts`) runs in the browser under the anon key, so RLS
+applies and each visitor can only touch their own rows. Because
+`user_answers.user_id` is a foreign key to `auth.users`, the app creates an
+**anonymous Supabase session** per visitor. This requires *Authentication →
+Providers → Anonymous sign-ins* to be enabled in the Supabase dashboard; when it
+is off, answers simply are not recorded and the UI says so rather than failing.
+
+### Progress and analytics
+
+The dashboard and analytics pages read `public.user_subject_accuracy`, a
+`security_invoker` view that aggregates the signed-in user's answers by subject.
+Because it filters on `auth.uid()`, it is queried **from the browser** under the
+anon key — reading it with the service role key would return every user's data.
+
+Both pages show an empty state until the visitor answers their first question,
+and a subject needs at least 3 answers before it can be flagged as the weakest,
+so a single wrong answer does not skew the recommendation.
+
+`lib/mock-data.ts` has been removed: the database is now the only source of
+questions, and a parallel copy would drift out of sync.
 
 ## Key Pages & Routes
 

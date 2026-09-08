@@ -8,8 +8,6 @@ export type ForestrySubject =
 
 export interface Question {
   id: string;
-  /** Matching row id in supabase/seed_questions.sql. */
-  seedId?: string;
   subject: ForestrySubject;
   difficulty: "Easy" | "Medium" | "Hard";
   question: string;
@@ -21,15 +19,6 @@ export interface Question {
   explanation: string;
   detailedExplanation?: string;
   tips?: string;
-}
-
-export interface UserProgress {
-  questionsAnswered: number;
-  correctAnswers: number;
-  accuracy: number;
-  weakestSubject: string;
-  daysUntilExam: number;
-  lastSessionQuestionId?: string;
 }
 
 export interface UserAnswer {

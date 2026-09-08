@@ -1,0 +1,172 @@
+import "server-only";
+
+import { createServiceRoleClient } from "./supabase/server";
+import type { ForestrySubject, Question } from "./types";
+
+/** Shape of a row in public.questions. */
+interface QuestionRow {
+  id: string;
+  subject: ForestrySubject;
+  difficulty: Question["difficulty"];
+  question: string;
+  options: unknown;
+  correct_answer_id: string;
+  explanation: string;
+  detailed_explanation: string | null;
+  tips: string | null;
+}
+
+/** Raised when questions cannot be loaded, so pages can render an error state. */
+export class QuestionsUnavailableError extends Error {
+  constructor(message: string, options?: { cause?: unknown }) {
+    super(message, options);
+    this.name = "QuestionsUnavailableError";
+  }
+}
+
+const SELECT_COLUMNS =
+  "id,subject,difficulty,question,options,correct_answer_id,explanation,detailed_explanation,tips";
+
+/**
+ * Options arrive as JSONB. Validate the shape rather than trusting it, so a
+ * malformed row fails loudly here instead of rendering an unanswerable question.
+ */
+function parseOptions(raw: unknown, questionId: string): Question["options"] {
+  if (!Array.isArray(raw)) {
+    throw new QuestionsUnavailableError(
+      `Question ${questionId} has malformed options (expected an array).`
+    );
+  }
+
+  return raw.map((option) => {
+    if (
+      typeof option !== "object" ||
+      option === null ||
+      typeof (option as { id?: unknown }).id !== "string" ||
+      typeof (option as { text?: unknown }).text !== "string"
+    ) {
+      throw new QuestionsUnavailableError(
+        `Question ${questionId} has an option missing a string id or text.`
+      );
+    }
+
+    const { id, text } = option as { id: string; text: string };
+    return { id, text };
+  });
+}
+
+function toQuestion(row: QuestionRow): Question {
+  const options = parseOptions(row.options, row.id);
+
+  if (!options.some((option) => option.id === row.correct_answer_id)) {
+    throw new QuestionsUnavailableError(
+      `Question ${row.id} has a correct_answer_id that matches no option.`
+    );
+  }
+
+  return {
+    id: row.id,
+    subject: row.subject,
+    difficulty: row.difficulty,
+    question: row.question,
+    options,
+    correctAnswerId: row.correct_answer_id,
+    explanation: row.explanation,
+    detailedExplanation: row.detailed_explanation ?? undefined,
+    tips: row.tips ?? undefined,
+  };
+}
+
+/**
+ * Fetch active questions, ordered by id so navigation between questions is
+ * stable across requests.
+ */
+export async function fetchQuestions(): Promise<Question[]> {
+  let supabase;
+  try {
+    supabase = createServiceRoleClient();
+  } catch (error) {
+    throw new QuestionsUnavailableError(
+      error instanceof Error ? error.message : "Supabase is not configured.",
+      { cause: error }
+    );
+  }
+
+  const { data, error } = await supabase
+    .from("questions")
+    .select(SELECT_COLUMNS)
+    .eq("is_active", true)
+    .order("id", { ascending: true });
+
+  if (error) {
+    throw new QuestionsUnavailableError(
+      `Could not load questions from Supabase: ${error.message}`,
+      { cause: error }
+    );
+  }
+
+  if (!data || data.length === 0) {
+    throw new QuestionsUnavailableError(
+      "No questions found. Run supabase/seed_questions.sql against your project."
+    );
+  }
+
+  return (data as unknown as QuestionRow[]).map(toQuestion);
+}
+
+/** Fetch a single question by id, or null when it does not exist. */
+export async function fetchQuestionById(id: string): Promise<Question | null> {
+  let supabase;
+  try {
+    supabase = createServiceRoleClient();
+  } catch (error) {
+    throw new QuestionsUnavailableError(
+      error instanceof Error ? error.message : "Supabase is not configured.",
+      { cause: error }
+    );
+  }
+
+  const { data, error } = await supabase
+    .from("questions")
+    .select(SELECT_COLUMNS)
+    .eq("id", id)
+    .eq("is_active", true)
+    .maybeSingle();
+
+  if (error) {
+    throw new QuestionsUnavailableError(
+      `Could not load question ${id}: ${error.message}`,
+      { cause: error }
+    );
+  }
+
+  return data ? toQuestion(data as unknown as QuestionRow) : null;
+}
+
+/** Ordered ids, used to build previous/next navigation without loading bodies. */
+export async function fetchQuestionOrder(): Promise<string[]> {
+  let supabase;
+  try {
+    supabase = createServiceRoleClient();
+  } catch (error) {
+    throw new QuestionsUnavailableError(
+      error instanceof Error ? error.message : "Supabase is not configured.",
+      { cause: error }
+    );
+  }
+
+  const { data, error } = await supabase
+    .from("questions")
+    .select("id")
+    .eq("is_active", true)
+    .order("id", { ascending: true });
+
+  if (error) {
+    throw new QuestionsUnavailableError(
+      `Could not load question order: ${error.message}`,
+      { cause: error }
+    );
+  }
+
+  return (data ?? []).map((row) => (row as unknown as { id: string }).id);
+}
