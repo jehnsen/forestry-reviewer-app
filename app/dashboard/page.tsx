@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import DashboardLayout from "@/components/layout/dashboard-layout";
 import ProgressOverview from "@/components/dashboard/progress-overview";
+import WelcomeBanner from "@/components/dashboard/welcome-banner";
 import QuestionsError from "@/components/practice/questions-error";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Button from "@/components/ui/button";
@@ -26,27 +27,7 @@ export default async function DashboardPage() {
   return (
     <DashboardLayout>
       <div className="max-w-7xl mx-auto space-y-8">
-        <div className="bg-gradient-to-r from-green-700 to-green-800 rounded-lg p-6 lg:p-8 text-white shadow-lg">
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
-            <div className="space-y-2">
-              <h1 className="text-2xl lg:text-3xl font-bold">
-                Welcome back 🌲
-              </h1>
-              <p className="text-green-100 text-lg">
-                {totalQuestions} board questions across the four board papers. Pick up
-                where you left off.
-              </p>
-            </div>
-            <div>
-              <Link href="/practice">
-                <Button variant="secondary" size="lg" className="w-full lg:w-auto">
-                  Continue Reviewing
-                  <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
+        <WelcomeBanner totalQuestions={totalQuestions} />
 
         <ProgressOverview totalQuestions={totalQuestions} />
 

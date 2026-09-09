@@ -18,3 +18,52 @@
     text-wrap: balance;
   }
 }
+
+/* Auth backdrop motion. Only referenced from components/auth/auth-background.tsx,
+   and always behind Tailwind's `motion-safe:` guard. */
+@layer utilities {
+  @keyframes aurora {
+    0%,
+    100% {
+      transform: translate3d(-50%, 0, 0) scale(1);
+      opacity: 0.85;
+    }
+    50% {
+      transform: translate3d(-50%, 4%, 0) scale(1.12);
+      opacity: 1;
+    }
+  }
+
+  @keyframes signal {
+    to {
+      stroke-dashoffset: -64;
+    }
+  }
+
+  @keyframes pulse-node {
+    0%,
+    100% {
+      opacity: 0.35;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes drift {
+    0% {
+      transform: translateY(0) translateX(0);
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.9;
+    }
+    90% {
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(-92vh) translateX(28px);
+      opacity: 0;
+    }
+  }
+}
