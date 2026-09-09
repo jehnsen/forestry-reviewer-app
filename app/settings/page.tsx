@@ -1,8 +1,8 @@
 import DashboardLayout from "@/components/layout/dashboard-layout";
+import ProfileForm from "@/components/settings/profile-form";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Button from "@/components/ui/button";
-import Input from "@/components/ui/input";
-import { User, Bell, CreditCard, Shield } from "lucide-react";
+import { Bell, CreditCard, Shield } from "lucide-react";
 
 export default function SettingsPage() {
   return (
@@ -15,35 +15,7 @@ export default function SettingsPage() {
           </p>
         </div>
 
-        <Card variant="elevated">
-          <CardHeader>
-            <div className="flex items-center space-x-2">
-              <User className="w-5 h-5 text-slate-700" />
-              <CardTitle>Profile Information</CardTitle>
-            </div>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <div>
-              <label className="block text-sm font-medium text-slate-700 mb-2">
-                Full Name
-              </label>
-              <Input defaultValue="Mateo Bantay" />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-slate-700 mb-2">
-                Email
-              </label>
-              <Input type="email" defaultValue="mateo.bantay@example.com" />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-slate-700 mb-2">
-                Target Board Exam Date
-              </label>
-              <Input type="date" defaultValue="2026-11-08" />
-            </div>
-            <Button>Save Changes</Button>
-          </CardContent>
-        </Card>
+        <ProfileForm />
 
         <Card variant="elevated">
           <CardHeader>

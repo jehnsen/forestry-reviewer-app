@@ -31,7 +31,7 @@ const SELECT_COLUMNS =
  * Options arrive as JSONB. Validate the shape rather than trusting it, so a
  * malformed row fails loudly here instead of rendering an unanswerable question.
  */
-function parseOptions(raw: unknown, questionId: string): Question["options"] {
+export function parseOptions(raw: unknown, questionId: string): Question["options"] {
   if (!Array.isArray(raw)) {
     throw new QuestionsUnavailableError(
       `Question ${questionId} has malformed options (expected an array).`
@@ -78,8 +78,12 @@ function toQuestion(row: QuestionRow): Question {
 }
 
 /**
- * Fetch active questions, ordered by id so navigation between questions is
- * stable across requests.
+ * Fetch active questions in display order.
+ *
+ * Ordered by sort_order rather than id: ids encode a subject prefix, so
+ * sorting by them made the sequence a side effect of the naming scheme and
+ * left no way to reorder a question without renaming a primary key that
+ * user_answers references. id is kept as a tiebreaker for a stable order.
  */
 export async function fetchQuestions(): Promise<Question[]> {
   let supabase;
@@ -96,6 +100,7 @@ export async function fetchQuestions(): Promise<Question[]> {
     .from("questions")
     .select(SELECT_COLUMNS)
     .eq("is_active", true)
+    .order("sort_order", { ascending: true })
     .order("id", { ascending: true });
 
   if (error) {
@@ -143,7 +148,7 @@ export async function fetchQuestionById(id: string): Promise<Question | null> {
   return data ? toQuestion(data as unknown as QuestionRow) : null;
 }
 
-/** Ordered ids, used to build previous/next navigation without loading bodies. */
+/** Ids in display order, for previous/next navigation without loading bodies. */
 export async function fetchQuestionOrder(): Promise<string[]> {
   let supabase;
   try {
@@ -159,6 +164,7 @@ export async function fetchQuestionOrder(): Promise<string[]> {
     .from("questions")
     .select("id")
     .eq("is_active", true)
+    .order("sort_order", { ascending: true })
     .order("id", { ascending: true });
 
   if (error) {

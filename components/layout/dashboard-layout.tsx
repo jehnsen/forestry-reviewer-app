@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Sidebar from "./sidebar";
+import UserMenu from "./user-menu";
 import { Menu } from "lucide-react";
 
 interface DashboardLayoutProps {
@@ -27,15 +28,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
             <div className="hidden lg:block">
               <h1 className="text-xl font-semibold text-slate-900">Forester Licensure Reviewer</h1>
             </div>
-            <div className="flex items-center space-x-4">
-              <div className="text-right hidden sm:block">
-                <p className="text-sm font-medium text-slate-900">Mateo Bantay</p>
-                <p className="text-xs text-slate-500">Board Pass Member</p>
-              </div>
-              <div className="w-10 h-10 rounded-full bg-green-700 flex items-center justify-center text-white font-semibold">
-                MB
-              </div>
-            </div>
+            <UserMenu />
           </div>
         </header>
 

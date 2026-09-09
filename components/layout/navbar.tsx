@@ -36,7 +36,7 @@ export default function Navbar() {
             >
               About
             </Link>
-            <Link href="/dashboard">
+            <Link href="/login">
               <Button variant="outline" size="sm">
                 Sign In
               </Button>
@@ -83,7 +83,7 @@ export default function Navbar() {
               About
             </Link>
             <div className="pt-3 space-y-2">
-              <Link href="/dashboard" className="block">
+              <Link href="/login" className="block">
                 <Button variant="outline" className="w-full">
                   Sign In
                 </Button>

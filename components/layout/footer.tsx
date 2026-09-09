@@ -90,13 +90,13 @@ export default function Footer() {
               </a>
             </div>
             <p className="text-sm text-slate-400">
-              support@forestguro.ph
+              support@enriqueitsolutions.ph
             </p>
           </div>
         </div>
 
         <div className="border-t border-green-900 mt-8 pt-8 text-sm text-center text-slate-400">
-          <p>&copy; {new Date().getFullYear()} ForestGuro. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ForestGuro | Powered by Enrique IT Solutions . All rights reserved.</p>
           <div className="mt-2 space-x-4">
             <Link href="/privacy" className="hover:text-white transition-colors">
               Privacy Policy

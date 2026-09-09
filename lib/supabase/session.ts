@@ -4,28 +4,21 @@ import type { SupabaseClient } from "@supabase/supabase-js";
 
 import { getBrowserClient } from "./client";
 
-/**
- * Anonymous sign-in must be enabled in the Supabase dashboard
- * (Authentication → Providers → Anonymous sign-ins). When it is off, Supabase
- * returns this error code and answer recording is skipped rather than failing
- * the page.
- */
-const ANONYMOUS_DISABLED = "anonymous_provider_disabled";
-
 export type SessionResult =
   | { status: "ready"; client: SupabaseClient; userId: string }
-  | { status: "anonymous-disabled" }
+  | { status: "signed-out" }
   | { status: "error"; message: string };
 
 /**
- * Return a signed-in Supabase client, creating an anonymous session if needed.
+ * Return the signed-in visitor's Supabase client, or report that nobody is
+ * signed in.
  *
- * `user_answers.user_id` is a foreign key to `auth.users`, so a real auth user
- * is required before any answer can be written. An anonymous user satisfies
- * that constraint and keeps each visitor's rows isolated under RLS, without
- * asking anyone to create an account.
+ * This never creates a session. Middleware redirects signed-out visitors away
+ * from every page that calls this, so "signed-out" here means a session
+ * expired mid-visit rather than a normal state — callers surface it as a
+ * prompt to sign in again, not as an error.
  */
-export async function ensureSession(): Promise<SessionResult> {
+export async function getActiveSession(): Promise<SessionResult> {
   let supabase: SupabaseClient;
 
   try {
@@ -37,22 +30,21 @@ export async function ensureSession(): Promise<SessionResult> {
     };
   }
 
-  const { data: existing } = await supabase.auth.getSession();
-  if (existing.session?.user) {
-    return { status: "ready", client: supabase, userId: existing.session.user.id };
+  // Checked first so that simply being signed out is not reported as an error:
+  // getUser() raises "Auth session missing" when there is no session at all.
+  const { data: sessionData } = await supabase.auth.getSession();
+  if (!sessionData.session) {
+    return { status: "signed-out" };
   }
 
-  const { data, error } = await supabase.auth.signInAnonymously();
+  // Revalidates the cookie against the auth server rather than trusting it.
+  const { data, error } = await supabase.auth.getUser();
 
   if (error) {
-    if (error.code === ANONYMOUS_DISABLED) {
-      return { status: "anonymous-disabled" };
-    }
     return { status: "error", message: error.message };
   }
-
   if (!data.user) {
-    return { status: "error", message: "Sign-in returned no user." };
+    return { status: "signed-out" };
   }
 
   return { status: "ready", client: supabase, userId: data.user.id };

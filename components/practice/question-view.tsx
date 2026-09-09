@@ -66,7 +66,6 @@ export default function QuestionView({
     void recordAnswer({
       questionId: question.id,
       selectedAnswerId,
-      isCorrect,
     }).then((result) => {
       setSaveNotice(result.status === "skipped" ? result.reason : null);
     });

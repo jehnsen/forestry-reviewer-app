@@ -1,6 +1,6 @@
 "use client";
 
-import { ensureSession } from "./supabase/session";
+import { getActiveSession } from "./supabase/session";
 import type { ForestrySubject } from "./types";
 
 export interface SubjectAccuracy {
@@ -34,7 +34,7 @@ interface AccuracyRow {
 }
 
 /**
- * Load the current visitor's progress.
+ * Load the signed-in user's progress.
  *
  * Queried from the browser because public.user_subject_accuracy is a
  * security_invoker view — it filters by auth.uid(), so it only returns rows for
@@ -42,13 +42,12 @@ interface AccuracyRow {
  * user's data instead.
  */
 export async function fetchProgress(): Promise<ProgressResult> {
-  const session = await ensureSession();
+  const session = await getActiveSession();
 
-  if (session.status === "anonymous-disabled") {
+  if (session.status === "signed-out") {
     return {
       status: "unavailable",
-      reason:
-        "Anonymous sign-ins are disabled in Supabase, so progress is not being tracked.",
+      reason: "Your session has ended. Sign in again to keep saving your progress.",
     };
   }
 
