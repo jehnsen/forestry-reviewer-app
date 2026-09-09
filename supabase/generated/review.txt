@@ -1,0 +1,349 @@
+fe-g00001 [forest-botany / Easy / practice]
+  What is the common name for the tree species Swietenia macrophylla in the Philippines?
+      *a. Mahogany
+       b. Narrah
+       c. Molave
+       d. Yakal
+
+fe-g00002 [forest-botany / Easy / practice]
+  Which family does the Philippine native tree Narra (Pterocarpus indicus) belong to?
+      *a. Fabaceae
+       b. Dipterocarpaceae
+       c. Pinaceae
+       d. Poaceae
+
+fe-g00003 [forest-botany / Easy / practice]
+  Which tree species is known for its durable and termite-resistant wood, commonly used in furniture and construction in the Philippines?
+      *a. Molave (Vitex parviflora)
+       b. Narra (Pterocarpus indicus)
+       c. Mahogany (Swietenia macrophylla)
+       d. Yakal (Shorea astylosa)
+
+fe-g00004 [forest-botany / Easy / practice]
+  What is the common name for the tree species Shorea astylosa?
+       a. Narra
+      *b. Yakal
+       c. Mahogany
+       d. Molave
+
+fe-g00005 [forest-botany / Easy / practice]
+  Which tree is commonly known as the "National Tree of the Philippines"?
+       a. Molave
+       b. Mahogany
+       c. Benguet Pine
+      *d. Narra
+
+fe-g00006 [forest-botany / Easy / practice]
+  What family does the species Tectona grandis belong to?
+      *a. Verbenaceae
+       b. Dipterocarpaceae
+       c. Fabaceae
+       d. Pinaceae
+
+fe-g00007 [forest-botany / Easy / practice]
+  Which tree species is commonly used in the Philippines for reforestation projects due to its fast growth?
+       a. Narra (Pterocarpus indicus)
+      *b. Gmelina (Gmelina arborea)
+       c. Yakal (Shorea astylosa)
+       d. Molave (Vitex parviflora)
+
+fe-g00008 [forest-botany / Easy / practice]
+  What is the scientific name of the Benguet Pine?
+      *a. Pinus kesiya
+       b. Pinus caribaea
+       c. Ficus elastica
+       d. Gmelina arborea
+
+fe-g00009 [forest-botany / Easy / practice]
+  Which is the scientific name for the tree known locally as "Apitong" in the Philippines?
+       a. Ficus benjamina
+      *b. Dipterocarpus grandiflorus
+       c. Pinus kesiya
+       d. Pterocarpus indicus
+
+fe-g00010 [forest-botany / Easy / practice]
+  What is the common name for the tree species Acacia mangium in the Philippines?
+       a. Molave
+      *b. Auri
+       c. Narra
+       d. Ipil-ipil
+
+fe-g00011 [forest-botany / Easy / practice]
+  What family does the species Xanthostemon verdugonianus belong to?
+       a. Fabaceae
+      *b. Myrtaceae
+       c. Dipterocarpaceae
+       d. Moraceae
+
+fe-g00012 [forest-botany / Easy / practice]
+  Which tree species is commonly referred to as "Bagras" in the Philippines?
+      *a. Eucalyptus deglupta
+       b. Shorea negrosensis
+       c. Ficus elastica
+       d. Artocarpus blancoi
+
+fe-g00013 [forest-botany / Easy / practice]
+  Which tree family does the Philippine Mahogany (Shorea spp.) belong to?
+       a. Fabaceae
+       b. Myrtaceae
+      *c. Dipterocarpaceae
+       d. Moraceae
+
+fe-g00014 [forest-botany / Easy / practice]
+  What is the common name for the species Artocarpus altilis in the Philippines?
+       a. Rambutan
+       b. Mango
+       c. Durian
+      *d. Breadfruit
+
+fe-g00015 [forest-botany / Easy / practice]
+  What is the scientific name of the tree known locally as "Camachile" in the Philippines?
+      *a. Pithecellobium dulce
+       b. Pterocarpus indicus
+       c. Swietenia macrophylla
+       d. Gmelina arborea
+
+fe-g00016 [forest-botany / Easy / practice]
+  Which tree species is commonly known as "Toog" in the Philippines?
+       a. Mangifera indica
+      *b. Petersianthus quadrialatus
+       c. Ficus benjamina
+       d. Polyscias nodosa
+
+fe-g00017 [forest-botany / Easy / practice]
+  What family does the tree species Ficus nota belong to?
+       a. Fabaceae
+       b. Myrtaceae
+      *c. Moraceae
+       d. Dipterocarpaceae
+
+fe-g00018 [forest-botany / Medium / practice]
+  Which tree species is known for its ability to fix nitrogen in the soil, commonly found in the Philippines?
+       a. Gmelina arborea / Yemane / Verbenaceae
+       b. Acacia auriculiformis / Earleaf Acacia / Fabaceae
+       c. Swietenia macrophylla / Mahogany / Meliaceae
+      *d. Leucaena leucocephala / Ipil-Ipil / Fabaceae
+
+fe-g00019 [forest-botany / Medium / practice]
+  What is the scientific name for the tree species locally known as 'Almaciga' in the Philippines?
+       a. Dipterocarpus grandiflorus
+      *b. Agathis philippinensis
+       c. Casuarina equisetifolia
+       d. Shorea contorta
+
+fe-g00020 [forest-botany / Medium / practice]
+  Which family does the species Gmelina arborea belong to?
+      *a. Verbenaceae
+       b. Fabaceae
+       c. Meliaceae
+       d. Dipterocarpaceae
+
+fe-g00021 [forest-botany / Medium / practice]
+  What is the common name for the tree species Lagerstroemia speciosa in the Philippines?
+      *a. Banaba
+       b. Narra
+       c. Molave
+       d. Tanguile
+
+fe-g00022 [forest-botany / Medium / practice]
+  Which tree species is known for producing the valuable resin called Manila Copal in the Philippines?
+       a. Shorea polysperma / Tanguile / Dipterocarpaceae
+       b. Pterocarpus indicus / Narra / Fabaceae
+       c. Casuarina equisetifolia / Agoho / Casuarinaceae
+      *d. Agathis philippinensis / Almaciga / Araucariaceae
+
+fe-g00023 [forest-botany / Medium / practice]
+  What is the scientific name of the tree known locally as 'Molave' in the Philippines?
+       a. Pterocarpus indicus
+      *b. Vitex parviflora
+       c. Gmelina arborea
+       d. Tectona grandis
+
+fe-g00024 [forest-botany / Medium / practice]
+  Which tree family does the species Callophyllum inophyllum belong to?
+       a. Dipterocarpaceae
+       b. Fabaceae
+       c. Verbenaceae
+      *d. Clusiaceae
+
+fe-g00025 [forest-botany / Medium / practice]
+  Which tree species is commonly known as 'Agoho' in the Philippines?
+       a. Swietenia macrophylla
+      *b. Casuarina equisetifolia
+       c. Gmelina arborea
+       d. Pterocarpus indicus
+
+fe-g00026 [forest-botany / Medium / practice]
+  What is the common name for the species Terminalia catappa in the Philippines?
+      *a. Talisay
+       b. Narra
+       c. Apitong
+       d. Molave
+
+fe-g00027 [forest-botany / Medium / practice]
+  What is the scientific name of the tree commonly known as 'Ilang-ilang' in the Philippines?
+       a. Ficus elastica
+      *b. Cananga odorata
+       c. Artocarpus heterophyllus
+       d. Pterocarpus indicus
+
+fe-g00028 [forest-botany / Medium / practice]
+  Which family does the Dipterocarpus grandiflorus belong to?
+       a. Fabaceae
+       b. Myrtaceae
+       c. Lauraceae
+      *d. Dipterocarpaceae
+
+fe-g00029 [forest-botany / Medium / practice]
+  What is the common name of the tree species Gmelina arborea in the Philippines?
+       a. Molave
+       b. Narra
+      *c. Yemane
+       d. Akasia
+
+fe-g00030 [forest-botany / Medium / practice]
+  Which Philippine native tree is known for its fragrant flowers used to make leis and other floral arrangements?
+       a. Canarium ovatum
+      *b. Cananga odorata
+       c. Pterocarpus indicus
+       d. Artocarpus heterophyllus
+
+fe-g00031 [forest-botany / Medium / practice]
+  Which tree species is scientifically named Terminalia microcarpa?
+       a. Kalumpang
+       b. Banaba
+      *c. Talisay Gubat
+       d. Anahaw
+
+fe-g00032 [forest-botany / Medium / practice]
+  What is the scientific name for the tree species known locally as 'Banaba' in the Philippines?
+       a. Shorea contorta
+       b. Pterocarpus indicus
+      *c. Lagerstroemia speciosa
+       d. Swietenia macrophylla
+
+fe-g00033 [forest-botany / Medium / practice]
+  Which tree species is known for its large buttress roots and is native to the Philippines?
+       a. Ficus benjamina
+      *b. Dipterocarpus alatus
+       c. Ceiba pentandra
+       d. Mangifera indica
+
+fe-g00034 [forest-botany / Medium / practice]
+  What is the common name of the tree species Vitex parviflora in the Philippines?
+       a. Ilang-ilang
+       b. Banaba
+      *c. Molave
+       d. Akasia
+
+fe-g00035 [forest-botany / Medium / practice]
+  Which tree species is locally known as 'Mabolo' in the Philippines?
+       a. Ficus elastica
+       b. Artocarpus heterophyllus
+       c. Pterocarpus indicus
+      *d. Diospyros blancoi
+
+fe-g00036 [forest-botany / Medium / practice]
+  What is the family of the tree species Artocarpus altilis?
+       a. Fabaceae
+       b. Myrtaceae
+      *c. Moraceae
+       d. Anacardiaceae
+
+fe-g00037 [forest-botany / Medium / practice]
+  What is the common name for the tree species Pterocarpus indicus in the Philippines?
+       a. Mahogany
+       b. Molave
+       c. Almaciga
+      *d. Narra
+
+fe-g00038 [forest-botany / Medium / practice]
+  Which tree species is known for its distinctive flaky bark and is native to the Philippines?
+       a. Lagerstroemia speciosa / Banaba / Lythraceae
+       b. Dipterocarpus grandiflorus / Apitong / Dipterocarpaceae
+      *c. Eucalyptus deglupta / Bagras / Myrtaceae
+       d. Shorea contorta / White Lauan / Dipterocarpaceae
+
+fe-g00039 [forest-botany / Medium / practice]
+  Which family does the tree species Ficus benjamina belong to?
+       a. Fabaceae
+       b. Myrtaceae
+      *c. Moraceae
+       d. Dipterocarpaceae
+
+fe-g00040 [forest-botany / Medium / practice]
+  Which tree species is commonly referred to as 'Tanguile' in the Philippines?
+       a. Acacia mangium
+       b. Gmelina arborea
+       c. Ficus elastica
+      *d. Shorea polysperma
+
+fe-g00041 [forest-botany / Medium / practice]
+  Which tree species is known for its buttress roots and is native to the Philippines?
+      *a. Shorea almon / Almon / Dipterocarpaceae
+       b. Ficus benjamina / Weeping Fig / Moraceae
+       c. Pterocarpus indicus / Narra / Fabaceae
+       d. Artocarpus altilis / Breadfruit / Moraceae
+
+fe-g00042 [forest-botany / Medium / practice]
+  What is the scientific name and family of the tree species commonly known as 'Bagtikan' in the Philippines?
+       a. Shorea negrosensis / Dipterocarpaceae
+       b. Pterocarpus indicus / Fabaceae
+      *c. Parashorea malaanonan / Dipterocarpaceae
+       d. Albizia saman / Fabaceae
+
+fe-g00043 [forest-botany / Hard / practice]
+  Which species is scientifically referred to as Hopea acuminata and belongs to the Dipterocarpaceae family?
+      *a. Yakal Malibato / Hopea acuminata / Dipterocarpaceae
+       b. Yakal Saplungan / Hopea plagata / Dipterocarpaceae
+       c. Guijo / Shorea guiso / Dipterocarpaceae
+       d. Narra / Pterocarpus indicus / Fabaceae
+
+fe-g00044 [forest-botany / Hard / practice]
+  Which species from the Rubiaceae family is known for its economic importance in dye production in the Philippines?
+       a. Pilit / Diospyros blancoi / Ebenaceae
+       b. Kamagong / Diospyros philippensis / Ebenaceae
+       c. Ilang-ilang / Cananga odorata / Annonaceae
+      *d. Madarang / Morinda citrifolia / Rubiaceae
+
+fe-g00045 [forest-botany / Hard / practice]
+  Which species has the scientific name Vitex parviflora and belongs to the Lamiaceae family?
+       a. Teak / Tectona grandis / Lamiaceae
+       b. Mahogany / Swietenia macrophylla / Meliaceae
+       c. Acacia / Acacia auriculiformis / Fabaceae
+      *d. Molave / Vitex parviflora / Lamiaceae
+
+fe-g00046 [forest-botany / Hard / practice]
+  Identify the species that is commonly referred to as 'Tindalo' and belongs to the Fabaceae family.
+       a. Molave / Vitex parviflora / Lamiaceae
+       b. Narra / Pterocarpus indicus / Fabaceae
+       c. Banaba / Lagerstroemia speciosa / Lythraceae
+      *d. Tindalo / Afzelia rhomboidea / Fabaceae
+
+fe-g00047 [forest-botany / Hard / practice]
+  Which mangrove species, scientifically known as Avicennia marina, belongs to the Acanthaceae family?
+       a. Pagatpat / Sonneratia alba / Lythraceae
+       b. Bakawan Babae / Rhizophora mucronata / Rhizophoraceae
+      *c. Api-api / Avicennia marina / Acanthaceae
+       d. Nipa / Nypa fruticans / Arecaceae
+
+fe-g00048 [forest-botany / Hard / practice]
+  Which tree, known for its highly durable wood, has the scientific name Shorea contorta and belongs to the Dipterocarpaceae family?
+       a. Apitong / Dipterocarpus grandiflorus / Dipterocarpaceae
+      *b. White Lauan / Shorea contorta / Dipterocarpaceae
+       c. Yakal / Shorea astylosa / Dipterocarpaceae
+       d. Tanguile / Shorea polysperma / Dipterocarpaceae
+
+fe-g00049 [forest-botany / Hard / practice]
+  Which species is scientifically known as Sterculia foetida and belongs to the Malvaceae family?
+       a. Banaba / Lagerstroemia speciosa / Lythraceae
+       b. Ilang-ilang / Cananga odorata / Annonaceae
+      *c. Kalumpang / Sterculia foetida / Malvaceae
+       d. Narra / Pterocarpus indicus / Fabaceae
+
+fe-g00050 [forest-botany / Hard / practice]
+  Which tree species, belonging to the family Anacardiaceae, is scientifically named Mangifera indica?
+      *a. Mango / Mangifera indica / Anacardiaceae
+       b. Kasoy / Anacardium occidentale / Anacardiaceae
+       c. Talisay / Terminalia catappa / Combretaceae
+       d. Duhat / Syzygium cumini / Myrtaceae

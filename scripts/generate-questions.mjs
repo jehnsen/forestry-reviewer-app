@@ -107,7 +107,16 @@ const BATCH_SIZE = 10;
 /** Generated questions per emitted .sql file, to keep each one pasteable. */
 const ROWS_PER_FILE = 500;
 
-const MODEL = process.env.OPENAI_MODEL || "gpt-4o-mini";
+/**
+ * gpt-4o-mini was tried first and produced a 16% wrong-answer-key rate, with 4
+ * of 9 computational items wrong. Generation and verification both default to
+ * the stronger model; a wrong key in a licensure reviewer is worse than the
+ * extra cost.
+ */
+const GENERATION_MODEL = process.env.OPENAI_GENERATION_MODEL || "gpt-4o";
+
+/** Deliberately separate, so the checker can be swapped without touching the writer. */
+const VERIFICATION_MODEL = process.env.OPENAI_VERIFICATION_MODEL || "gpt-4o";
 const OUT_DIR = path.join(process.cwd(), "supabase", "generated");
 
 // ---------------------------------------------------------------------------
@@ -247,6 +256,29 @@ function buildPlan(existing) {
 // Generation
 // ---------------------------------------------------------------------------
 
+/** What the independent checker returns; it never sees the generator's key. */
+const VERIFY_SCHEMA = {
+  type: "object",
+  additionalProperties: false,
+  required: ["answers"],
+  properties: {
+    answers: {
+      type: "array",
+      items: {
+        type: "object",
+        additionalProperties: false,
+        required: ["index", "answer", "sound", "problem"],
+        properties: {
+          index: { type: "integer" },
+          answer: { type: "string", enum: ["a", "b", "c", "d"] },
+          sound: { type: "boolean" },
+          problem: { type: "string" },
+        },
+      },
+    },
+  },
+};
+
 const RESPONSE_SCHEMA = {
   type: "object",
   additionalProperties: false,
@@ -288,6 +320,11 @@ function buildPrompt({ subjectName, topicName, difficulty, count, avoidStems }) 
       content: [
         "You write multiple-choice items for the Philippine Forester Licensure Examination administered by the PRC.",
         "Every item must be factually correct and answerable from established forestry science or Philippine forestry law.",
+        "Every item must test forestry knowledge. NEVER write arithmetic that is not a genuine forestry computation: no 'total height if laid end to end', no 'total DBH of all trees combined', no 'total fruits produced'. Acceptable computations are the real ones - basal area, stand volume, form factor, moisture content, stocking from spacing, annual allowable cut, traverse and plot geometry.",
+        "If the item is numeric, solve it yourself and put the true result in the options. All four numeric options must be DIFFERENT values - never 0.942 alongside 0.9423.",
+        "Stay inside the assigned topic. A question about a statute is not a Dendrology question; a question about wood density is not a Forest Ecology question.",
+        "Use species that actually occur in the Philippines. Do not build items around Picea abies, Quercus robur, Cedrus deodara, Ficus carica, Shorea robusta or Rhizophora mangle.",
+        "Exactly one option must be defensible as correct and the other three clearly wrong. If two options could both be argued correct, rewrite the item.",
         "Use Philippine context where relevant: PD 705, RA 7586 (NIPAS), RA 11038, RA 8371 (IPRA), RA 9147, CBFMA, DENR, dipterocarps, mangroves, Benguet pine.",
         "For Dendrology, examiners ask for common name, scientific name and family together, so write items that pair them (for example Narra / Pterocarpus indicus / Fabaceae).",
         "Use SI units. Numeric items must be arithmetically correct and solvable from the numbers given in the stem.",
@@ -318,7 +355,7 @@ function buildPrompt({ subjectName, topicName, difficulty, count, avoidStems }) 
   ];
 }
 
-async function callOpenAI(apiKey, messages) {
+async function callOpenAI(apiKey, messages, { model, temperature, name, schema }) {
   const response = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
     headers: {
@@ -326,16 +363,12 @@ async function callOpenAI(apiKey, messages) {
       Authorization: `Bearer ${apiKey}`,
     },
     body: JSON.stringify({
-      model: MODEL,
+      model,
       messages,
-      temperature: 0.8,
+      temperature,
       response_format: {
         type: "json_schema",
-        json_schema: {
-          name: "question_batch",
-          strict: true,
-          schema: RESPONSE_SCHEMA,
-        },
+        json_schema: { name, strict: true, schema },
       },
     }),
   });
@@ -348,6 +381,52 @@ async function callOpenAI(apiKey, messages) {
 
   const body = await response.json();
   return JSON.parse(body.choices[0].message.content);
+}
+
+/**
+ * Re-solve a batch independently, without showing the checker which option the
+ * writer chose. Agreement is weak evidence; disagreement is strong evidence
+ * that something is wrong, and that is what this is for. Every computational
+ * error found in the gpt-4o-mini trial would have been caught here.
+ */
+async function verifyBatch(apiKey, items) {
+  const listed = items
+    .map((item, i) =>
+      [
+        `[${i}] Topic: ${item.__topicName}`,
+        item.question,
+        ...item.options.map((o) => `  ${o.id}. ${o.text}`),
+      ].join("\n")
+    )
+    .join("\n\n");
+
+  const result = await callOpenAI(
+    apiKey,
+    [
+      {
+        role: "system",
+        content: [
+          "You are checking draft items for the Philippine Forester Licensure Examination.",
+          "For each item, work out the answer yourself from forestry knowledge. Compute any arithmetic in full rather than estimating.",
+          "answer: the option you believe is correct.",
+          "sound: false if the item is defective - more than one option is defensible, no option is correct, two numeric options are equal, the item is off its stated topic, or it tests arithmetic rather than forestry.",
+          "problem: a few words naming the defect, or an empty string when sound is true.",
+          "You are not told which option the author picked. Do not guess at it; answer independently.",
+        ].join(" "),
+      },
+      { role: "user", content: listed },
+    ],
+    {
+      model: VERIFICATION_MODEL,
+      temperature: 0,
+      name: "question_verification",
+      schema: VERIFY_SCHEMA,
+    }
+  );
+
+  const byIndex = new Map();
+  for (const row of result.answers ?? []) byIndex.set(row.index, row);
+  return byIndex;
 }
 
 /**
@@ -395,6 +474,21 @@ function toSqlRow(row) {
    ${sqlString(options)}::jsonb, ${sqlString(row.correct_answer_id)})`;
 }
 
+/** Human-readable audit, so a batch can be eyeballed without reading SQL. */
+function writeReview(rows) {
+  const lines = rows.map((r) => {
+    const opts = r.options
+      .map((o) => `${o.id === r.correct_answer_id ? "*" : " "}${o.id}. ${o.text}`)
+      .join("\n      ");
+    return `${r.id} [${r.topicId} / ${r.difficulty} / ${r.pool}]\n  ${r.question}\n      ${opts}`;
+  });
+
+  const file = path.join(OUT_DIR, "review.txt");
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  fs.writeFileSync(file, lines.join("\n\n") + "\n", "utf8");
+  return file;
+}
+
 function writeSqlFiles(rows) {
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
@@ -407,11 +501,14 @@ function writeSqlFiles(rows) {
 
     const sql = `-- ForestGuro — generated questions (batch ${index})
 --
--- Produced by scripts/generate-questions.mjs using ${MODEL}.
--- Explanations are intentionally absent: they are generated on first answer.
+-- Written by ${GENERATION_MODEL}, then independently re-solved by
+-- ${VERIFICATION_MODEL}. Only items where the checker reached the same answer
+-- as the key, and reported no defect, are here.
 --
--- These questions were written by a language model and validated for shape,
--- not for factual accuracy. Review before relying on them for scored exams.
+-- That removes the obvious errors, not all of them. Spot-check before relying
+-- on these for scored exams.
+--
+-- Explanations are intentionally absent: they are generated on first answer.
 
 insert into public.questions
   (id, subject_id, topic_id, difficulty, pool, question, options, correct_answer_id)
@@ -503,6 +600,7 @@ async function main() {
 
   const accepted = [];
   const counters = new Map();
+  const rejections = new Map();
   let rejected = 0;
 
   outer: for (const task of plan) {
@@ -518,7 +616,13 @@ async function main() {
       try {
         result = await callOpenAI(
           openaiKey,
-          buildPrompt({ ...task, count: batch, avoidStems })
+          buildPrompt({ ...task, count: batch, avoidStems }),
+          {
+            model: GENERATION_MODEL,
+            temperature: 0.8,
+            name: "question_batch",
+            schema: RESPONSE_SCHEMA,
+          }
         );
       } catch (error) {
         console.error(`  ! ${error.message}`);
@@ -526,10 +630,53 @@ async function main() {
         break outer;
       }
 
+      // Shape first — no point spending a verification call on a malformed item.
+      const wellFormed = [];
       for (const item of result.questions ?? []) {
         const problem = validate(item, seenStems);
         if (problem) {
           rejected += 1;
+          rejections.set(problem, (rejections.get(problem) ?? 0) + 1);
+          continue;
+        }
+        item.__topicName = task.topicName;
+        wellFormed.push(item);
+      }
+
+      // Then the independent re-solve. A failure here fails the batch open
+      // rather than silently admitting unverified questions.
+      let verdicts = new Map();
+      if (wellFormed.length) {
+        try {
+          verdicts = await verifyBatch(openaiKey, wellFormed);
+        } catch (error) {
+          console.error(`\n  ! verification failed: ${error.message}`);
+          rejected += wellFormed.length;
+          rejections.set("verification call failed",
+            (rejections.get("verification call failed") ?? 0) + wellFormed.length);
+          continue;
+        }
+      }
+
+      for (const [i, item] of wellFormed.entries()) {
+        const verdict = verdicts.get(i);
+
+        if (!verdict) {
+          rejected += 1;
+          rejections.set("no verdict returned",
+            (rejections.get("no verdict returned") ?? 0) + 1);
+          continue;
+        }
+        if (!verdict.sound) {
+          rejected += 1;
+          const why = `unsound: ${verdict.problem || "unspecified"}`;
+          rejections.set(why, (rejections.get(why) ?? 0) + 1);
+          continue;
+        }
+        if (verdict.answer !== item.correct_answer_id) {
+          rejected += 1;
+          rejections.set("checker disagreed with the key",
+            (rejections.get("checker disagreed with the key") ?? 0) + 1);
           continue;
         }
 
@@ -573,11 +720,19 @@ async function main() {
   const files = writeSqlFiles(accepted);
 
   console.log(`Accepted ${accepted.length}, rejected ${rejected}.`);
+  if (rejections.size) {
+    console.log("Rejections by reason:");
+    for (const [reason, n] of [...rejections].sort((a, b) => b[1] - a[1])) {
+      console.log(`  ${String(n).padStart(4)}  ${reason}`);
+    }
+  }
   console.log("Wrote:");
   for (const { file, rows } of files) {
     console.log(`  ${path.relative(process.cwd(), file)}  (${rows} questions)`);
   }
-  console.log("\nReview these, then run them in the Supabase SQL Editor.");
+  const reviewFile = writeReview(accepted);
+  console.log(`  ${path.relative(process.cwd(), reviewFile)}  (readable audit)`);
+  console.log("\nRead the audit, then run the .sql files in the Supabase SQL Editor.");
 }
 
 main().catch((error) => {

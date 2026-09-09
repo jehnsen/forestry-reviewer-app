@@ -7,7 +7,12 @@ import { getSessionUser } from "@/lib/supabase/server-session";
 /** Never cached: the first call writes the row that later calls read. */
 export const dynamic = "force-dynamic";
 
-const MODEL = process.env.OPENAI_MODEL || "gpt-4o-mini";
+/**
+ * Explanations are shown to candidates as authoritative teaching text, so this
+ * runs on the stronger model too. It is an easier task than writing the item —
+ * the correct answer is supplied — but a wrong justification is still wrong.
+ */
+const MODEL = process.env.OPENAI_MODEL || "gpt-4o";
 
 interface QuestionRow {
   id: string;
