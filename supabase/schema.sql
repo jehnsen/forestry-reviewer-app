@@ -1,3 +1,18 @@
+-- ############################################################################
+-- OUT OF DATE AS OF MIGRATION 0006 — DO NOT USE FOR A FRESH INSTALL.
+--
+-- This file still describes the six-subject forestry_subject enum and the two
+-- invented 'Day 1 / Day 2' papers. The bank was realigned to the four real PRC
+-- board papers in supabase/migrations/0006_board_structure.sql.
+--
+-- For a new database, run the migrations in order instead:
+--   0001_answer_integrity  0002_schema_cleanup  0003_mock_exams
+--   0004_question_pools    0005_core_questions  0006_board_structure
+--
+-- (This file is still correct for everything 0006 did not touch: profiles,
+-- user_answers, exam_attempts, RLS, the updated_at triggers.)
+-- ############################################################################
+
 -- ============================================================================
 -- ForestGuro — Database Schema
 -- PRC Forester Licensure Examination Reviewer

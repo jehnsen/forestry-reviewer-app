@@ -3,15 +3,28 @@ import "server-only";
 import { createServiceRoleClient } from "./supabase/server";
 import type { ForestrySubject, Question } from "./types";
 
+/**
+ * PostgREST returns an embedded parent row as an object, but types it as an
+ * array; accept both shapes.
+ */
+export function embeddedName(
+  value: { name: string } | { name: string }[] | null
+): string {
+  const row = Array.isArray(value) ? value[0] : value;
+  return row?.name ?? "";
+}
+
 /** Shape of a row in public.questions. */
 interface QuestionRow {
   id: string;
-  subject: ForestrySubject;
+  subject_id: string;
+  subjects: { name: string } | { name: string }[] | null;
+  topic_id: string | null;
   difficulty: Question["difficulty"];
   question: string;
   options: unknown;
   correct_answer_id: string;
-  explanation: string;
+  explanation: string | null;
   detailed_explanation: string | null;
   tips: string | null;
 }
@@ -25,7 +38,8 @@ export class QuestionsUnavailableError extends Error {
 }
 
 const SELECT_COLUMNS =
-  "id,subject,difficulty,question,options,correct_answer_id,explanation,detailed_explanation,tips";
+  "id,subject_id,subjects(name),topic_id,difficulty,question,options," +
+  "correct_answer_id,explanation,detailed_explanation,tips";
 
 /**
  * Options arrive as JSONB. Validate the shape rather than trusting it, so a
@@ -66,12 +80,13 @@ function toQuestion(row: QuestionRow): Question {
 
   return {
     id: row.id,
-    subject: row.subject,
+    subject: embeddedName(row.subjects) as ForestrySubject,
+    topicId: row.topic_id ?? undefined,
     difficulty: row.difficulty,
     question: row.question,
     options,
     correctAnswerId: row.correct_answer_id,
-    explanation: row.explanation,
+    explanation: row.explanation ?? undefined,
     detailedExplanation: row.detailed_explanation ?? undefined,
     tips: row.tips ?? undefined,
   };

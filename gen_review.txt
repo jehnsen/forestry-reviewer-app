@@ -1,0 +1,100 @@
+fe-g00001 [forest-botany/Easy] What is the scientific name of the common Philippine tree known as Narra?
+    *a. Pterocarpus indicus |  b. Shorea robusta |  c. Dipterocarpus grandiflorus |  d. Agathis philippinensis
+fe-g00002 [forest-botany/Easy] Which family does the rubber tree (Hevea brasiliensis) belong to?
+    *a. Euphorbiaceae |  b. Moraceae |  c. Fabaceae |  d. Anacardiaceae
+fe-g00003 [forest-botany/Easy] What is the common name for Mangifera indica?
+    *a. Mango |  b. Apple |  c. Guava |  d. Banana
+fe-g00004 [forest-botany/Easy] Which law governs the establishment of protected areas in the Philippines?
+     a. RA 9147 | *b. RA 7586 |  c. RA 11038 |  d. PD 705
+fe-g00005 [forest-botany/Easy] What common name is given to the tree species Shorea robusta?
+     a. Mahogany |  b. Redwood |  c. Teak | *d. Sal tree
+fe-g00006 [forest-botany/Easy] Which Philippine tree is known as Benguet Pine?
+    *a. Pinus kesiya |  b. Pinus radiata |  c. Abies alba |  d. Cedrus deodara
+fe-g00007 [forest-botany/Easy] What is the scientific name of the Philippine tree known as Alnus?
+     a. Ficus carica | *b. Alnus nepalensis |  c. Carya ovata |  d. Quercus robur
+fe-g00008 [forest-botany/Easy] Which law protects the rights of Indigenous Peoples in the Philippines?
+    *a. RA 8371 |  b. RA 9147 |  c. RA 11038 |  d. PD 705
+fe-g00009 [forest-botany/Easy] What is the family name of the tree species Dipterocarpus?
+     a. Fabaceae | *b. Dipterocarpaceae |  c. Pinaceae |  d. Myrtaceae
+fe-g00010 [forest-botany/Easy] Which of the following is a characteristic of mangrove ecosystems?
+     a. Cold climate | *b. High salinity tolerance |  c. Dry soil conditions |  d. High altitude
+fe-g00011 [forest-botany/Easy] What is the scientific name of the Philippine tree commonly known as Acacia?
+     a. Mangifera indica | *b. Acacia mangium |  c. Pterocarpus indicus |  d. Ficus benjamina
+fe-g00012 [forest-botany/Easy] Which tree species is commonly known as Lauan?
+    *a. Shorea almon |  b. Shorea robusta |  c. Dipterocarpus grandiflorus |  d. Picea abies
+fe-g00013 [forest-botany/Easy] What is the common name for the species known scientifically as Ficus carica?
+     a. Guava |  b. Mango | *c. Fig |  d. Pineapple
+fe-g00014 [forest-botany/Easy] Which of the following is a characteristic feature of dipterocarp trees?
+     a. Pinnate leaves |  b. Thick bark |  c. Needle-like leaves | *d. Two-winged fruits
+fe-g00015 [forest-botany/Easy] What is the common name of the tree species with the scientific name Pterocarpus indicus?
+    *a. Narra |  b. Mahogany |  c. Agathis |  d. Alnus
+fe-g00016 [forest-botany/Easy] Which law established the National Integrated Protected Areas System in the Philippines?
+     a. RA 11038 | *b. RA 7586 |  c. RA 9147 |  d. PD 705
+fe-g00017 [forest-botany/Easy] What is the family name of the tree species known as Mangifera indica?
+     a. Fabaceae |  b. Moraceae | *c. Anacardiaceae |  d. Euphorbiaceae
+fe-g00018 [forest-botany/Medium] If a plot of land contains 50 dipterocarp trees, each with an average height of 25 meters, what is the total height of all the trees if laid end to end?
+     a. 1,250 meters |  b. 2,000 meters |  c. 2,500 meters | *d. 1,500 meters
+fe-g00019 [forest-botany/Medium] What is the total volume of timber, in cubic meters, produced by a tree of Picea abies with a diameter at breast height (DBH) of 40 cm and a height of 20 m, using the volume formula V = (π/4) * (DBH^2) * height?
+     a. 0.251 m³ | *b. 0.502 m³ |  c. 0.753 m³ |  d. 1.004 m³
+fe-g00020 [forest-botany/Medium] Which of the following species is classified under the family Fabaceae and is also a common leguminous tree in the Philippines?
+    *a. Pterocarpus indicus |  b. Moringa oleifera |  c. Corypha elata |  d. Agathis philippinensis
+fe-g00021 [forest-botany/Medium] If a forest area is 2 hectares and comprises 75% dipterocarps and 25% other species, how many hectares are covered by non-dipterocarp species?
+    *a. 0.50 hectares |  b. 0.25 hectares |  c. 0.75 hectares |  d. 1.00 hectares
+fe-g00022 [forest-botany/Medium] Which of the following is known for its ecological role in preventing coastal erosion among mangrove species?
+     a. Avicennia marina |  b. Sonneratia alba |  c. Bruguiera gymnorhiza | *d. Rhizophora mangle
+fe-g00023 [forest-botany/Medium] What is the scientific name of the common Philippine tree known as Balete or Banyan?
+     a. Ficus benjamina | *b. Ficus religiosa |  c. Ficus carica |  d. Ficus elastica
+fe-g00024 [forest-botany/Medium] In a given forest, 20% of the trees are mangroves, and there are 200 trees in total. How many mangrove trees are there in the forest?
+     a. 20 trees |  b. 60 trees |  c. 80 trees | *d. 40 trees
+fe-g00025 [forest-botany/Medium] What common ecological function do both dipterocarps and mangroves serve in their respective habitats?
+     a. Nutrient cycling | *b. Carbon sequestration |  c. Habitat provision |  d. Soil stabilization
+fe-g00026 [forest-botany/Medium] If a tree of Shorea robusta is 30 meters tall and grows at a rate of 2 meters per year, how tall will it be after 5 years?
+    *a. 40 meters |  b. 35 meters |  c. 45 meters |  d. 50 meters
+fe-g00027 [forest-botany/Medium] Which of the following trees is commonly associated with the family Pinaceae in the Philippines?
+     a. Mango | *b. Benguet Pine |  c. Narra |  d. Mahogany
+fe-g00028 [forest-botany/Medium] Which of the following is the common name for the tree species scientifically known as Swietenia macrophylla?
+     a. Samar |  b. Guava |  c. Narra | *d. Mahogany
+fe-g00029 [forest-botany/Medium] If a plot contains 100 trees of Araucaria cunninghamii, which have an average height of 15 meters, what is the total height of all trees if stacked end to end in meters?
+     a. 150 |  b. 3000 | *c. 1500 |  d. 1000
+fe-g00030 [forest-botany/Medium] What is the scientific name of the common Philippine tree known as Lumbang?
+     a. Mangifera indica | *b. Bombacopsis glabra |  c. Pterocarpus indicus |  d. Ficus carica
+fe-g00031 [forest-botany/Medium] Which of the following is the family name of the tree species known as Guijo?
+     a. Euphorbiaceae |  b. Fabaceae | *c. Dipterocarpaceae |  d. Myrtaceae
+fe-g00032 [forest-botany/Medium] If a forest has a total area of 10 hectares, and 60% of it is covered by trees of the species Picea, how many hectares are occupied by Picea trees?
+     a. 4 hectares |  b. 8 hectares | *c. 6 hectares |  d. 10 hectares
+fe-g00033 [forest-botany/Medium] What tree species, known scientifically as Shorea almon, is commonly found in the Philippines and is part of the Dipterocarpaceae family?
+     a. Apitong | *b. Tanguile |  c. Yakal |  d. Lauan
+fe-g00034 [forest-botany/Medium] If a mangrove forest is composed of 200 trees with an average DBH of 30 cm, what is the total DBH of all the trees combined in centimeters?
+     a. 5000 cm |  b. 7000 cm | *c. 6000 cm |  d. 8000 cm
+fe-g00035 [forest-botany/Medium] What is the common name of the species with the scientific name Agathis philippinensis?
+     a. Kauri Pine |  b. Benguet Pine |  c. Mango | *d. Almaciga
+fe-g00036 [forest-botany/Medium] Which of the following trees is known for being a significant source of timber and belongs to the family Araucariaceae?
+     a. Lauan |  b. Mahogany | *c. Kauri |  d. Pine
+fe-g00037 [forest-botany/Medium] What is the common name for the tree species scientifically known as Diospyros blancoi?
+     a. Igang |  b. Bamboo |  c. Teak | *d. Mabolo
+fe-g00038 [forest-botany/Medium] If a forest plot contains 150 trees of Mangifera indica, and each tree produces an average of 100 fruits per season, how many fruits are produced in total?
+     a. 10,000 fruits |  b. 12,500 fruits | *c. 15,000 fruits |  d. 20,000 fruits
+fe-g00039 [forest-botany/Medium] Which of the following tree species is known for its production of edible fruits and belongs to the family Anacardiaceae?
+     a. Avocado (Persea americana) |  b. Lemon (Citrus limon) | *c. Mango (Mangifera indica) |  d. Guava (Psidium guajava)
+fe-g00040 [forest-botany/Medium] If a tree of Ficus carica has a height of 4 meters and grows at a rate of 1.5 meters per year, what will its height be after 3 years?
+     a. 8.5 meters |  b. 10.5 meters |  c. 7.5 meters | *d. 9.5 meters
+fe-g00041 [forest-botany/Medium] What is the scientific name of the common Philippine tree known as Balete?
+    *a. Ficus religiosa |  b. Ficus benjamina |  c. Ficus carica |  d. Ficus elastica
+fe-g00042 [forest-botany/Medium] In a forest ecosystem, which tree species is primarily known for its role in reforestation and belongs to the family Meliaceae?
+     a. Teak (Tectona grandis) |  b. Narra (Pterocarpus indicus) | *c. Mahogany (Swietenia macrophylla) |  d. Acacia (Acacia mangium)
+fe-g00043 [forest-botany/Hard] What is the family name of the tree species known scientifically as Shorea palosapis, which is commonly found in the Philippines?
+    *a. Dipterocarpaceae |  b. Fabaceae |  c. Meliaceae |  d. Moraceae
+fe-g00044 [forest-botany/Hard] If a forest area contains 120 trees of Ficus nota, each with a DBH of 25 cm, what is the total girth of these trees combined in centimeters, using the formula G = π * DBH?
+     a. 942.48 cm |  b. 785.40 cm |  c. 7854.00 cm | *d. 9424.80 cm
+fe-g00045 [forest-botany/Hard] Which tree species, known scientifically as Artocarpus heterophyllus, is valued for its fruit and timber in the Philippines?
+     a. Mango |  b. Durian |  c. Guava | *d. Jackfruit
+fe-g00046 [forest-botany/Hard] What is the scientific name of the tree commonly known as Talisay, which is important for coastal stabilization in the Philippines?
+     a. Hibiscus tiliaceus |  b. Coconut palm |  c. Pandanus tectorius | *d. Terminalia catappa
+fe-g00047 [forest-botany/Hard] If a tree of Pterocarpus indicus has a height of 12 meters and a diameter at breast height (DBH) of 30 cm, what is the estimated volume in cubic meters using the formula V = (π/4) * (DBH^2) * height?
+     a. 0.283 m³ |  b. 0.942 m³ | *c. 0.9423 m³ |  d. 1.884 m³
+fe-g00048 [forest-botany/Hard] Which of the following tree species is commonly used in traditional medicine and belongs to the family Annonaceae, known scientifically as Annona muricata?
+     a. Durian | *b. Soursop |  c. Rambutan |  d. Mangosteen
+fe-g00049 [forest-botany/Hard] What is the common name of the tree species scientifically classified as Peltophorum pterocarpum, which is widely planted for its ornamental value in the Philippines?
+     a. Saman tree |  b. Acacia tree | *c. Golden rain tree |  d. Narra
+fe-g00050 [forest-botany/Hard] If a forest reserve is to be planted with trees of Swietenia macrophylla at a spacing of 4 meters by 4 meters, how many trees can be accommodated in a 1 hectare area? (1 hectare = 10,000 m²)
+    *a. 625 trees |  b. 250 trees |  c. 400 trees |  d. 1000 trees

@@ -8,7 +8,7 @@ export default function AnalyticsPage() {
         <div>
           <h1 className="text-3xl font-bold text-slate-900 mb-2">Analytics</h1>
           <p className="text-slate-600">
-            Track your progress across the six board subjects and find where to
+            Track your progress across the four board papers and find where to
             focus.
           </p>
         </div>

@@ -1,14 +1,19 @@
+/**
+ * The four papers of the PRC Forester Licensure Examination, as listed on the
+ * Professional Regulatory Board programme. These are display names read from
+ * public.subjects, not a database enum — the taxonomy lives in a table now.
+ */
 export type ForestrySubject =
-  | "Silviculture & Forest Ecology"
-  | "Forest Resources Management"
-  | "Forest Engineering & Surveying"
-  | "Wood Science & Forest Products"
-  | "Social Forestry & Forest Policy"
-  | "Forest Biometrics & Mensuration";
+  | "Forest Ecosystem"
+  | "Forest Governance and Social Forestry"
+  | "Forest Utilization Engineering"
+  | "Forest Production Management";
 
 export interface Question {
   id: string;
   subject: ForestrySubject;
+  /** Slug of the topic within the paper, e.g. "dendrology". */
+  topicId?: string;
   difficulty: "Easy" | "Medium" | "Hard";
   question: string;
   options: {
@@ -16,7 +21,8 @@ export interface Question {
     text: string;
   }[];
   correctAnswerId: string;
-  explanation: string;
+  /** Absent until the first user answers and OpenAI generates one. */
+  explanation?: string;
   detailedExplanation?: string;
   tips?: string;
 }

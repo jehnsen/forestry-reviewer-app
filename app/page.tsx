@@ -200,7 +200,7 @@ export default function LandingPage() {
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 mr-2 text-emerald-600 flex-shrink-0 mt-0.5" />
-                    <span>Unlimited practice across all six board subjects</span>
+                    <span>Unlimited practice across all four board papers</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 mr-2 text-emerald-600 flex-shrink-0 mt-0.5" />

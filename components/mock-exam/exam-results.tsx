@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import ExplanationPanel from "@/components/practice/explanation-panel";
 import Badge from "@/components/ui/badge";
 import Button from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -215,17 +216,17 @@ export default function ExamResults({
                   <p className="text-sm font-semibold text-slate-900">
                     Explanation
                   </p>
-                  <p className="text-slate-700">{question.explanation}</p>
-                  {question.detailedExplanation && (
-                    <p className="text-slate-700 whitespace-pre-line">
-                      {question.detailedExplanation}
-                    </p>
-                  )}
-                  {question.tips && (
-                    <p className="text-sm text-slate-600 italic">
-                      Tip: {question.tips}
-                    </p>
-                  )}
+                  {/* Generated on demand for the ones they missed. A correct
+                      answer shows its explanation only if the bank already has
+                      one, so reviewing a 30-question paper cannot fire 30
+                      OpenAI calls at once. */}
+                  <ExplanationPanel
+                    questionId={question.id}
+                    explanation={question.explanation}
+                    detailedExplanation={question.detailedExplanation}
+                    tips={question.tips}
+                    autoGenerate={!item.isCorrect}
+                  />
                 </div>
               </CardContent>
             </Card>

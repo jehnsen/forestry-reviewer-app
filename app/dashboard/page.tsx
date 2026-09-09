@@ -33,7 +33,7 @@ export default async function DashboardPage() {
                 Welcome back 🌲
               </h1>
               <p className="text-green-100 text-lg">
-                {totalQuestions} board questions across six subjects. Pick up
+                {totalQuestions} board questions across the four board papers. Pick up
                 where you left off.
               </p>
             </div>

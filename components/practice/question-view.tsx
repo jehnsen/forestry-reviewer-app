@@ -7,6 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Button from "@/components/ui/button";
 import Badge from "@/components/ui/badge";
 import Input from "@/components/ui/input";
+import ExplanationPanel from "@/components/practice/explanation-panel";
 import { recordAnswer } from "@/lib/answers";
 import type { Question } from "@/lib/types";
 import { cn } from "@/lib/utils";
@@ -323,16 +324,12 @@ export default function QuestionView({
                     <Sparkles className="w-5 h-5 mr-2 text-green-600" />
                     Explanation
                   </h3>
-                  <div className="prose prose-sm max-w-none">
-                    <p className="text-slate-700 mb-4">{question.explanation}</p>
-                    {question.detailedExplanation && (
-                      <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
-                        <p className="text-sm text-slate-700 leading-relaxed whitespace-pre-line">
-                          {question.detailedExplanation}
-                        </p>
-                      </div>
-                    )}
-                  </div>
+                  <ExplanationPanel
+                    questionId={question.id}
+                    explanation={question.explanation}
+                    detailedExplanation={question.detailedExplanation}
+                    tips={question.tips}
+                  />
                 </CardContent>
               </Card>
             )}

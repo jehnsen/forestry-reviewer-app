@@ -2,7 +2,7 @@ import "server-only";
 
 import { createServiceRoleClient } from "./supabase/server";
 import { createServerSessionClient } from "./supabase/server-session";
-import { QuestionsUnavailableError, parseOptions } from "./questions";
+import { QuestionsUnavailableError, embeddedName, parseOptions } from "./questions";
 import type { ForestrySubject, Question } from "./types";
 
 /** One mock paper, sized to what the question bank can actually serve. */
@@ -10,8 +10,11 @@ export interface ExamSummary {
   id: string;
   name: string;
   description: string | null;
-  subjects: ForestrySubject[];
-  /** The full-length target, e.g. 170. */
+  /** Slug of the board paper this exam covers. */
+  subjectId: string;
+  examDay: number;
+  startsAt: string;
+  /** The full-length target: 100 items per paper. */
   targetQuestions: number;
   /** What this exam will actually serve today. */
   questionCount: number;
@@ -96,7 +99,8 @@ export async function fetchExamCatalog(): Promise<ExamSummary[]> {
   const { data, error } = await supabase
     .from("exam_catalog")
     .select(
-      "id,name,description,subjects,target_questions,question_count,duration_seconds,passing_pct,sort_order"
+      "id,name,description,subject_id,exam_day,starts_at,target_questions," +
+        "question_count,duration_seconds,passing_pct,sort_order"
     )
     .order("sort_order", { ascending: true });
 
@@ -112,7 +116,9 @@ export async function fetchExamCatalog(): Promise<ExamSummary[]> {
       id: string;
       name: string;
       description: string | null;
-      subjects: ForestrySubject[];
+      subject_id: string;
+      exam_day: number;
+      starts_at: string;
       target_questions: number;
       question_count: number;
       duration_seconds: number;
@@ -123,7 +129,9 @@ export async function fetchExamCatalog(): Promise<ExamSummary[]> {
       id: r.id,
       name: r.name,
       description: r.description,
-      subjects: r.subjects,
+      subjectId: r.subject_id,
+      examDay: r.exam_day,
+      startsAt: r.starts_at,
       targetQuestions: r.target_questions,
       questionCount: r.question_count,
       durationSeconds: r.duration_seconds,
@@ -164,7 +172,8 @@ export async function fetchRecentAttempts(limit = 10): Promise<ExamAttempt[]> {
   return (data as unknown as AttemptRow[]).map(toAttempt);
 }
 
-const EXAM_QUESTION_COLUMNS = "id,subject,difficulty,question,options";
+const EXAM_QUESTION_COLUMNS =
+  "id,subject_id,subjects(name),topic_id,difficulty,question,options";
 
 /**
  * The paper's questions, without the answer key, in the order the attempt
@@ -193,14 +202,14 @@ export async function fetchExamQuestions(
 
   for (const row of (data ?? []) as unknown as {
     id: string;
-    subject: ForestrySubject;
+    subjects: { name: string } | { name: string }[] | null;
     difficulty: Question["difficulty"];
     question: string;
     options: unknown;
   }[]) {
     byId.set(row.id, {
       id: row.id,
-      subject: row.subject,
+      subject: embeddedName(row.subjects) as ForestrySubject,
       difficulty: row.difficulty,
       question: row.question,
       options: parseOptions(row.options, row.id),
@@ -249,7 +258,8 @@ export async function fetchAttemptReview(
   const { data, error } = await supabase
     .from("questions")
     .select(
-      "id,subject,difficulty,question,options,correct_answer_id,explanation,detailed_explanation,tips"
+      "id,subject_id,subjects(name),topic_id,difficulty,question,options," +
+        "correct_answer_id,explanation,detailed_explanation,tips"
     )
     .in("id", attempt.questionIds);
 
@@ -265,23 +275,25 @@ export async function fetchAttemptReview(
 
   for (const row of (data ?? []) as unknown as {
     id: string;
-    subject: ForestrySubject;
+    subjects: { name: string } | { name: string }[] | null;
+    topic_id: string | null;
     difficulty: Question["difficulty"];
     question: string;
     options: unknown;
     correct_answer_id: string;
-    explanation: string;
+    explanation: string | null;
     detailed_explanation: string | null;
     tips: string | null;
   }[]) {
     byId.set(row.id, {
       id: row.id,
-      subject: row.subject,
+      subject: embeddedName(row.subjects) as ForestrySubject,
+      topicId: row.topic_id ?? undefined,
       difficulty: row.difficulty,
       question: row.question,
       options: parseOptions(row.options, row.id),
       correctAnswerId: row.correct_answer_id,
-      explanation: row.explanation,
+      explanation: row.explanation ?? undefined,
       detailedExplanation: row.detailed_explanation ?? undefined,
       tips: row.tips ?? undefined,
     });

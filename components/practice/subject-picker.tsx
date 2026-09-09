@@ -30,7 +30,7 @@ export default function SubjectPicker({
       <div>
         <h1 className="text-3xl font-bold text-slate-900 mb-2">Practice Mode</h1>
         <p className="text-slate-600">
-          Select a board subject to focus on, or practice all six together.
+          Select a board paper to focus on, or practice all four together.
         </p>
       </div>
 
@@ -116,7 +116,7 @@ export default function SubjectPicker({
         </CardHeader>
         <CardContent>
           <p className="text-slate-600 mb-4">
-            Get a mix of questions from all six board subjects to simulate the actual
+            Get a mix of questions from all four board papers to simulate the actual
             licensure exam.
           </p>
           <Button
