@@ -20,6 +20,8 @@ import {
   Lightbulb,
   Send,
   Sparkles,
+  Loader2,
+  AlertCircle,
 } from "lucide-react";
 
 type AnswerState = "unanswered" | "correct" | "incorrect";
@@ -47,7 +49,12 @@ export default function QuestionView({
   const [showHint, setShowHint] = useState(false);
   const [showExplanation, setShowExplanation] = useState(false);
   const [aiQuestion, setAiQuestion] = useState("");
-  const [aiResponses, setAiResponses] = useState<Array<{ question: string; answer: string }>>([]);
+  /** answer is null while that turn is still in flight. */
+  const [aiResponses, setAiResponses] = useState<
+    Array<{ question: string; answer: string | null }>
+  >([]);
+  const [aiPending, setAiPending] = useState(false);
+  const [aiError, setAiError] = useState<string | null>(null);
   const [saveNotice, setSaveNotice] = useState<string | null>(null);
 
   const handleAnswerSelect = (optionId: string) => {
@@ -86,17 +93,53 @@ export default function QuestionView({
     }
   };
 
-  const handleAskAI = () => {
-    if (!aiQuestion.trim()) return;
+  const handleAskAI = async () => {
+    const asked = aiQuestion.trim();
+    if (!asked || aiPending) return;
 
-    const mockResponse = `Good question — this comes up a lot in ${question.subject}. ${
-      aiQuestion.toLowerCase().includes("why")
-        ? "The reasoning traces back to the principle in the explanation above."
-        : "Here is the breakdown, step by step."
-    } On the board exam this concept is usually tested as a straight application, so anchor on the formula or provision rather than memorizing the specific numbers. Want me to walk through a similar item?`;
-
-    setAiResponses([...aiResponses, { question: aiQuestion, answer: mockResponse }]);
+    // Sent before the reply lands so the transcript reads in order; the answer
+    // is filled in on this same turn once it arrives.
+    const turnIndex = aiResponses.length;
+    setAiResponses((prev) => [...prev, { question: asked, answer: null }]);
     setAiQuestion("");
+    setAiPending(true);
+    setAiError(null);
+
+    // Prior turns only — the question just pushed has no answer yet.
+    const history = aiResponses.flatMap((turn) =>
+      turn.answer
+        ? [
+            { role: "user" as const, content: turn.question },
+            { role: "assistant" as const, content: turn.answer },
+          ]
+        : []
+    );
+
+    try {
+      const response = await fetch(`/api/questions/${question.id}/tutor`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: asked, history }),
+      });
+      const body = await response.json();
+
+      if (!response.ok) {
+        setAiError(body.error ?? "The tutor could not be reached.");
+        // Drop the orphaned turn so a failed ask does not sit there unanswered.
+        setAiResponses((prev) => prev.filter((_, i) => i !== turnIndex));
+        setAiQuestion(asked);
+      } else {
+        setAiResponses((prev) =>
+          prev.map((turn, i) => (i === turnIndex ? { ...turn, answer: body.answer } : turn))
+        );
+      }
+    } catch {
+      setAiError("Could not reach the tutor.");
+      setAiResponses((prev) => prev.filter((_, i) => i !== turnIndex));
+      setAiQuestion(asked);
+    } finally {
+      setAiPending(false);
+    }
   };
 
   const difficultyColors = {
@@ -354,12 +397,29 @@ export default function QuestionView({
                             </p>
                           </div>
                           <div className="bg-slate-100 rounded-lg p-3 mr-8">
-                            <p className="text-sm text-slate-700">
-                              {response.answer}
-                            </p>
+                            {response.answer === null ? (
+                              <p className="text-sm text-slate-500 flex items-center gap-2">
+                                <Loader2 className="w-4 h-4 animate-spin" />
+                                Thinking…
+                              </p>
+                            ) : (
+                              <p className="text-sm text-slate-700 whitespace-pre-line">
+                                {response.answer}
+                              </p>
+                            )}
                           </div>
                         </div>
                       ))}
+                    </div>
+                  )}
+
+                  {aiError && (
+                    <div
+                      role="alert"
+                      className="mb-3 flex items-start gap-2 rounded-lg border border-rose-200 bg-rose-50 p-3"
+                    >
+                      <AlertCircle className="w-5 h-5 text-rose-600 flex-shrink-0 mt-0.5" />
+                      <p className="text-sm text-rose-700">{aiError}</p>
                     </div>
                   )}
 
@@ -368,10 +428,20 @@ export default function QuestionView({
                       placeholder="Ask a follow-up question..."
                       value={aiQuestion}
                       onChange={(e) => setAiQuestion(e.target.value)}
-                      onKeyDown={(e) => e.key === "Enter" && handleAskAI()}
+                      disabled={aiPending}
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter") void handleAskAI();
+                      }}
                     />
-                    <Button onClick={handleAskAI} disabled={!aiQuestion.trim()}>
-                      <Send className="w-4 h-4" />
+                    <Button
+                      onClick={() => void handleAskAI()}
+                      disabled={!aiQuestion.trim() || aiPending}
+                    >
+                      {aiPending ? (
+                        <Loader2 className="w-4 h-4 animate-spin" />
+                      ) : (
+                        <Send className="w-4 h-4" />
+                      )}
                     </Button>
                   </div>
 

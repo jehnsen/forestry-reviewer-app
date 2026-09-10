@@ -1,21 +1,28 @@
 #!/usr/bin/env node
 /**
- * Generate the bulk of the question bank with OpenAI and emit SQL.
+ * Fill out the question bank with OpenAI and emit SQL.
  *
- * The hand-authored 180 in supabase/migrations/0005_core_questions.sql are the
- * verified backbone; this fills the rest of the 2000 practice / 3000 mock
- * target. Nothing is written to the database — the script emits .sql files you
- * review and run yourself.
+ * The hand-authored questions in 0005_core_questions.sql are the verified
+ * backbone; this tops the bank up to 400 practice + 400 mock. Nothing is
+ * written to the database — the script emits .sql files you review and run.
  *
- * Every generated question is validated before it is accepted:
- *   - exactly 4 options, ids a-d, no blank or duplicate option text
- *   - correct_answer_id must name one of those options
- *   - the stem must not duplicate anything already in the bank or this run
- *   - the answer key is rebalanced at the end so it is not guessable
+ * Three calls per batch, in this order, so nothing is wasted and the check
+ * stays honest:
+ *
+ *   1. WRITE     the model drafts the items.
+ *   2. CHECK     a second call re-solves them WITHOUT being shown the answer
+ *                key, and flags defects. Disagreement rejects the item.
+ *   3. EXPLAIN   survivors only, now told the correct answer, get their
+ *                explanation, worked solution and exam tip.
+ *
+ * Items are also rejected before step 2 for shape: not four options, ids not
+ * a-d, blank or duplicated option text, key not among the options, or a stem
+ * duplicating one already in the bank. The answer key is rebalanced across
+ * a/b/c/d at the end so the bank is not guessable.
  *
  * Usage:
  *   node scripts/generate-questions.mjs                  # generate the deficit
- *   node scripts/generate-questions.mjs --limit 50       # small trial run
+ *   node scripts/generate-questions.mjs --limit 30       # small trial run
  *   node scripts/generate-questions.mjs --dry-run        # plan only, no API calls
  *
  * Requires NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, OPENAI_API_KEY.
@@ -98,11 +105,21 @@ const SUBJECTS = [
 /** Roughly the shape of a real board paper rather than an even split. */
 const DIFFICULTY_MIX = { Easy: 0.3, Medium: 0.45, Hard: 0.25 };
 
-const POOL_TARGETS = { practice: 2000, mock: 3000 };
+/**
+ * 400 per pool, 800 in total.
+ *
+ * Deliberately modest. 400 mock questions is exactly 100 per board paper, which
+ * is one full-length sitting of each — enough to be useful, small enough that
+ * every item can be generated carefully and checked. A large bank of doubtful
+ * items is worth less than a small bank of sound ones.
+ */
+const POOL_TARGETS = { practice: 400, mock: 400 };
 
-/** Questions requested per API call. Large enough to be cheap, small enough
- *  that one bad response does not waste much. */
-const BATCH_SIZE = 10;
+/**
+ * Questions requested per API call. Small: a model asked for six careful items
+ * writes better ones than a model asked for ten, and a bad response wastes less.
+ */
+const BATCH_SIZE = 6;
 
 /** Generated questions per emitted .sql file, to keep each one pasteable. */
 const ROWS_PER_FILE = 500;
@@ -256,6 +273,29 @@ function buildPlan(existing) {
 // Generation
 // ---------------------------------------------------------------------------
 
+/** Explanations, written only for items that already survived verification. */
+const EXPLAIN_SCHEMA = {
+  type: "object",
+  additionalProperties: false,
+  required: ["explanations"],
+  properties: {
+    explanations: {
+      type: "array",
+      items: {
+        type: "object",
+        additionalProperties: false,
+        required: ["index", "explanation", "detailed_explanation", "tips"],
+        properties: {
+          index: { type: "integer" },
+          explanation: { type: "string" },
+          detailed_explanation: { type: "string" },
+          tips: { type: "string" },
+        },
+      },
+    },
+  },
+};
+
 /** What the independent checker returns; it never sees the generator's key. */
 const VERIFY_SCHEMA = {
   type: "object",
@@ -325,6 +365,9 @@ function buildPrompt({ subjectName, topicName, difficulty, count, avoidStems }) 
         "Stay inside the assigned topic. A question about a statute is not a Dendrology question; a question about wood density is not a Forest Ecology question.",
         "Use species that actually occur in the Philippines. Do not build items around Picea abies, Quercus robur, Cedrus deodara, Ficus carica, Shorea robusta or Rhizophora mangle.",
         "Exactly one option must be defensible as correct and the other three clearly wrong. If two options could both be argued correct, rewrite the item.",
+        "Write in the register of an actual PRC board paper: a plain declarative stem, no 'which of the following' padding where a direct question works, options of roughly equal length so length does not give the answer away, and no joke distractors. An option must be something a candidate who studied the wrong thing would actually pick.",
+        "Distractors should encode real misconceptions: the adjacent silvicultural system, the neighbouring statute, the formula applied with the wrong exponent or without the form factor, the species confused for its close relative.",
+        "Vary the form across the batch. Some items recall a definition or provision, some apply a formula to given values, some present a short field scenario and ask what the forester should conclude or do.",
         "Use Philippine context where relevant: PD 705, RA 7586 (NIPAS), RA 11038, RA 8371 (IPRA), RA 9147, CBFMA, DENR, dipterocarps, mangroves, Benguet pine.",
         "For Dendrology, examiners ask for common name, scientific name and family together, so write items that pair them (for example Narra / Pterocarpus indicus / Fabaceae).",
         "Use SI units. Numeric items must be arithmetically correct and solvable from the numbers given in the stem.",
@@ -430,6 +473,55 @@ async function verifyBatch(apiKey, items) {
 }
 
 /**
+ * Write explanations for items that already passed verification.
+ *
+ * Runs after the check, not before, for two reasons: nothing is spent
+ * explaining an item that gets thrown away, and the checker must never see a
+ * worked justification that would tell it which option the writer chose.
+ */
+async function explainBatch(apiKey, items) {
+  const listed = items
+    .map((item, i) => {
+      const correct = item.options.find((o) => o.id === item.correct_answer_id);
+      return [
+        `[${i}] Topic: ${item.__topicName}`,
+        item.question,
+        ...item.options.map((o) => `  ${o.id}. ${o.text}`),
+        `CORRECT: ${item.correct_answer_id}. ${correct ? correct.text : ""}`,
+      ].join("\n");
+    })
+    .join("\n\n");
+
+  const result = await callOpenAI(
+    apiKey,
+    [
+      {
+        role: "system",
+        content: [
+          "You write answer explanations for a Philippine Forester Licensure Examination reviewer.",
+          "The CORRECT option given to you is authoritative. Explain why it is right; never dispute it or pick a different one.",
+          "explanation: two or three sentences on why the correct option is correct.",
+          "detailed_explanation: a fuller treatment that also says why each of the other three options fails, and works any formula through step by step with the actual numbers.",
+          "tips: one short exam-room heuristic for recognising this kind of item.",
+          "Use SI units and cite Philippine law by number where relevant (PD 705, RA 7586, RA 8371, RA 9147, RA 11038). Plain prose, no markdown headings, no bullet characters.",
+        ].join(" "),
+      },
+      { role: "user", content: listed },
+    ],
+    {
+      model: GENERATION_MODEL,
+      temperature: 0.3,
+      name: "question_explanations",
+      schema: EXPLAIN_SCHEMA,
+    }
+  );
+
+  const byIndex = new Map();
+  for (const row of result.explanations ?? []) byIndex.set(row.index, row);
+  return byIndex;
+}
+
+/**
  * Reject anything malformed rather than letting it reach the database, where
  * the CHECK constraints would fail the whole insert.
  */
@@ -469,9 +561,21 @@ function toSqlRow(row) {
     row.options.map((o) => ({ id: o.id, text: o.text.trim() }))
   );
 
+  // An unexplained row must leave BOTH provenance columns null: the
+  // questions_explanation_provenance constraint from migration 0004 rejects a
+  // model name without matching text.
+  const nullable = (v) => (v == null || v === "" ? "null" : sqlString(v.trim()));
+  const provenance = row.explanation
+    ? `now(), ${sqlString(GENERATION_MODEL)}`
+    : "null, null";
+
   return `  (${sqlString(row.id)}, ${sqlString(row.subjectId)}, ${sqlString(row.topicId)}, ${sqlString(row.difficulty)}, ${sqlString(row.pool)},
    ${sqlString(row.question.trim())},
-   ${sqlString(options)}::jsonb, ${sqlString(row.correct_answer_id)})`;
+   ${sqlString(options)}::jsonb, ${sqlString(row.correct_answer_id)},
+   ${nullable(row.explanation)},
+   ${nullable(row.detailed_explanation)},
+   ${nullable(row.tips)},
+   ${provenance})`;
 }
 
 /** Human-readable audit, so a batch can be eyeballed without reading SQL. */
@@ -480,7 +584,10 @@ function writeReview(rows) {
     const opts = r.options
       .map((o) => `${o.id === r.correct_answer_id ? "*" : " "}${o.id}. ${o.text}`)
       .join("\n      ");
-    return `${r.id} [${r.topicId} / ${r.difficulty} / ${r.pool}]\n  ${r.question}\n      ${opts}`;
+    const why = r.explanation
+      ? `\n    WHY: ${r.explanation}`
+      : "\n    WHY: (not generated - the app will write one on first answer)";
+    return `${r.id} [${r.topicId} / ${r.difficulty} / ${r.pool}]\n  ${r.question}\n      ${opts}${why}`;
   });
 
   const file = path.join(OUT_DIR, "review.txt");
@@ -508,10 +615,12 @@ function writeSqlFiles(rows) {
 -- That removes the obvious errors, not all of them. Spot-check before relying
 -- on these for scored exams.
 --
--- Explanations are intentionally absent: they are generated on first answer.
+-- Explanations are written here for every item that passed. Where one is null,
+-- the explanation call failed and the app will generate it on first answer.
 
 insert into public.questions
-  (id, subject_id, topic_id, difficulty, pool, question, options, correct_answer_id)
+  (id, subject_id, topic_id, difficulty, pool, question, options, correct_answer_id,
+   explanation, detailed_explanation, tips, explanation_generated_at, explanation_model)
 values
 ${chunk.map(toSqlRow).join(",\n")}
 on conflict (id) do nothing;
@@ -602,6 +711,7 @@ async function main() {
   const counters = new Map();
   const rejections = new Map();
   let rejected = 0;
+  let missingExplanations = 0;
 
   outer: for (const task of plan) {
     let remaining = task.count;
@@ -658,6 +768,7 @@ async function main() {
         }
       }
 
+      const survivors = [];
       for (const [i, item] of wellFormed.entries()) {
         const verdict = verdicts.get(i);
 
@@ -680,6 +791,21 @@ async function main() {
           continue;
         }
 
+        survivors.push(item);
+        if (survivors.length >= remaining) break;
+      }
+
+      // Explanations last, on survivors only.
+      let explanations = new Map();
+      if (survivors.length) {
+        try {
+          explanations = await explainBatch(openaiKey, survivors);
+        } catch (error) {
+          console.error(`\n  ! explanation call failed: ${error.message}`);
+        }
+      }
+
+      for (const [i, item] of survivors.entries()) {
         const code = task.code;
         const n = (counters.get(code) ?? 0) + 1;
         counters.set(code, n);
@@ -687,6 +813,11 @@ async function main() {
         seenStems.add(normaliseStem(item.question));
         if (!stemsByTopic.has(task.topicId)) stemsByTopic.set(task.topicId, []);
         stemsByTopic.get(task.topicId).push(item.question);
+
+        // A question with no explanation is still usable: the app generates one
+        // on first answer. So a failed explanation call costs polish, not the item.
+        const explained = explanations.get(i) ?? null;
+        if (!explained) missingExplanations += 1;
 
         accepted.push({
           id: `${code}-g${String(n).padStart(5, "0")}`,
@@ -697,6 +828,9 @@ async function main() {
           question: item.question,
           options: item.options,
           correct_answer_id: item.correct_answer_id,
+          explanation: explained ? explained.explanation : null,
+          detailed_explanation: explained ? explained.detailed_explanation : null,
+          tips: explained ? explained.tips : null,
         });
 
         remaining -= 1;
@@ -720,6 +854,11 @@ async function main() {
   const files = writeSqlFiles(accepted);
 
   console.log(`Accepted ${accepted.length}, rejected ${rejected}.`);
+  if (missingExplanations) {
+    console.log(
+      `${missingExplanations} accepted without an explanation; the app will write those on first answer.`
+    );
+  }
   if (rejections.size) {
     console.log("Rejections by reason:");
     for (const [reason, n] of [...rejections].sort((a, b) => b[1] - a[1])) {

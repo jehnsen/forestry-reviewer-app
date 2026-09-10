@@ -1,349 +1,1927 @@
 fe-g00001 [forest-botany / Easy / practice]
-  What is the common name for the tree species Swietenia macrophylla in the Philippines?
-      *a. Mahogany
-       b. Narrah
-       c. Molave
-       d. Yakal
+  What is the scientific name of the Narra tree, which is commonly found in the Philippines?
+      *a. Pterocarpus indicus
+       b. Ficus elastica
+       c. Acacia mangium
+       d. Swietenia mahagoni
+    WHY: The scientific name of the Narra tree, which is commonly found in the Philippines, is Pterocarpus indicus. This species is well-known for its durable wood and is often used in furniture making and construction.
 
 fe-g00002 [forest-botany / Easy / practice]
-  Which family does the Philippine native tree Narra (Pterocarpus indicus) belong to?
-      *a. Fabaceae
-       b. Dipterocarpaceae
-       c. Pinaceae
-       d. Poaceae
-
-fe-g00003 [forest-botany / Easy / practice]
-  Which tree species is known for its durable and termite-resistant wood, commonly used in furniture and construction in the Philippines?
-      *a. Molave (Vitex parviflora)
-       b. Narra (Pterocarpus indicus)
-       c. Mahogany (Swietenia macrophylla)
-       d. Yakal (Shorea astylosa)
-
-fe-g00004 [forest-botany / Easy / practice]
-  What is the common name for the tree species Shorea astylosa?
-       a. Narra
-      *b. Yakal
-       c. Mahogany
-       d. Molave
-
-fe-g00005 [forest-botany / Easy / practice]
-  Which tree is commonly known as the "National Tree of the Philippines"?
-       a. Molave
-       b. Mahogany
-       c. Benguet Pine
-      *d. Narra
-
-fe-g00006 [forest-botany / Easy / practice]
-  What family does the species Tectona grandis belong to?
-      *a. Verbenaceae
-       b. Dipterocarpaceae
-       c. Fabaceae
-       d. Pinaceae
-
-fe-g00007 [forest-botany / Easy / practice]
-  Which tree species is commonly used in the Philippines for reforestation projects due to its fast growth?
-       a. Narra (Pterocarpus indicus)
-      *b. Gmelina (Gmelina arborea)
-       c. Yakal (Shorea astylosa)
-       d. Molave (Vitex parviflora)
-
-fe-g00008 [forest-botany / Easy / practice]
-  What is the scientific name of the Benguet Pine?
-      *a. Pinus kesiya
-       b. Pinus caribaea
-       c. Ficus elastica
-       d. Gmelina arborea
-
-fe-g00009 [forest-botany / Easy / practice]
-  Which is the scientific name for the tree known locally as "Apitong" in the Philippines?
-       a. Ficus benjamina
-      *b. Dipterocarpus grandiflorus
-       c. Pinus kesiya
-       d. Pterocarpus indicus
-
-fe-g00010 [forest-botany / Easy / practice]
-  What is the common name for the tree species Acacia mangium in the Philippines?
-       a. Molave
-      *b. Auri
-       c. Narra
-       d. Ipil-ipil
-
-fe-g00011 [forest-botany / Easy / practice]
-  What family does the species Xanthostemon verdugonianus belong to?
-       a. Fabaceae
-      *b. Myrtaceae
-       c. Dipterocarpaceae
-       d. Moraceae
-
-fe-g00012 [forest-botany / Easy / practice]
-  Which tree species is commonly referred to as "Bagras" in the Philippines?
-      *a. Eucalyptus deglupta
-       b. Shorea negrosensis
-       c. Ficus elastica
-       d. Artocarpus blancoi
-
-fe-g00013 [forest-botany / Easy / practice]
-  Which tree family does the Philippine Mahogany (Shorea spp.) belong to?
+  Which family does the Philippine Mahogany, also known as Lauan, belong to?
        a. Fabaceae
        b. Myrtaceae
       *c. Dipterocarpaceae
        d. Moraceae
+    WHY: The Philippine Mahogany, also known as Lauan, belongs to the Dipterocarpaceae family. This family is known for its large hardwood trees that are prevalent in Southeast Asian forests.
 
-fe-g00014 [forest-botany / Easy / practice]
-  What is the common name for the species Artocarpus altilis in the Philippines?
-       a. Rambutan
-       b. Mango
-       c. Durian
-      *d. Breadfruit
+fe-g00003 [forest-botany / Easy / practice]
+  What is the common name of the tree with the scientific name Dipterocarpus gracilis, commonly found in Philippine forests?
+       a. Yakal
+       b. Bagras
+       c. Banaba
+      *d. Apitong
+    WHY: The common name of the tree with the scientific name Dipterocarpus gracilis is Apitong. This species is commonly found in Philippine forests and is valued for its timber.
 
-fe-g00015 [forest-botany / Easy / practice]
-  What is the scientific name of the tree known locally as "Camachile" in the Philippines?
-      *a. Pithecellobium dulce
-       b. Pterocarpus indicus
-       c. Swietenia macrophylla
-       d. Gmelina arborea
+fe-g00004 [forest-botany / Easy / practice]
+  What is the scientific name of the Benguet Pine, a species native to the Philippines?
+       a. Pinus sylvestris
+       b. Pinus kesiya
+      *c. Pinus insularis
+       d. Pinus merkusii
+    WHY: The scientific name of the Benguet Pine, a species native to the Philippines, is Pinus insularis. This species is adapted to the highland areas of Luzon.
 
-fe-g00016 [forest-botany / Easy / practice]
-  Which tree species is commonly known as "Toog" in the Philippines?
-       a. Mangifera indica
-      *b. Petersianthus quadrialatus
-       c. Ficus benjamina
-       d. Polyscias nodosa
-
-fe-g00017 [forest-botany / Easy / practice]
-  What family does the tree species Ficus nota belong to?
-       a. Fabaceae
-       b. Myrtaceae
-      *c. Moraceae
-       d. Dipterocarpaceae
-
-fe-g00018 [forest-botany / Medium / practice]
-  Which tree species is known for its ability to fix nitrogen in the soil, commonly found in the Philippines?
-       a. Gmelina arborea / Yemane / Verbenaceae
-       b. Acacia auriculiformis / Earleaf Acacia / Fabaceae
-       c. Swietenia macrophylla / Mahogany / Meliaceae
-      *d. Leucaena leucocephala / Ipil-Ipil / Fabaceae
-
-fe-g00019 [forest-botany / Medium / practice]
-  What is the scientific name for the tree species locally known as 'Almaciga' in the Philippines?
-       a. Dipterocarpus grandiflorus
-      *b. Agathis philippinensis
-       c. Casuarina equisetifolia
-       d. Shorea contorta
-
-fe-g00020 [forest-botany / Medium / practice]
-  Which family does the species Gmelina arborea belong to?
+fe-g00005 [forest-botany / Medium / practice]
+  What is the family name of Tectona philippinensis, the Philippine teak tree endemic to the Philippines?
       *a. Verbenaceae
-       b. Fabaceae
-       c. Meliaceae
-       d. Dipterocarpaceae
+       b. Dipterocarpaceae
+       c. Lamiaceae
+       d. Fabaceae
+    WHY: The family name of Tectona philippinensis, the Philippine teak tree, is Verbenaceae. This family is known for including trees and shrubs with opposite leaves and often aromatic properties.
 
-fe-g00021 [forest-botany / Medium / practice]
-  What is the common name for the tree species Lagerstroemia speciosa in the Philippines?
-      *a. Banaba
-       b. Narra
-       c. Molave
-       d. Tanguile
-
-fe-g00022 [forest-botany / Medium / practice]
-  Which tree species is known for producing the valuable resin called Manila Copal in the Philippines?
-       a. Shorea polysperma / Tanguile / Dipterocarpaceae
-       b. Pterocarpus indicus / Narra / Fabaceae
-       c. Casuarina equisetifolia / Agoho / Casuarinaceae
-      *d. Agathis philippinensis / Almaciga / Araucariaceae
-
-fe-g00023 [forest-botany / Medium / practice]
-  What is the scientific name of the tree known locally as 'Molave' in the Philippines?
-       a. Pterocarpus indicus
-      *b. Vitex parviflora
-       c. Gmelina arborea
-       d. Tectona grandis
-
-fe-g00024 [forest-botany / Medium / practice]
-  Which tree family does the species Callophyllum inophyllum belong to?
-       a. Dipterocarpaceae
-       b. Fabaceae
-       c. Verbenaceae
-      *d. Clusiaceae
-
-fe-g00025 [forest-botany / Medium / practice]
-  Which tree species is commonly known as 'Agoho' in the Philippines?
-       a. Swietenia macrophylla
-      *b. Casuarina equisetifolia
-       c. Gmelina arborea
-       d. Pterocarpus indicus
-
-fe-g00026 [forest-botany / Medium / practice]
-  What is the common name for the species Terminalia catappa in the Philippines?
-      *a. Talisay
-       b. Narra
-       c. Apitong
-       d. Molave
-
-fe-g00027 [forest-botany / Medium / practice]
-  What is the scientific name of the tree commonly known as 'Ilang-ilang' in the Philippines?
-       a. Ficus elastica
-      *b. Cananga odorata
-       c. Artocarpus heterophyllus
-       d. Pterocarpus indicus
-
-fe-g00028 [forest-botany / Medium / practice]
-  Which family does the Dipterocarpus grandiflorus belong to?
-       a. Fabaceae
-       b. Myrtaceae
-       c. Lauraceae
-      *d. Dipterocarpaceae
-
-fe-g00029 [forest-botany / Medium / practice]
-  What is the common name of the tree species Gmelina arborea in the Philippines?
+fe-g00006 [forest-botany / Medium / practice]
+  Which tree commonly found in the Philippines has the scientific name Swietenia macrophylla?
        a. Molave
-       b. Narra
-      *c. Yemane
-       d. Akasia
+       b. Bamboo
+       c. Mangrove
+      *d. Mahogany
+    WHY: Swietenia macrophylla is commonly known as Mahogany. It is a large tropical tree valued for its high-quality timber.
 
-fe-g00030 [forest-botany / Medium / practice]
-  Which Philippine native tree is known for its fragrant flowers used to make leis and other floral arrangements?
-       a. Canarium ovatum
-      *b. Cananga odorata
-       c. Pterocarpus indicus
-       d. Artocarpus heterophyllus
+fe-g00007 [forest-botany / Medium / practice]
+  What is the common name of the tree species Hopea foxworthyi, known for its durable wood and presence in Philippine dipterocarp forests?
+      *a. Yakal Saplungan
+       b. Manggachapui
+       c. White Lauan
+       d. Narra
+    WHY: Hopea foxworthyi is commonly known as Yakal Saplungan. It is a species found in Philippine dipterocarp forests, known for its hard and durable wood.
 
-fe-g00031 [forest-botany / Medium / practice]
-  Which tree species is scientifically named Terminalia microcarpa?
-       a. Kalumpang
-       b. Banaba
-      *c. Talisay Gubat
-       d. Anahaw
-
-fe-g00032 [forest-botany / Medium / practice]
-  What is the scientific name for the tree species known locally as 'Banaba' in the Philippines?
-       a. Shorea contorta
-       b. Pterocarpus indicus
-      *c. Lagerstroemia speciosa
-       d. Swietenia macrophylla
-
-fe-g00033 [forest-botany / Medium / practice]
-  Which tree species is known for its large buttress roots and is native to the Philippines?
-       a. Ficus benjamina
-      *b. Dipterocarpus alatus
-       c. Ceiba pentandra
-       d. Mangifera indica
-
-fe-g00034 [forest-botany / Medium / practice]
-  What is the common name of the tree species Vitex parviflora in the Philippines?
-       a. Ilang-ilang
-       b. Banaba
-      *c. Molave
-       d. Akasia
-
-fe-g00035 [forest-botany / Medium / practice]
-  Which tree species is locally known as 'Mabolo' in the Philippines?
-       a. Ficus elastica
-       b. Artocarpus heterophyllus
-       c. Pterocarpus indicus
-      *d. Diospyros blancoi
-
-fe-g00036 [forest-botany / Medium / practice]
-  What is the family of the tree species Artocarpus altilis?
-       a. Fabaceae
+fe-g00008 [forest-botany / Medium / practice]
+  In the context of Philippine forests, which family does the tree with the common name 'Bagtikan' belong to?
+      *a. Dipterocarpaceae
        b. Myrtaceae
-      *c. Moraceae
-       d. Anacardiaceae
+       c. Moraceae
+       d. Fabaceae
+    WHY: Bagtikan belongs to the Dipterocarpaceae family, which is a dominant family in tropical Asian forests, including the Philippines.
 
-fe-g00037 [forest-botany / Medium / practice]
-  What is the common name for the tree species Pterocarpus indicus in the Philippines?
-       a. Mahogany
-       b. Molave
-       c. Almaciga
-      *d. Narra
+fe-g00009 [forest-botany / Medium / practice]
+  Identify the tree species with the scientific name Ficus balete, often found in Philippine lowland forests.
+       a. Banyan Tree
+      *b. Balete Tree
+       c. Toog Tree
+       d. Narra Tree
+    WHY: Ficus balete is commonly known as the Balete Tree. It is a type of fig tree often found in Philippine lowland forests.
 
-fe-g00038 [forest-botany / Medium / practice]
-  Which tree species is known for its distinctive flaky bark and is native to the Philippines?
-       a. Lagerstroemia speciosa / Banaba / Lythraceae
-       b. Dipterocarpus grandiflorus / Apitong / Dipterocarpaceae
-      *c. Eucalyptus deglupta / Bagras / Myrtaceae
-       d. Shorea contorta / White Lauan / Dipterocarpaceae
-
-fe-g00039 [forest-botany / Medium / practice]
-  Which family does the tree species Ficus benjamina belong to?
-       a. Fabaceae
-       b. Myrtaceae
-      *c. Moraceae
-       d. Dipterocarpaceae
-
-fe-g00040 [forest-botany / Medium / practice]
-  Which tree species is commonly referred to as 'Tanguile' in the Philippines?
-       a. Acacia mangium
-       b. Gmelina arborea
-       c. Ficus elastica
-      *d. Shorea polysperma
-
-fe-g00041 [forest-botany / Medium / practice]
-  Which tree species is known for its buttress roots and is native to the Philippines?
-      *a. Shorea almon / Almon / Dipterocarpaceae
-       b. Ficus benjamina / Weeping Fig / Moraceae
-       c. Pterocarpus indicus / Narra / Fabaceae
-       d. Artocarpus altilis / Breadfruit / Moraceae
-
-fe-g00042 [forest-botany / Medium / practice]
-  What is the scientific name and family of the tree species commonly known as 'Bagtikan' in the Philippines?
+fe-g00010 [forest-botany / Hard / practice]
+  A climber is exploring a lowland forest in Luzon and encounters a tree with buttress roots and a distinct reddish bark. The climber identifies it as Red Lauan. What is the scientific name and family of this tree?
        a. Shorea negrosensis / Dipterocarpaceae
-       b. Pterocarpus indicus / Fabaceae
-      *c. Parashorea malaanonan / Dipterocarpaceae
+      *b. Shorea contorta / Dipterocarpaceae
+       c. Shorea polysperma / Dipterocarpaceae
+       d. Shorea almon / Dipterocarpaceae
+    WHY: Shorea contorta, commonly known as Red Lauan, is a species within the Dipterocarpaceae family. It is characterized by its buttress roots and reddish bark, typical features of this tree in lowland forests of Luzon.
+
+fe-g00011 [forest-botany / Hard / practice]
+  During a field study in a mangrove area, a forestry student measures a tree with pencil-like pneumatophores and a dense, leathery leaf structure. The student must correctly identify the tree and its family. What is the most likely classification?
+       a. Sonneratia alba / Lythraceae
+       b. Rhizophora apiculata / Rhizophoraceae
+      *c. Avicennia marina / Acanthaceae
+       d. Bruguiera gymnorhiza / Rhizophoraceae
+    WHY: Avicennia marina, belonging to the Acanthaceae family, is known for its pencil-like pneumatophores and leathery leaves, which are adaptations for survival in mangrove environments.
+
+fe-g00012 [forest-botany / Hard / practice]
+  In a biodiversity assessment in the Visayas, a forester records a hardwood tree notable for its straight bole, often used in construction, and classified within the Fabaceae family. The forester needs to identify this tree. Which tree fits this description?
+       a. Intsia bijuga / Fabaceae
+       b. Vitex parviflora / Lamiaceae
+      *c. Pterocarpus indicus / Fabaceae
        d. Albizia saman / Fabaceae
+    WHY: Pterocarpus indicus, known as Narra, is a hardwood tree in the Fabaceae family, recognized for its straight bole and widespread use in construction.
 
-fe-g00043 [forest-botany / Hard / practice]
-  Which species is scientifically referred to as Hopea acuminata and belongs to the Dipterocarpaceae family?
-      *a. Yakal Malibato / Hopea acuminata / Dipterocarpaceae
-       b. Yakal Saplungan / Hopea plagata / Dipterocarpaceae
-       c. Guijo / Shorea guiso / Dipterocarpaceae
-       d. Narra / Pterocarpus indicus / Fabaceae
+fe-g00013 [dendrology / Easy / practice]
+  What is the scientific name of the Narra tree, the national tree of the Philippines?
+       a. Gmelina arborea
+       b. Shorea contorta
+      *c. Pterocarpus indicus
+       d. Tectona grandis
+    WHY: Pterocarpus indicus is the correct scientific name for the Narra tree, which is recognized as the national tree of the Philippines. This species is known for its hardwood and is culturally significant in the country.
 
-fe-g00044 [forest-botany / Hard / practice]
-  Which species from the Rubiaceae family is known for its economic importance in dye production in the Philippines?
-       a. Pilit / Diospyros blancoi / Ebenaceae
-       b. Kamagong / Diospyros philippensis / Ebenaceae
-       c. Ilang-ilang / Cananga odorata / Annonaceae
-      *d. Madarang / Morinda citrifolia / Rubiaceae
+fe-g00014 [dendrology / Easy / practice]
+  To which family does the tree species Hopea philippinensis belong?
+       a. Fabaceae
+       b. Myrtaceae
+       c. Rutaceae
+      *d. Dipterocarpaceae
+    WHY: Hopea philippinensis belongs to the Dipterocarpaceae family, which is known for its tropical hardwood trees. This family is significant in the Philippines due to its ecological and economic importance.
 
-fe-g00045 [forest-botany / Hard / practice]
-  Which species has the scientific name Vitex parviflora and belongs to the Lamiaceae family?
-       a. Teak / Tectona grandis / Lamiaceae
-       b. Mahogany / Swietenia macrophylla / Meliaceae
-       c. Acacia / Acacia auriculiformis / Fabaceae
-      *d. Molave / Vitex parviflora / Lamiaceae
+fe-g00015 [dendrology / Medium / practice]
+  What is the scientific name and family of Yakal, a common tree species in the Philippines used for high-quality timber?
+       a. Pterocarpus indicus / Fabaceae
+       b. Swietenia macrophylla / Meliaceae
+       c. Acacia mangium / Fabaceae
+      *d. Shorea astylosa / Dipterocarpaceae
+    WHY: Shorea astylosa is commonly known as Yakal and belongs to the Dipterocarpaceae family. This species is highly valued for its durable and high-quality timber, making it a preferred choice for construction and furniture.
 
-fe-g00046 [forest-botany / Hard / practice]
-  Identify the species that is commonly referred to as 'Tindalo' and belongs to the Fabaceae family.
+fe-g00016 [dendrology / Medium / practice]
+  Which of the following characteristics is true of the species Dipterocarpus grandiflorus, known locally as Apitong?
+       a. It is typically found in montane forests.
+       b. It produces very light and soft wood.
+      *c. It has winged seeds adapted for wind dispersal.
+       d. It belongs to the Meliaceae family.
+    WHY: Dipterocarpus grandiflorus, or Apitong, is known for its winged seeds, which are adapted for wind dispersal. This adaptation helps the seeds travel away from the parent tree to reduce competition and increase survival chances.
+
+fe-g00017 [dendrology / Medium / practice]
+  What is the common name and family of the tree species Canarium ovatum, which is known for producing valuable nuts?
+       a. Talisay / Combretaceae
+       b. Bitaog / Calophyllaceae
+      *c. Pili / Burseraceae
+       d. Mango / Anacardiaceae
+    WHY: Canarium ovatum is commonly known as Pili and belongs to the Burseraceae family. It is valued for its edible nuts, which are a significant agricultural product in the Philippines.
+
+fe-g00018 [dendrology / Medium / practice]
+  In a mixed species plantation including Mahogany and Lauan, which family does the species Shorea contorta belong to?
+       a. Fabaceae
+       b. Meliaceae
+       c. Anacardiaceae
+      *d. Dipterocarpaceae
+    WHY: Shorea contorta, known as Lauan, is part of the Dipterocarpaceae family. This family is characterized by its large trees and valuable timber, commonly found in mixed species plantations in the Philippines.
+
+fe-g00019 [dendrology / Medium / practice]
+  Which characteristic helps distinguish the tree species Tectona philippinensis from other Philippine hardwoods?
+       a. It features compound leaves typical of many dipterocarps.
+       b. It produces large, solitary flowers.
+       c. It belongs to the Meliaceae family.
+      *d. It has a distinctive flaky bark.
+    WHY: Tectona philippinensis, or Philippine teak, is distinguished by its flaky bark, which is a unique characteristic among Philippine hardwoods. This feature helps in identifying the species in the field.
+
+fe-g00020 [dendrology / Hard / practice]
+  In the context of Dendrology, a field forester encounters a tree with the following characteristics: alternate leaf arrangement, bipinnate leaves, and a cylindrical pod fruit. Based on these characteristics, which of the following tree species is being described?
+      *a. Leucaena leucocephala / Fabaceae
+       b. Pterocarpus indicus / Fabaceae
+       c. Acacia mangium / Fabaceae
+       d. Swietenia macrophylla / Meliaceae
+    WHY: Leucaena leucocephala is known for its bipinnate leaves, alternate leaf arrangement, and cylindrical pod fruit, which matches the described characteristics. It is a member of the Fabaceae family, commonly found in the Philippines.
+
+fe-g00021 [dendrology / Hard / practice]
+  A forestry student is asked to identify a tree species that has simple, alternate, and entire leaves with a milky sap. Given these characteristics, which species does the student correctly identify as common in the Philippines?
+       a. Artocarpus heterophyllus / Moraceae
+      *b. Ficus nota / Moraceae
+       c. Mangifera indica / Anacardiaceae
+       d. Palaquium ellipticum / Sapotaceae
+    WHY: Ficus nota is characterized by simple, alternate, entire leaves, and a milky sap, which are the features described. It belongs to the Moraceae family and is common in the Philippines.
+
+fe-g00022 [dendrology / Hard / practice]
+  During a field survey in a secondary forest in the Philippines, a botanist records the presence of a tree species with opposite, compound leaves, and small white fragrant flowers in clusters. Which species do the botanist's observations most likely refer to?
+       a. Cinnamomum mercadoi / Lauraceae
+      *b. Vitex parviflora / Lamiaceae
+       c. Spathodea campanulata / Bignoniaceae
+       d. Santalum album / Santalaceae
+    WHY: Vitex parviflora is known for its opposite, compound leaves and small white fragrant flowers in clusters, which matches the botanist's observations. It belongs to the Lamiaceae family.
+
+fe-g00023 [forest-ecology / Easy / practice]
+  In forest ecology, what term describes the complex interaction between living organisms and their physical environment in a forest?
+      *a. Forest ecosystem
+       b. Forest succession
+       c. Forest canopy
+       d. Forest floor
+    WHY: The term 'forest ecosystem' refers to the complex interactions between living organisms, such as plants, animals, and microorganisms, and their physical environment within a forest. This includes the biotic and abiotic components that interact as a system.
+
+fe-g00024 [forest-ecology / Easy / practice]
+  What is the term for the maximum population size of a species that an environment can sustain indefinitely without being degraded?
+      *a. Carrying capacity
+       b. Population density
+       c. Biotic potential
+       d. Ecological footprint
+    WHY: Carrying capacity is the term used to describe the maximum number of individuals of a particular species that an environment can support sustainably. It considers the availability of resources such as food, water, and shelter, as well as the impact of the species on the environment.
+
+fe-g00025 [forest-ecology / Medium / practice]
+  In a mangrove forest, which process describes the transition from a community dominated by pioneer species to one with more complex species interactions and structure?
+       a. Primary succession
+       b. Climax community formation
+       c. Anthropogenic disturbance recovery
+      *d. Secondary succession
+    WHY: Secondary succession is the process that occurs in an area where a disturbance has destroyed a community without destroying the soil. In mangrove forests, this process involves the transition from pioneer species to more complex species interactions and structures.
+
+fe-g00026 [forest-ecology / Medium / practice]
+  Which of the following is a characteristic of the leaf litter layer in tropical rainforests that affects nutrient cycling?
+       a. Low pH slowing down microbial activity
+      *b. High moisture content leading to rapid decomposition
+       c. High clay content affecting soil permeability
+       d. Presence of evergreen leaf species reducing litter fall
+    WHY: In tropical rainforests, the leaf litter layer has high moisture content, which accelerates the decomposition process and affects nutrient cycling by rapidly returning nutrients to the soil.
+
+fe-g00027 [forest-ecology / Medium / practice]
+  Considering forest edge effects, which factor typically increases at the boundary between a forest and an open area?
+      *a. Light intensity
+       b. Soil fertility
+       c. Moisture retention
+       d. Biodiversity of interior species
+    WHY: At the boundary between a forest and an open area, light intensity typically increases due to the absence of a canopy that would otherwise block sunlight.
+
+fe-g00028 [forest-ecology / Medium / practice]
+  In the context of forest ecology, what role do mycorrhizal fungi primarily play in a forest ecosystem?
+      *a. Facilitate nutrient uptake by plant roots
+       b. Fix atmospheric nitrogen
+       c. Decompose organic matter
+       d. Pollinate flowering plants
+    WHY: Mycorrhizal fungi primarily facilitate nutrient uptake by plant roots, forming symbiotic relationships that enhance the plant's ability to absorb water and nutrients, particularly phosphorus.
+
+fe-g00029 [forest-ecology / Hard / practice]
+  In a study of the carbon sequestration potential of different forest types in the Philippines, a researcher finds that the rate of carbon uptake in a dipterocarp forest is significantly lower than expected. Considering the concepts of net primary productivity (NPP) and respiration, what could be a plausible ecological explanation for this observation?
+       a. Increased soil fertility enhancing carbon sequestration potential.
+       b. Lower rates of heterotrophic respiration leading to higher carbon uptake.
+       c. Decreased leaf litter decomposition diminishing nutrient cycling.
+      *d. High rates of autotrophic respiration reducing net primary productivity.
+    WHY: High rates of autotrophic respiration can significantly reduce the net primary productivity (NPP) of a forest. In a dipterocarp forest, if the autotrophic respiration is high, it means that a large portion of the carbon fixed during photosynthesis is being used for plant metabolic processes, leaving less carbon available for sequestration.
+
+fe-g00030 [forest-ecology / Hard / practice]
+  In a tropical forest undergoing secondary succession, a forester observes an increase in species richness over time. According to the intermediate disturbance hypothesis, what is a key factor that could explain this pattern?
+       a. Low disturbance frequency allows dominant species to outcompete others, reducing diversity.
+      *b. Frequent, moderate disturbances create opportunities for both colonizing and competitive species.
+       c. High disturbance frequency prevents establishment of a stable community, maintaining low diversity.
+       d. Complete absence of disturbance leads to maximum species richness through succession climax.
+    WHY: The intermediate disturbance hypothesis suggests that species richness is highest at intermediate levels of disturbance. Frequent, moderate disturbances prevent any single species from dominating, allowing both colonizing and competitive species to coexist, thereby increasing diversity.
+
+fe-g00031 [forest-soils / Easy / practice]
+  What is the primary role of soil organic matter in forest soils?
+      *a. Improving soil structure and fertility
+       b. Decreasing soil acidity significantly
+       c. Increasing the mineral content of rocks
+       d. Preventing all forms of soil erosion
+    WHY: Soil organic matter is crucial for enhancing soil structure by binding soil particles into aggregates, which improves aeration and water infiltration. It also contributes to soil fertility by providing essential nutrients as it decomposes.
+
+fe-g00032 [forest-soils / Easy / practice]
+  Which soil horizon is primarily composed of organic material and is found at the surface of most forest soils?
+       a. B horizon
+       b. C horizon
+       c. R horizon
+      *d. O horizon
+    WHY: The O horizon is the topmost layer of soil, rich in organic material such as decomposed leaves, plants, and other organic debris, making it distinct from other soil horizons.
+
+fe-g00033 [forest-soils / Medium / practice]
+  In assessing soil texture in a forest soil survey, what is the percentage of sand if the soil sample contains 20% clay, 30% silt, and the rest is sand?
+      *a. 50%
+       b. 40%
+       c. 60%
+       d. 30%
+    WHY: The percentage of sand is calculated by subtracting the sum of clay and silt percentages from 100%. Since the soil sample contains 20% clay and 30% silt, the remaining 50% is sand.
+
+fe-g00034 [forest-soils / Medium / practice]
+  Which of the following is a key indicator of soil fertility in forest ecosystems?
+       a. Soil texture
+       b. Soil temperature
+      *c. Cation exchange capacity
+       d. Soil color
+    WHY: Cation exchange capacity (CEC) is a key indicator of soil fertility because it measures the soil's ability to hold and exchange essential nutrients, which is crucial for plant growth.
+
+fe-g00035 [forest-soils / Medium / practice]
+  A forest soil sample with a pH of 5.5 is considered to be:
+       a. Strongly acidic
+      *b. Moderately acidic
+       c. Neutral
+       d. Slightly alkaline
+    WHY: A pH of 5.5 is considered moderately acidic. Soil pH is a measure of acidity or alkalinity, and a pH below 7 is acidic.
+
+fe-g00036 [forest-soils / Medium / practice]
+  What is the effect of high soil compaction on root growth in forest soils?
+       a. Enhanced root penetration due to increased density
+       b. Neutral effect on root growth
+       c. Increased nutrient uptake due to closer proximity of soil particles
+      *d. Reduced root penetration and stunted growth
+    WHY: High soil compaction reduces root penetration and stunts growth because it increases soil density, making it difficult for roots to grow and access nutrients and water.
+
+fe-g00037 [forest-soils / Medium / practice]
+  Which soil property is primarily responsible for water retention in forest soils?
+       a. Sand content
+       b. Gravel content
+       c. Organic matter content
+      *d. Clay content
+    WHY: Clay content is primarily responsible for water retention in forest soils because clay particles are small and have a large surface area, which helps retain water.
+
+fe-g00038 [forest-soils / Hard / practice]
+  A forester is conducting a soil survey in a dipterocarp forest. The soil has a bulk density of 1.3 g/cm³ and a porosity of 50%. How much water (in cm³) can be retained in a 1 cm³ sample of this soil when it is fully saturated?
+       a. 0.65 cm³
+      *b. 0.50 cm³
+       c. 0.35 cm³
+       d. 0.25 cm³
+    WHY: The porosity of the soil indicates the volume of voids or spaces in the soil, which can be filled with water when the soil is saturated. With a porosity of 50%, it means that 50% of the soil volume is voids that can hold water. Therefore, in a 1 cm³ sample, 0.50 cm³ can be filled with water when fully saturated.
+
+fe-g00039 [forest-soils / Hard / practice]
+  In the context of forest soils, Cation Exchange Capacity (CEC) is an important measure. Which statement best describes what CEC indicates about a forest soil?
+      *a. The ability of soil to exchange cations with plant roots, reflecting nutrient availability.
+       b. The rate at which soil organic matter decomposes, influencing soil fertility.
+       c. The soil's capacity to retain water, thereby affecting drought resistance.
+       d. The proportion of soil particles that are clay, influencing soil texture.
+    WHY: Cation Exchange Capacity (CEC) is a measure of how well soil can retain and exchange cations, which are positively charged ions. This is crucial for nutrient availability to plants, as many essential nutrients are cations.
+
+fe-g00040 [forest-soils / Hard / practice]
+  In a lowland forest in the Philippines, a soil sample shows a high rate of phosphorus fixation. Considering the characteristics of tropical soils, which management practice would best increase phosphorus availability to plants?
+      *a. Using phosphate-solubilizing microorganisms to release bound phosphorus.
+       b. Incorporating lime to increase soil pH.
+       c. Applying organic matter to improve soil structure.
+       d. Reducing irrigation to limit phosphorus leaching.
+    WHY: Phosphate-solubilizing microorganisms can release phosphorus that is bound in the soil, making it available for plant uptake. This is particularly useful in tropical soils where phosphorus fixation is high.
+
+fe-g00041 [tree-physiology / Easy / practice]
+  What is the primary function of xylem in trees?
+      *a. Transporting water from roots to leaves.
+       b. Photosynthesis.
+       c. Releasing oxygen into the atmosphere.
+       d. Storing carbohydrates.
+    WHY: The xylem is a type of vascular tissue in trees that is responsible for the transport of water and dissolved minerals from the roots to the leaves. This process is essential for maintaining the tree's water balance and supporting photosynthesis.
+
+fe-g00042 [tree-physiology / Easy / practice]
+  In tree physiology, what is the role of stomata?
+       a. Transporting nutrients throughout the tree.
+       b. Anchoring trees into the soil.
+      *c. Facilitating gas exchange and transpiration.
+       d. Producing seeds and fruits.
+    WHY: Stomata are small openings on the surface of leaves that allow for gas exchange and transpiration. They enable the intake of carbon dioxide for photosynthesis and the release of oxygen and water vapor.
+
+fe-g00043 [tree-physiology / Easy / practice]
+  Which of the following plant hormones is primarily responsible for promoting cell elongation in trees?
+       a. Cytokinin
+       b. Gibberellin
+       c. Abscisic acid
+      *d. Auxin
+    WHY: Auxin is a plant hormone that plays a key role in promoting cell elongation, especially in the shoots and roots of plants. It is crucial for the growth and development of trees.
+
+fe-g00044 [tree-physiology / Medium / practice]
+  When a tree undergoes photosynthesis, which component of the process directly involves chlorophyll capturing light energy?
+       a. Light-independent reactions
+      *b. Light-dependent reactions
+       c. Transpiration
+       d. Respiration
+    WHY: The light-dependent reactions of photosynthesis occur in the thylakoid membranes of the chloroplasts, where chlorophyll absorbs light energy. This energy is then used to split water molecules and generate ATP and NADPH, which are essential for the subsequent light-independent reactions.
+
+fe-g00045 [tree-physiology / Medium / practice]
+  In tree physiology, what is the primary purpose of phloem tissue?
+       a. Transporting water and minerals from roots to leaves
+       b. Storing starch in roots and stems
+      *c. Conducting nutrients produced in leaves to other parts of the plant
+       d. Providing structural support to the tree
+    WHY: Phloem tissue is responsible for transporting the products of photosynthesis, mainly sugars, from the leaves where they are produced to other parts of the plant that need energy or storage.
+
+fe-g00046 [tree-physiology / Medium / practice]
+  A forester measures the rate of transpiration in a Benguet pine. Which factor is most likely to increase this rate?
+       a. High humidity
+      *b. Strong winds
+       c. Low air temperature
+       d. Reduced sunlight
+    WHY: Strong winds increase the rate of transpiration by removing the boundary layer of humid air around the leaf surface, enhancing water vapor loss from the stomata.
+
+fe-g00047 [tree-physiology / Medium / practice]
+  Which tree physiological process is directly affected by a deficiency of magnesium in the soil?
+      *a. Photosynthesis
+       b. Nitrogen fixation
+       c. Water uptake
+       d. Starch storage
+    WHY: Magnesium is a central component of the chlorophyll molecule, which is essential for photosynthesis. A deficiency in magnesium directly affects the plant's ability to perform photosynthesis efficiently.
+
+fe-g00048 [tree-physiology / Medium / practice]
+  During which time of day is the rate of photosynthesis typically highest in tropical tree species?
+       a. Early morning, around sunrise
+       b. Late afternoon, before sunset
+       c. Night time
+      *d. Midday, around noon
+    WHY: Photosynthesis rates are typically highest around midday when sunlight intensity is at its peak, providing the maximum energy for the light-dependent reactions.
+
+fe-g00049 [tree-physiology / Hard / practice]
+  A mahogany tree in a plantation exhibits a delayed response to pruning. Which plant hormone is most likely involved in signaling the tree to heal and regrow new shoots following pruning?
+       a. Ethylene
+       b. Gibberellin
+       c. Abscisic acid
+      *d. Cytokinin
+    WHY: Cytokinin is a plant hormone that promotes cell division and shoot formation, which are crucial processes for healing and regrowth after pruning.
+
+fe-g00050 [tree-physiology / Hard / practice]
+  A forester assesses the drought tolerance of a dipterocarp species by examining its root system. What is the primary physiological adaptation in the roots that might enhance its drought resistance?
+       a. Higher stomatal density in aerial parts
+      *b. Increased root surface area for water absorption
+       c. Production of thicker bark
+       d. Reduction in leaf size
+    WHY: Increased root surface area allows for more efficient water absorption, which is crucial for drought resistance.
+
+fe-g00051 [tree-physiology / Hard / practice]
+  In the context of plant water relations, a forester wants to estimate the relative water content (RWC) of a tree sample. If the fresh weight of a leaf is 12 g, its dry weight is 4 g, and its turgid weight is 16 g, what is the RWC of the leaf?
+      *a. 75%
+       b. 50%
+       c. 80%
+       d. 100%
+    WHY: The relative water content (RWC) is calculated using the formula: RWC = [(Fresh Weight - Dry Weight) / (Turgid Weight - Dry Weight)] x 100%.
+
+fe-g00052 [forest-entomology / Easy / practice]
+  What is the primary role of insects like the red slug caterpillar in forest ecosystems?
+      *a. Herbivory
+       b. Pollination
+       c. Decomposition
+       d. Seed dispersal
+    WHY: The primary role of insects like the red slug caterpillar in forest ecosystems is herbivory. These insects feed on plant material, specifically leaves, which can influence plant health and forest dynamics.
+
+fe-g00053 [forest-entomology / Easy / practice]
+  In forest entomology, which insect is commonly known as a pest that defoliates dipterocarp trees in the Philippines?
+      *a. Red slug caterpillar
+       b. Bagworm moth
+       c. Asian longhorn beetle
+       d. Emerald ash borer
+    WHY: The red slug caterpillar is known as a pest that defoliates dipterocarp trees in the Philippines. It feeds on the leaves, causing significant damage to these trees.
+
+fe-g00054 [forest-entomology / Easy / practice]
+  Which term describes the process by which insects control plant populations by feeding on them in a forest ecosystem?
+       a. Parasitism
+       b. Predation
+       c. Symbiosis
+      *d. Herbivory
+    WHY: Herbivory describes the process by which insects control plant populations by feeding on them. This interaction is crucial in shaping plant community structures and dynamics.
+
+fe-g00055 [forest-entomology / Medium / practice]
+  Which insect is known for forming galls on Philippine forest trees and can influence tree growth negatively?
+       a. Termite (Isoptera order)
+      *b. Gall wasp (Cynipidae family)
+       c. Moth caterpillar (Lepidoptera order)
+       d. Bark beetle (Scolytinae subfamily)
+    WHY: Gall wasps, belonging to the Cynipidae family, are known for inducing the formation of galls on trees, which can disrupt normal growth and nutrient distribution, negatively affecting the tree's health.
+
+fe-g00056 [forest-entomology / Medium / practice]
+  In the context of forest entomology, what is the primary method for controlling the population of the pine shoot beetle (Tomicus piniperda) in Benguet pine forests?
+       a. Chemical pesticides application
+      *b. Use of pheromone traps
+       c. Biological control using natural predators
+       d. Mechanical removal of infested shoots
+    WHY: Pheromone traps are effective in controlling pine shoot beetle populations by attracting and capturing the beetles, thereby reducing their numbers and impact on the forest.
+
+fe-g00057 [forest-entomology / Medium / practice]
+  How does the presence of the Ambrosia beetle (Xylosandrus compactus) in a forest ecosystem typically affect the host tree?
+       a. Enhances seed dispersal
+      *b. Causes wilting and dieback of branches
+       c. Facilitates nutrient cycling
+       d. Improves pollination efficiency
+    WHY: The Ambrosia beetle (Xylosandrus compactus) causes wilting and dieback of branches by boring into the wood and introducing fungal pathogens that disrupt the tree's vascular system.
+
+fe-g00058 [forest-entomology / Medium / practice]
+  In Integrated Pest Management (IPM) for forest ecosystems, what is the role of pheromones when managing insect populations?
+       a. To attract predators to the forest
+      *b. To confuse insects and reduce mating
+       c. To enhance insect growth rates
+       d. To repel insects from tree foliage
+    WHY: Pheromones in Integrated Pest Management (IPM) are used to confuse insects, reducing their ability to find mates and thereby decreasing their population over time.
+
+fe-g00059 [forest-entomology / Medium / practice]
+  Which forest pest is known to cause significant damage by tunneling into the wood and spreading fungal pathogens in Philippine forests?
+       a. Scale insect (Coccoidea superfamily)
+       b. Termite (Isoptera order)
+       c. Leaf-cutter ant (Atta genus)
+      *d. Ambrosia beetle (Xylosandrus compactus)
+    WHY: The Ambrosia beetle (Xylosandrus compactus) tunnels into wood and introduces fungal pathogens, causing significant damage to trees in Philippine forests.
+
+fe-g00060 [forest-entomology / Hard / practice]
+  In a study of forest insect dynamics, a researcher is examining the interactions between a bark beetle species and its host trees in a Philippine dipterocarp forest. The researcher notes that the beetle has a symbiotic relationship with a specific fungus that aids in overcoming tree defenses. What is the term for this relationship between the beetle and the fungus?
+      *a. Mutualism
+       b. Commensalism
+       c. Parasitism
+       d. Predation
+    WHY: Mutualism is a type of symbiotic relationship where both organisms involved benefit from the interaction. In this case, the bark beetle benefits from the fungus as it helps in overcoming tree defenses, while the fungus benefits from being transported to new host trees by the beetle.
+
+fe-g00061 [forest-entomology / Hard / practice]
+  A forester is trying to estimate the potential population growth of an insect pest in a mahogany plantation. The insect has a reproductive rate of 2.5 and currently, there are 400 insects. Assuming no other limiting factors and using the exponential growth model, what will the population size be after three reproductive cycles?
+       a. 4000
+       b. 2500
+       c. 250
+      *d. 6250
+    WHY: The exponential growth model is used to calculate population growth without limiting factors. The formula is P = P0 * r^t, where P0 is the initial population, r is the growth rate, and t is the number of cycles. Here, P0 = 400, r = 2.5, and t = 3, resulting in a population of 6250.
+
+fe-g00062 [forest-entomology / Hard / practice]
+  In the context of forest entomology, a forester observes a decline in tree health in a mixed species forest and suspects an insect infestation. Upon examination, the forester finds the presence of scale insects which have a symbiotic relationship with ants. What role do the ants typically play in this interaction?
+       a. Herbivores feeding on the scale insects
+       b. Predators of the scale insects
+      *c. Protectors of the scale insects in exchange for honeydew
+       d. Competitors for the same host plant resources
+    WHY: In this symbiotic relationship, ants protect scale insects from predators and parasites in exchange for honeydew, a sugary substance produced by the scale insects. This mutualistic interaction benefits both parties involved.
+
+fe-g00063 [forest-pathology / Easy / practice]
+  What is the primary cause of heart rot in trees?
+       a. Bacterial infection
+       b. Viral infection
+      *c. Fungal infection
+       d. Insect infestation
+    WHY: Heart rot in trees is primarily caused by fungal infections. Fungi invade the heartwood of the tree, leading to decay and structural weakness.
+
+fe-g00064 [forest-pathology / Easy / practice]
+  What is the term for the study of tree diseases and the pathogens that cause them?
+       a. Silviculture
+       b. Dendrology
+       c. Agroforestry
+      *d. Forest Pathology
+    WHY: Forest Pathology is the study of tree diseases and the pathogens that cause them. It focuses on understanding and managing diseases that affect forest ecosystems.
+
+fe-g00065 [forest-pathology / Easy / practice]
+  What is the common name of the disease caused by the pathogen Rigidoporus microporus, which affects rubber trees in the Philippines?
+       a. Heart Rot
+       b. Powdery Mildew
+      *c. White Root Rot
+       d. Leaf Blight
+    WHY: White Root Rot is the common name for the disease caused by Rigidoporus microporus, which is a significant pathogen affecting rubber trees in the Philippines. This disease primarily attacks the roots, leading to decay and potentially causing the tree to die.
+
+fe-g00066 [forest-pathology / Medium / practice]
+  When assessing a forest stand affected by Armillaria root rot, what is a common symptom to observe in the trees?
+       a. Sudden fracturing of the trunk
+      *b. Leaf chlorosis and wilting
+       c. Basal trunk swelling
+       d. Formation of witches' brooms
+    WHY: Leaf chlorosis and wilting are common symptoms of Armillaria root rot because the fungus attacks the roots, disrupting water and nutrient uptake, leading to these visible symptoms.
+
+fe-g00067 [forest-pathology / Medium / practice]
+  A forester is examining a tree with dieback and yellowing leaves. Which pathogen is most likely responsible for these symptoms in the Philippines?
+      *a. Phytophthora cinnamomi
+       b. Fusarium oxysporum
+       c. Ganoderma lucidum
+       d. Sphaeropsis sapinea
+    WHY: Phytophthora cinnamomi is known to cause dieback and yellowing leaves, particularly in the Philippines, due to its impact on the root system, leading to nutrient deficiencies.
+
+fe-g00068 [forest-pathology / Medium / practice]
+  In forest pathology, what is the usual method for controlling the spread of Fusarium wilt in native forest species?
+       a. Applying chemical fungicides directly to affected foliage
+       b. Enhancing soil drainage and aeration
+       c. Introducing predatory insects to control the fungus
+      *d. Planting resistant tree varieties
+    WHY: Planting resistant tree varieties is the most effective method to control Fusarium wilt, as it prevents the disease from establishing in the first place.
+
+fe-g00069 [forest-pathology / Medium / practice]
+  What is a typical visual indicator that a tree is infected with the pathogen causing heartwood decay specifically in dipterocarps?
+       a. Presence of resin blisters on the bark
+       b. Yellowing of young shoots
+      *c. Mushroom-like fruiting bodies at the base
+       d. Excessive leaf litter on the ground
+    WHY: Mushroom-like fruiting bodies at the base of a tree are indicative of heartwood decay, as they are the reproductive structures of the fungi causing the decay.
+
+fe-g00070 [forest-pathology / Medium / practice]
+  In diagnosing a fungal infection in a stand of mahogany trees in the Philippines, a forester finds fruiting bodies emerging from the base of several trees. What is the most likely fungal genus causing this symptom?
+       a. Phytophthora
+       b. Pythium
+      *c. Ganoderma
+       d. Agrobacterium
+    WHY: Ganoderma is a common fungal genus known to cause root and butt rot in trees, including mahogany. The presence of fruiting bodies at the base of trees is a typical symptom of Ganoderma infection, as these fungi produce large, shelf-like structures that emerge from the wood.
+
+fe-g00071 [forest-pathology / Hard / practice]
+  A forester is investigating an outbreak of leaf spots on several native Philippine trees. After laboratory analysis, the leaves show the presence of bacterial ooze on the undersides. Based on this symptom, which genus of bacteria is most likely responsible for the disease?
+       a. Phytophthora
+       b. Armillaria
+      *c. Xanthomonas
+       d. Rhizoctonia
+    WHY: Xanthomonas is a genus of bacteria known to cause leaf spots and is characterized by the presence of bacterial ooze, particularly on the undersides of leaves. This symptom aligns with the laboratory findings in the scenario.
+
+fe-g00072 [forest-pathology / Hard / practice]
+  A tree exhibits symptoms such as cankers on the bark, dieback of branches, and stunted growth. Upon closer inspection, hyphae and conidiophores are visible. Which of the following fungal genera is most likely responsible for the infection?
+      *a. Botryosphaeria
+       b. Pythium
+       c. Ganoderma
+       d. Verticillium
+    WHY: Botryosphaeria is a fungal genus known for causing cankers, dieback, and stunted growth, with visible hyphae and conidiophores, which are consistent with the symptoms described.
+
+fe-g00073 [forest-pathology / Hard / practice]
+  In a plantation of mahogany trees, a forester notices chlorosis and wilting in several young trees. Soil analysis reveals waterlogged conditions with poor drainage. Which pathogen is most likely exacerbating the trees' stress due to these conditions?
+       a. Fusarium oxysporum
+      *b. Phytophthora cinnamomi
+       c. Ceratocystis fimbriata
+       d. Sphaeropsis sapinea
+    WHY: Phytophthora cinnamomi thrives in waterlogged conditions and is known to cause root rot, leading to symptoms like chlorosis and wilting in trees, particularly under poor drainage.
+
+fe-g00074 [forest-biodiversity / Easy / practice]
+  What is the primary role of mangroves in coastal forest ecosystems in the Philippines?
+       a. Provide habitat for terrestrial mammals.
+      *b. Serve as nurseries for marine life.
+       c. Prevent saltwater intrusion into groundwater.
+       d. Reduce the risk of forest fires.
+    WHY: Mangroves play a crucial role in coastal ecosystems by providing a safe and nutrient-rich environment for the juvenile stages of many marine species, including fish and crustaceans. This function supports marine biodiversity and fisheries.
+
+fe-g00075 [forest-biodiversity / Easy / practice]
+  Which law in the Philippines provides the legal framework for the establishment and management of protected areas to conserve biodiversity?
+      *a. Republic Act No. 7586 (NIPAS Act)
+       b. Republic Act No. 8371 (Indigenous Peoples' Rights Act)
+       c. Presidential Decree No. 705 (Revised Forestry Code)
+       d. Republic Act No. 9147 (Wildlife Resources Conservation and Protection Act)
+    WHY: Republic Act No. 7586, known as the National Integrated Protected Areas System (NIPAS) Act, establishes the legal framework for the creation and management of protected areas in the Philippines to conserve biodiversity.
+
+fe-g00076 [forest-biodiversity / Easy / practice]
+  In the Philippine forest ecosystem, which of the following is a key characteristic of dipterocarp forests?
+       a. Dominance by coniferous species.
+       b. Presence of limestone outcrops.
+       c. Abundance of deciduous trees that shed leaves seasonally.
+      *d. Canopy made up of tall, large-leaved trees.
+    WHY: Dipterocarp forests are characterized by a canopy of tall, large-leaved trees, which are typical of this forest type in the Philippines. These trees dominate the landscape and create a dense canopy.
+
+fe-g00077 [forest-biodiversity / Medium / practice]
+  In a forest ecosystem, what is the biodiversity significance of the understory?
+       a. It provides shade for seedlings.
+       b. It is typically dominated by large canopy trees.
+       c. It is composed mainly of dead organic matter.
+      *d. It supports plant species adapted to low light conditions.
+    WHY: The understory of a forest is crucial for supporting plant species that thrive in low light conditions, as it is located beneath the canopy where sunlight is limited. These plants have adapted to survive with less light, contributing to the overall biodiversity of the forest ecosystem.
+
+fe-g00078 [forest-biodiversity / Medium / practice]
+  How does increased species diversity in a forest ecosystem contribute to its resilience?
+       a. By relying on a single species for ecosystem functions.
+       b. By increasing the likelihood of species extinctions.
+      *c. By providing a variety of responses to environmental changes.
+       d. By reducing the structural complexity of the forest.
+    WHY: Increased species diversity enhances a forest ecosystem's resilience by ensuring that there are multiple species that can respond differently to environmental changes, thus maintaining ecosystem functions under various conditions.
+
+fe-g00079 [forest-biodiversity / Medium / practice]
+  Which term describes the introduction of non-native species into a forest ecosystem, potentially threatening local biodiversity?
+      *a. Biological invasion
+       b. Natural succession
+       c. Endemism
+       d. Co-evolution
+    WHY: Biological invasion refers to the introduction of non-native species into an ecosystem, which can disrupt local biodiversity by outcompeting native species and altering habitat conditions.
+
+fe-g00080 [forest-biodiversity / Medium / practice]
+  In the context of forest biodiversity, what is the role of keystone species?
+       a. They contribute to the forest's genetic diversity by interbreeding with multiple species.
+       b. They are common throughout the forest and dominate in numbers.
+       c. They are species that migrate seasonally through the forest ecosystem.
+      *d. They have a disproportionate effect on the structure and function of their ecosystem.
+    WHY: Keystone species play a critical role in maintaining the structure and function of their ecosystem, often having effects that are disproportionate to their abundance.
+
+fe-g00081 [forest-biodiversity / Medium / practice]
+  In the biodiversity of the Philippine forest ecosystem, how does the presence of dipterocarp species influence the forest structure?
+       a. They solely support understory plant growth, reducing canopy complexity.
+       b. They decrease biodiversity by outcompeting all other tree species.
+       c. They are absent in lowland forest ecosystems, contributing to homogeneity.
+      *d. They provide a multilayered canopy which enhances habitat diversity.
+    WHY: Dipterocarp species are known for their tall stature and broad crowns, which contribute to a multilayered canopy structure. This complex canopy provides various niches and microhabitats, supporting a diverse range of flora and fauna.
+
+fe-g00082 [forest-biodiversity / Hard / practice]
+  In a forest ecosystem, the Shannon diversity index (H') is often used to quantify biodiversity. Given a forest plot with the following species abundance data: 10 individuals of species A, 15 individuals of species B, and 5 individuals of species C, calculate the Shannon diversity index. Use the formula: H' = -Σ (pi * ln(pi)), where pi is the proportion of individuals of species i in the total population.
+      *a. 0.936
+       b. 1.011
+       c. 1.098
+       d. 1.204
+    WHY: The Shannon diversity index (H') is calculated using the formula H' = -Σ (pi * ln(pi)), where pi is the proportion of individuals of each species in the total population. For this forest plot, the proportions are calculated for each species, and the resulting values are summed to find the index. The correct calculation results in an index of 0.936.
+
+fe-g00083 [forest-biodiversity / Hard / practice]
+  In the Philippine forest ecosystem, mycorrhizal fungi play a crucial role in supporting biodiversity. Which of the following best describes the relationship between mycorrhizal fungi and the trees they associate with?
+       a. Parasitism, where the fungi exploit the host trees for nutrients.
+       b. Commensalism, where the fungi benefit without affecting the host trees.
+      *c. Mutualism, where both the fungi and the host trees benefit from each other.
+       d. Competition, where the fungi and the host trees compete for soil resources.
+    WHY: Mycorrhizal fungi and trees engage in a mutualistic relationship where both parties benefit. The fungi enhance nutrient and water absorption for the trees, while the trees provide carbohydrates to the fungi.
+
+fe-g00084 [forest-biodiversity / Hard / practice]
+  Within the context of the Philippine forest ecosystem, the concept of 'alpha diversity' refers to which of the following?
+       a. The total diversity of ecosystems within a landscape.
+       b. The genetic variation within a single species across different areas.
+      *c. The diversity of species within a specific area or ecosystem.
+       d. The overall diversity considering both ecosystem and landscape levels.
+    WHY: Alpha diversity refers to the diversity of species within a specific area or ecosystem, focusing on the number of species present in a localized habitat.
+
+fe-g00085 [forest-genetics-tree-improvement / Easy / practice]
+  What is the primary purpose of a seed orchard in forest tree improvement?
+       a. To serve as a natural wildlife habitat.
+       b. To conduct ecological research.
+      *c. To produce genetically improved seeds for reforestation.
+       d. To produce timber for commercial purposes.
+    WHY: The primary purpose of a seed orchard is to produce genetically improved seeds that are used for reforestation efforts. These orchards are specifically designed and managed to enhance the genetic quality of seeds, which leads to better growth, disease resistance, and adaptability in reforested areas.
+
+fe-g00086 [forest-genetics-tree-improvement / Easy / practice]
+  In the context of forest genetics, what is the definition of 'progeny test'?
+       a. A test to determine soil composition in a forest area.
+       b. A test to measure the growth rate of mature trees.
+       c. A test to analyze the water content of tree leaves.
+      *d. A test to evaluate the performance of offspring from specific parent trees.
+    WHY: A progeny test in forest genetics is designed to evaluate the performance of offspring from specific parent trees. This helps in assessing the genetic quality and potential of the parent trees based on the traits exhibited by their progeny.
+
+fe-g00087 [forest-genetics-tree-improvement / Easy / practice]
+  What is the primary objective of tree improvement in forest genetics?
+      *a. To enhance growth rates, yield, and adaptability of tree species.
+       b. To increase the genetic diversity of tree species.
+       c. To reduce the carbon footprint of forest operations.
+       d. To restore natural forest ecosystems to their original state.
+    WHY: The primary objective of tree improvement in forest genetics is to enhance growth rates, yield, and adaptability of tree species. This involves selecting and breeding trees with desirable traits to improve their performance in specific environments, ultimately leading to more productive and resilient forests.
+
+fe-g00088 [forest-genetics-tree-improvement / Medium / practice]
+  When selecting seed sources for a reforestation project in the Philippines, which factor is most crucial to ensure adaptability and growth performance in the selected area?
+       a. The genetic variability of the seed source.
+       b. The moisture content of the seeds.
+       c. The distance of the seed source from the planting site.
+      *d. The elevation of the seed source relative to the planting site.
+    WHY: The elevation of the seed source relative to the planting site is crucial because it affects the climate and environmental conditions that the seeds are adapted to. Seeds from a similar elevation are more likely to thrive in the target area due to similar temperature, humidity, and other climatic factors.
+
+fe-g00089 [forest-genetics-tree-improvement / Medium / practice]
+  In a tree improvement program, which method involves selecting individuals based on their phenotypic superiority and using them as parents for the next generation?
+       a. Recurrent selection
+      *b. Mass selection
+       c. Family selection
+       d. Clonal selection
+    WHY: Mass selection involves choosing individuals based on observable traits, or phenotypes, and using them as parents for the next generation. This method is straightforward and effective for improving traits that are easily measured.
+
+fe-g00090 [forest-genetics-tree-improvement / Medium / practice]
+  Which term describes the genetic structure of a tree population that results from non-random mating due to geographical or ecological isolation?
+       a. Gene flow
+       b. Genetic drift
+      *c. Population subdivision
+       d. Genetic bottleneck
+    WHY: Population subdivision refers to the genetic structure that arises from non-random mating due to geographical or ecological isolation, leading to distinct subpopulations within a species.
+
+fe-g00091 [forest-genetics-tree-improvement / Medium / practice]
+  In the context of forest genetics, what technique is used to determine the genetic diversity within a population by examining the DNA sequences of specific genes?
+       a. Provenance trial
+       b. Hybrid vigor assessment
+       c. Phenotypic selection
+      *d. Molecular marker analysis
+    WHY: Molecular marker analysis is used to assess genetic diversity by examining DNA sequences, providing detailed information about genetic variation within a population.
+
+fe-g00092 [forest-genetics-tree-improvement / Medium / practice]
+  When conducting a progeny test in a tree improvement program, what is the primary variable being tested to evaluate the genetic potential of the parent trees?
+       a. The seed viability of the progeny
+       b. The flowering time of the progeny
+       c. The root depth of the progeny
+      *d. The growth rate of the progeny
+    WHY: The growth rate of the progeny is the primary variable tested in progeny tests to evaluate the genetic potential of parent trees, as it directly reflects the inherited traits that affect growth.
+
+fe-g00093 [forest-genetics-tree-improvement / Hard / practice]
+  In the context of forest genetics, a forester is tasked with improving the growth rate of Swietenia macrophylla (mahogany) by selecting for a specific genetic trait. The forester decides to use a backcross breeding strategy to enhance a desirable trait found in a particular mahogany cultivar while retaining the superior growth characteristics of a local population. Which of the following best describes the backcross breeding strategy in this context?
+       a. Crossing the selected cultivar with another unrelated species to introduce genetic diversity, followed by multiple generations of selection.
+      *b. Crossing the selected cultivar with the local population, then backcrossing the offspring with the selected cultivar to enhance the desirable trait.
+       c. Crossing the selected cultivar with the local population, then backcrossing the offspring with the local population to reinforce the desirable trait.
+       d. Crossing the selected cultivar with its own offspring to rapidly fix the trait within a few generations.
+    WHY: Option c is correct because a backcross breeding strategy involves crossing the offspring back to one of the original parents to enhance a specific trait. In this context, the offspring are backcrossed with the selected cultivar to enhance the desirable trait while maintaining the growth characteristics of the local population.
+
+fg-g00001 [forest-history / Easy / practice]
+  Which law in the Philippines is known as the National Integrated Protected Areas System Act of 1992?
+       a. PD 705
+       b. RA 9147
+       c. RA 8371
+      *d. RA 7586
+    WHY: RA 7586 is the National Integrated Protected Areas System (NIPAS) Act of 1992, which establishes a comprehensive system of protected areas in the Philippines to conserve biodiversity and natural resources.
+
+fg-g00002 [forest-history / Easy / practice]
+  What is the main focus of Presidential Decree No. 705?
+       a. Wildlife Conservation Act
+      *b. Forestry Reform Code of the Philippines
+       c. Indigenous Peoples' Rights Act
+       d. Environmental Awareness and Education Act
+    WHY: Presidential Decree No. 705 is known as the Forestry Reform Code of the Philippines, which provides for the sustainable management and utilization of forest resources.
+
+fg-g00003 [forest-history / Easy / practice]
+  The Indigenous Peoples' Rights Act is also known by which Republic Act number?
+       a. RA 9147
+       b. RA 11038
+      *c. RA 8371
+       d. RA 7586
+    WHY: RA 8371 is the Indigenous Peoples' Rights Act, which recognizes and promotes the rights of indigenous cultural communities in the Philippines.
+
+fg-g00004 [forest-history / Easy / practice]
+  Which Act provides for the conservation and protection of wildlife resources and their habitats in the Philippines?
+       a. RA 8371
+      *b. RA 9147
+       c. RA 7586
+       d. PD 705
+    WHY: RA 9147 is the Wildlife Resources Conservation and Protection Act, which aims to conserve and protect wildlife resources and their habitats in the Philippines.
+
+fg-g00005 [forest-history / Easy / practice]
+  What is the primary objective of Republic Act No. 11038?
+       a. Rehabilitation of Mangroves
+       b. Reforestation of the Cordillera Region
+       c. Establishment of Community-Based Forest Management Areas
+      *d. Expansion of the NIPAS
+    WHY: Republic Act No. 11038 is the Expanded National Integrated Protected Areas System (E-NIPAS) Act of 2018, which aims to enhance the protection of the country's protected areas.
+
+fg-g00006 [forest-history / Medium / practice]
+  In the context of Philippine forest history, what was the primary purpose of the Kaingin Management and Land Settlement Act of 1964?
+       a. To promote sustainable tourism in forested areas.
+       b. To allocate forest lands for commercial logging.
+       c. To establish national parks throughout the Philippines.
+      *d. To regulate and manage kaingin (slash-and-burn farming) activities.
+    WHY: The Kaingin Management and Land Settlement Act of 1964 was specifically enacted to address the widespread practice of kaingin, or slash-and-burn farming, which was leading to deforestation and land degradation. By regulating these activities, the Act aimed to manage and mitigate the environmental impact of such practices.
+
+fg-g00007 [forest-history / Medium / practice]
+  The establishment of the Forest Management Bureau (FMB) in 1987 was primarily focused on what aspect of forestry in the Philippines?
+       a. Regulating mining activities within forest reserves.
+       b. Streamlining the issuance of logging permits.
+      *c. Enhancing community-based forest management programs.
+       d. Developing urban forests in metropolitan areas.
+    WHY: The Forest Management Bureau (FMB) was established to enhance the management of forest resources, with a strong focus on community involvement. This aligns with the goal of enhancing community-based forest management programs.
+
+fg-g00008 [forest-history / Medium / practice]
+  In Philippine forest history, which initiative was launched to involve local communities in the sustainable management of forest resources?
+       a. Integrated Area Development Program (IADP)
+       b. National Greening Program (NGP)
+       c. Industrial Tree Plantation Program (ITPP)
+      *d. Community-Based Forest Management Program (CBFMP)
+    WHY: The Community-Based Forest Management Program (CBFMP) was specifically designed to involve local communities in the sustainable management and conservation of forest resources, making it the correct initiative.
+
+fg-g00009 [forest-history / Medium / practice]
+  What was a significant impact of the Revised Forestry Code of the Philippines on forest land allocation?
+      *a. It restricted private ownership of forest lands.
+       b. It increased the conversion of forest lands into agricultural areas.
+       c. It prioritized urban development over forest conservation.
+       d. It established a system for sustainable logging practices.
+    WHY: The Revised Forestry Code of the Philippines restricted private ownership of forest lands to ensure that these lands were managed sustainably and remained under government control, preventing their conversion to other uses.
+
+fg-g00010 [forest-history / Medium / practice]
+  How did the implementation of the Integrated Forest Management Agreement (IFMA) change forest management practices in the Philippines?
+       a. It allowed for unlimited logging in designated forest areas.
+       b. It abolished the need for reforestation after logging activities.
+      *c. It introduced joint management between the government and private sector.
+       d. It required total conservation of all forest areas.
+    WHY: The Integrated Forest Management Agreement (IFMA) introduced a collaborative approach to forest management, allowing both the government and private sector to jointly manage forest resources, enhancing sustainable practices.
+
+fg-g00011 [forest-history / Medium / practice]
+  Which historical policy initiated by the Philippine government aimed to enhance forest cover through reforestation and tree planting activities?
+       a. Integrated Forest Management Agreement (IFMA)
+      *b. National Greening Program (NGP)
+       c. Forest Land Use Plan (FLUP)
+       d. Timber License Agreement (TLA)
+    WHY: The National Greening Program (NGP) was a government initiative aimed at enhancing forest cover through extensive reforestation and tree planting activities across the Philippines.
+
+fg-g00012 [forest-history / Medium / practice]
+  In the context of Philippine forest history, what was the primary aim of the Forest Occupancy Management Program established in the late 1970s?
+      *a. To provide legal land tenure to upland farmers and promote sustainable land use.
+       b. To increase timber exports by allowing private corporations to manage forest lands.
+       c. To establish protected areas and restrict all forms of human activity within them.
+       d. To privatize all government-owned forest lands to increase revenue.
+    WHY: The Forest Occupancy Management Program aimed to provide legal land tenure to upland farmers, ensuring they had the right to use the land sustainably. This was part of a broader effort to promote sustainable land use and improve the livelihoods of upland communities.
+
+fg-g00013 [forest-history / Medium / practice]
+  During the American colonial period in the Philippines, what was one of the main strategies used to manage forests and prevent illegal logging?
+       a. Implementation of the first forestry school to educate about sustainable practices.
+       b. Introduction of a nationwide logging ban to stop all timber extraction activities.
+      *c. Establishment of a centralized government body to oversee forest use and conservation.
+       d. Promotion of free-license logging to encourage more private ventures in forestry.
+    WHY: During the American colonial period, a centralized government body was established to manage forest resources and enforce conservation laws, which was crucial in organizing and regulating forest use.
+
+fg-g00014 [forest-history / Hard / practice]
+  In the development of forest policies in the Philippines, what was a significant change introduced by Executive Order No. 263 in 1995?
+       a. The implementation of Industrial Forest Management Agreements to encourage private sector involvement.
+       b. The establishment of the Forest Products Research and Development Institute to advance research.
+       c. The creation of the National Greening Program to increase forest cover.
+      *d. The introduction of Community-Based Forest Management as the national strategy for sustainable forestry.
+    WHY: Executive Order No. 263 in 1995 was significant because it marked the formal adoption of Community-Based Forest Management (CBFM) as the national strategy for sustainable forestry in the Philippines. This approach emphasizes the involvement of local communities in managing forest resources, aiming to balance ecological sustainability with economic benefits for the communities.
+
+fg-g00015 [forest-history / Hard / practice]
+  In the history of forest conservation in the Philippines, what is the significance of Republic Act No. 7586, enacted in 1992, regarding protected area management?
+       a. It created a system for classifying all forest lands as either production or protection forests.
+       b. It mandated reforestation efforts throughout the country under a ten-year plan.
+       c. It provided incentives for private landowners to convert agricultural lands into forest plantations.
+      *d. It established a comprehensive protected areas system and guidelines for their management.
+    WHY: Republic Act No. 7586, also known as the National Integrated Protected Areas System (NIPAS) Act of 1992, was significant because it established a comprehensive system for managing protected areas in the Philippines. This act provided the legal framework for the conservation of biodiversity and the management of protected areas.
+
+fg-g00016 [forest-history / Hard / practice]
+  During which historical period in the Philippines was the establishment of forest reserves primarily focused on preserving watersheds, and what was a driving reason for this focus?
+       a. Spanish Colonial Era; to enhance defense strategies by maintaining dense forest covers.
+      *b. American Colonial Period; to protect water supply for agricultural and municipal use.
+       c. Post-World War II; to mitigate the effects of widespread deforestation caused by war.
+       d. Martial Law Period; to control insurgent movements within forested areas.
+    WHY: During the American Colonial Period, the establishment of forest reserves in the Philippines was primarily focused on preserving watersheds. This was driven by the need to protect water supplies essential for agricultural and municipal purposes, reflecting the American emphasis on resource management and conservation.
+
+fg-g00017 [forest-history / Hard / practice]
+  What were the main objectives of the Integrated Social Forestry Program, introduced in 1982 in the Philippines, and how did it address issues related to forest land use?
+      *a. To promote sustainable livelihood for upland communities; it integrated land tenure and resource management.
+       b. To prioritize industrial logging; it aimed to maximize economic returns from forest resources.
+       c. To decentralize forest management; it focused on enhancing the capacity of local governments.
+       d. To establish large-scale plantations; it focused on increasing timber exports.
+    WHY: The Integrated Social Forestry Program, introduced in 1982, aimed to promote sustainable livelihoods for upland communities by integrating land tenure and resource management. This program addressed issues related to forest land use by providing secure land tenure to local communities, encouraging sustainable forest management practices.
+
+fg-g00018 [policy-and-administration / Medium / practice]
+  Under the Community-Based Forest Management Agreement (CBFMA), which entity is primarily responsible for the sustainable management of the forest resources?
+       a. The DENR Central Office
+      *b. The community organization or people's organization
+       c. The local government unit
+       d. The Department of Agriculture
+    WHY: The Community-Based Forest Management Agreement (CBFMA) is designed to empower local communities by granting them the primary responsibility for managing forest resources sustainably. This approach ensures that those who directly depend on the forest for their livelihood are involved in its management and conservation.
+
+fg-g00019 [policy-and-administration / Medium / practice]
+  What is a primary objective of the Philippine Indigenous Peoples' Rights Act (RA 8371) in relation to forest governance?
+       a. To privatize public forest lands
+      *b. To recognize and promote the rights of indigenous cultural communities to their ancestral domains
+       c. To convert forest lands into commercial zones
+       d. To increase timber production through plantation establishment
+    WHY: The Indigenous Peoples' Rights Act (RA 8371) aims to recognize and promote the rights of indigenous cultural communities, particularly their rights to ancestral domains, which include forest lands. This law is crucial for ensuring that indigenous peoples can manage and protect their traditional lands.
+
+fg-g00020 [policy-and-administration / Medium / practice]
+  What is the role of the Protected Area Management Board (PAMB) under the National Integrated Protected Areas System (NIPAS) Act?
+       a. To issue Environmental Compliance Certificates for industrial projects
+       b. To promote deforestation for agricultural expansion
+      *c. To ensure the sustainable management of protected areas
+       d. To manage urban land use planning
+    WHY: Under the NIPAS Act, the Protected Area Management Board (PAMB) is tasked with ensuring the sustainable management of protected areas. This involves creating management plans, enforcing regulations, and engaging with stakeholders to conserve biodiversity.
+
+fg-g00021 [policy-and-administration / Medium / practice]
+  In terms of forest governance, what does the term 'co-management' often imply?
+      *a. Joint management by government and local communities or organizations
+       b. Exclusive government control over forest resources
+       c. Privatization of all forest lands
+       d. International organizations managing national forest lands
+    WHY: Co-management in forest governance refers to the collaborative management of forest resources by both government entities and local communities or organizations. This approach leverages the strengths and knowledge of both parties for effective resource management.
+
+fg-g00022 [policy-and-administration / Medium / practice]
+  Under the Philippine Constitution, which entity is vested with the authority to classify lands of the public domain into agricultural, forest or timber, mineral lands, and national parks?
+      *a. The Congress of the Philippines
+       b. The Department of Environment and Natural Resources
+       c. The President of the Philippines
+       d. The Supreme Court
+    WHY: The Philippine Constitution assigns the Congress of the Philippines the authority to classify lands of the public domain. This power is part of Congress's legislative functions, ensuring that land classification aligns with national policies and priorities.
+
+fg-g00023 [policy-and-administration / Medium / practice]
+  How does Republic Act No. 7586 (NIPAS Act) contribute to biodiversity conservation in the Philippines?
+       a. It mandates the conversion of protected areas into industrial zones.
+       b. It allows unlimited logging in protected areas.
+      *c. It establishes a network of protected areas to safeguard biodiversity.
+       d. It focuses on the development of mining areas in conservation zones.
+    WHY: Republic Act No. 7586, the NIPAS Act, establishes a network of protected areas to conserve biodiversity in the Philippines. This network is crucial for protecting ecosystems and species from threats such as habitat destruction and overexploitation.
+
+fg-g00024 [policy-and-administration / Medium / practice]
+  In the framework of Indigenous Peoples' Rights Act (IPRA), how does the Free, Prior, and Informed Consent (FPIC) process empower indigenous communities in the context of forest governance?
+       a. By allowing them to veto any forestry project on their ancestral lands regardless of its nature.
+      *b. By ensuring their participation and approval is sought before any project affecting their lands can proceed.
+       c. By granting them exclusive rights to exploit forest resources without government oversight.
+       d. By providing them financial compensation for any project implemented on their lands.
+    WHY: The Free, Prior, and Informed Consent (FPIC) process under the Indigenous Peoples' Rights Act (RA 8371) ensures that indigenous communities are actively involved in decisions affecting their ancestral lands. It mandates that their consent must be obtained before any project can proceed, thereby empowering them in forest governance.
+
+fg-g00025 [policy-and-administration / Medium / practice]
+  In the context of the Community-Based Forest Management Strategy (CBFMS) in the Philippines, what is the primary responsibility of the People's Organization (PO) involved in a Community-Based Forest Management Agreement (CBFMA)?
+      *a. Ensure the sustainable management and utilization of forest resources.
+       b. Oversee the enforcement of national logging bans.
+       c. Set national forest policy and legislative priorities.
+       d. Classify public lands into forest land or alienable and disposable land.
+    WHY: The primary responsibility of the People's Organization (PO) under the Community-Based Forest Management Agreement (CBFMA) is to ensure the sustainable management and utilization of forest resources. This aligns with the objectives of the CBFMS, which aims to empower local communities to manage forest resources sustainably.
+
+fg-g00026 [policy-and-administration / Hard / practice]
+  Under the Revised Forestry Code of the Philippines, PD 705, which of the following activities requires a Special Land Use Permit (SLUP) within forest lands?
+       a. Construction of roads for forest management purposes.
+      *b. Establishment of any structure for a recreational purpose.
+       c. Collection of non-timber forest products by indigenous communities.
+       d. Scientific research activities conducted by academic institutions.
+    WHY: Under PD 705, a Special Land Use Permit (SLUP) is required for activities that involve the establishment of structures within forest lands. Recreational structures fall under this category as they alter the landscape and require specific management to ensure minimal environmental impact.
+
+fg-g00027 [policy-and-administration / Hard / practice]
+  In the context of the National Integrated Protected Areas System (NIPAS) as amended by RA 11038, which of the following statements accurately distinguishes between a 'Protected Area' and a 'Buffer Zone'?
+       a. Protected Areas are zones where strict protection is enforced, while Buffer Zones allow any kind of resource use without restrictions.
+       b. Protected Areas are designated mainly for tourism, while Buffer Zones are designated exclusively for scientific research.
+      *c. Protected Areas have clearly demarcated boundaries for conservation, while Buffer Zones are transition areas where limited sustainable activities are permitted.
+       d. Protected Areas are managed by the national government, while Buffer Zones are managed solely by local government units.
+    WHY: RA 11038 distinguishes Protected Areas as zones with strict conservation measures and clearly defined boundaries, while Buffer Zones are transitional areas where some sustainable use is allowed to mitigate impacts on the Protected Area.
+
+fg-g00028 [social-forestry-extension / Easy / practice]
+  What does CBFMA stand for in the context of Philippine social forestry?
+       a. Community-Based Forestry Management Administration
+      *b. Community-Based Forest Management Agreement
+       c. Community Biodiversity and Forest Management Act
+       d. Community-Based Forest Management Activity
+    WHY: The term CBFMA stands for Community-Based Forest Management Agreement, which is a formal agreement between the government and local communities to manage forest resources sustainably. This aligns with the Philippines' approach to involving communities in forest management.
+
+fg-g00029 [social-forestry-extension / Easy / practice]
+  Which Philippine law provides for the establishment and management of the National Integrated Protected Areas System (NIPAS)?
+       a. Republic Act No. 8371
+       b. Republic Act No. 9147
+      *c. Republic Act No. 7586
+       d. Republic Act No. 11038
+    WHY: Republic Act No. 7586, also known as the NIPAS Act of 1992, establishes the framework for the National Integrated Protected Areas System in the Philippines. It aims to conserve biodiversity and protect areas of ecological significance.
+
+fg-g00030 [social-forestry-extension / Easy / practice]
+  What is the main purpose of a People's Organization in the context of social forestry in the Philippines?
+       a. To regulate logging activities in commercial forests
+      *b. To manage and implement community-based forest management agreements
+       c. To enforce wildlife protection laws in protected areas
+       d. To certify sustainable timber production
+    WHY: The main purpose of a People's Organization in social forestry is to manage and implement community-based forest management agreements. These organizations are crucial for the sustainable management of forest resources by local communities.
+
+fg-g00031 [social-forestry-extension / Easy / practice]
+  In the context of social forestry, what is the primary role of extension services?
+      *a. To provide technical support and training to community members
+       b. To enforce environmental regulations
+       c. To survey land for new forest plantations
+       d. To develop urban forestry plans
+    WHY: In social forestry, extension services primarily provide technical support and training to community members. This helps communities develop skills necessary for sustainable forest management.
+
+fg-g00032 [social-forestry-extension / Easy / practice]
+  Under the Indigenous Peoples' Rights Act (IPRA), which group is recognized to have the right to manage their ancestral domains?
+       a. Local Government Units (LGUs)
+       b. Non-Governmental Organizations (NGOs)
+       c. Private Corporations
+      *d. Indigenous Cultural Communities/Indigenous Peoples (ICCs/IPs)
+    WHY: Under the Indigenous Peoples' Rights Act (IPRA), Indigenous Cultural Communities/Indigenous Peoples (ICCs/IPs) are recognized to have the right to manage their ancestral domains. This recognition is crucial for preserving their cultural heritage and autonomy.
+
+fg-g00033 [social-forestry-extension / Medium / practice]
+  In the context of social forestry in the Philippines, what is the primary advantage of a Community-Based Forest Management Agreement (CBFMA) for local communities?
+       a. It provides exclusive timber rights to large corporations.
+      *b. It encourages community participation in sustainable forest management.
+       c. It ensures permanent ownership of the land by the community.
+       d. It eliminates the need for government oversight in forest areas.
+    WHY: Community-Based Forest Management Agreements (CBFMAs) are designed to empower local communities by involving them in the sustainable management of forest resources. This participatory approach ensures that communities have a stake in the conservation and sustainable use of forests.
+
+fg-g00034 [social-forestry-extension / Medium / practice]
+  What is the primary role of extension services within a social forestry program in the Philippines?
+       a. To enforce forest laws and regulations strictly.
+      *b. To facilitate technology transfer and build the capacity of local communities.
+       c. To replace traditional knowledge with modern techniques.
+       d. To provide financial loans to community members.
+    WHY: Extension services in social forestry programs aim to empower communities by transferring knowledge and skills necessary for sustainable forest management. This includes training in modern techniques that complement traditional practices.
+
+fg-g00035 [social-forestry-extension / Medium / practice]
+  In terms of conflict resolution within the context of social forestry, which mechanism is generally preferred to ensure harmony among stakeholders?
+      *a. Utilizing community consultations and participatory decision-making.
+       b. Involving only the government in decision-making processes.
+       c. Adopting a top-down approach to enforce compliance.
+       d. Ignoring disputes to maintain project timelines.
+    WHY: Community consultations and participatory decision-making are essential for resolving conflicts in social forestry, as they ensure that all stakeholders have a voice and contribute to harmonious outcomes.
+
+fg-g00036 [social-forestry-extension / Medium / practice]
+  Which of the following best describes the concept of 'tenurial security' in the context of Philippine social forestry programs?
+      *a. The formal recognition of community rights to use and manage forest resources.
+       b. A temporary permit granted to logging companies for timber extraction.
+       c. The exclusive right of the government to manage forest lands.
+       d. Allowing unrestricted access to forest resources for all citizens.
+    WHY: Tenurial security in Philippine social forestry programs refers to the formal recognition of community rights to use and manage forest resources, providing stability and encouraging sustainable practices.
+
+fg-g00037 [social-forestry-extension / Medium / practice]
+  Under the social forestry framework in the Philippines, which of the following is a key benefit of involving local communities in forest management?
+      *a. Enhancing sustainable management and conservation of forest resources.
+       b. Maximizing short-term profits from forest resource extraction.
+       c. Disregarding traditional ecological knowledge in favor of modern practices.
+       d. Centralizing decision-making within national agencies.
+    WHY: Involving local communities in forest management under the social forestry framework enhances sustainable management and conservation of forest resources by leveraging local knowledge and fostering stewardship.
+
+fg-g00038 [social-forestry-extension / Hard / practice]
+  In the context of Philippine social forestry, how does a Community-Based Forest Management Agreement (CBFMA) differ from a Forest Land Grazing Management Agreement (FLGMA) in terms of community participation?
+      *a. CBFMA requires active community involvement in both planning and implementation phases, whereas FLGMA primarily involves individual leaseholders with limited community engagement.
+       b. CBFMA focuses on community participation only during the monitoring phase, while FLGMA mandates community involvement throughout the project lifecycle.
+       c. CBFMA and FLGMA both equally prioritize community participation in the decision-making process.
+       d. CBFMA has no formal requirement for community participation, unlike FLGMA which requires detailed community consultations.
+    WHY: The CBFMA is designed to involve the community actively in both planning and implementation, fostering a sense of ownership and responsibility. In contrast, FLGMA is more focused on individual leaseholders, with less emphasis on community-wide engagement.
+
+fg-g00039 [social-forestry-extension / Hard / practice]
+  Under the Philippine social forestry framework, a People's Organization (PO) engaged in a Community-Based Forest Management Agreement is assessing their potential timber harvest. Given that their allocated forest plot is 50 hectares, with an average timber volume of 150 cubic meters per hectare, and the Annual Allowable Cut (AAC) is set at 10% of the total volume, what is the AAC for this PO's plot?
+      *a. 750 cubic meters
+       b. 500 cubic meters
+       c. 1,000 cubic meters
+       d. 1,500 cubic meters
+    WHY: The AAC is calculated by taking 10% of the total timber volume available in the forest plot. With 50 hectares and 150 cubic meters per hectare, the total volume is 7,500 cubic meters, and 10% of this is 750 cubic meters.
+
+fg-g00040 [social-forestry-extension / Hard / practice]
+  In a Community-Based Forest Management (CBFM) area, a community is planning to integrate agroforestry practices. According to the framework, which of the following steps should they prioritize to ensure successful integration?
+       a. Focus solely on planting high-yield cash crops to maximize short-term economic gains.
+       b. Immediately begin planting trees without community consultation to accelerate forest regeneration.
+      *c. Conduct a comprehensive land-use planning process involving all stakeholders to identify suitable areas for agroforestry.
+       d. Rely exclusively on external funding for all agroforestry initiatives, disregarding community input.
+    WHY: Comprehensive land-use planning with stakeholder involvement ensures that agroforestry practices are sustainable and meet the needs of the community, balancing ecological and economic goals.
+
+fg-g00041 [social-forestry-extension / Hard / practice]
+  Which of the following principles primarily guides the formation of People's Organizations (POs) in Community-Based Forest Management Agreements (CBFMAs) in the Philippines?
+       a. Promoting individual entrepreneurship over communal resource management.
+       b. Maximizing short-term profits through intensive logging operations.
+      *c. Ensuring equitable benefit sharing among community members and sustainable resource use.
+       d. Centralizing decision-making to a few community leaders for streamlined management.
+    WHY: The primary principle guiding POs in CBFMAs is to ensure equitable benefit sharing and sustainable resource use, which supports community welfare and forest conservation.
+
+fg-g00042 [forest-protection / Easy / practice]
+  What is the main purpose of the Integrated Protected Areas System (IPAS) under RA 7586?
+       a. To increase wood production for industrial use.
+      *b. To conserve biodiversity and promote sustainable development.
+       c. To privatize forest lands for commercial agriculture.
+       d. To encourage mining activities in forest reserves.
+    WHY: The Integrated Protected Areas System (IPAS) under RA 7586, known as the National Integrated Protected Areas System (NIPAS) Act, aims to conserve biodiversity and promote sustainable development. This law establishes a framework for the management of protected areas in the Philippines, ensuring the preservation of natural habitats and ecosystems.
+
+fg-g00043 [forest-protection / Easy / practice]
+  Which Philippine law is specifically aimed at the protection and conservation of wildlife resources and their habitats?
+      *a. RA 9147
+       b. RA 7586
+       c. RA 11038
+       d. RA 8371
+    WHY: RA 9147, known as the Wildlife Resources Conservation and Protection Act, is specifically aimed at the protection and conservation of wildlife resources and their habitats in the Philippines. It provides the legal framework for the conservation and protection of wildlife species and their habitats.
+
+fg-g00044 [forest-protection / Easy / practice]
+  What is the main role of the Department of Environment and Natural Resources (DENR) in forest protection?
+      *a. To regulate and manage the use of natural resources.
+       b. To promote foreign investment in forest lands.
+       c. To facilitate the export of timber products.
+       d. To encourage private ownership of forest lands.
+    WHY: The main role of the Department of Environment and Natural Resources (DENR) in forest protection is to regulate and manage the use of natural resources. This includes overseeing the conservation and sustainable use of forests, ensuring compliance with environmental laws, and implementing policies for forest management.
+
+fg-g00045 [forest-protection / Easy / practice]
+  Under which law is the community-based forest management program institutionalized in the Philippines?
+      *a. DENR Administrative Order No. 96-29
+       b. PD 705
+       c. RA 7586
+       d. EO 23
+    WHY: The community-based forest management program in the Philippines is institutionalized under DENR Administrative Order No. 96-29. This order provides the framework for involving local communities in the sustainable management and conservation of forest resources.
+
+fg-g00046 [forest-protection / Easy / practice]
+  Which term describes the unlawful act of cutting, gathering, collecting, or removing timber or other forest products from forest lands without permission?
+      *a. Illegal logging
+       b. Reforestation
+       c. Agroforestry
+       d. Wildlife poaching
+    WHY: Illegal logging is the unlawful act of cutting, gathering, collecting, or removing timber or other forest products from forest lands without permission. This activity is a major threat to forest conservation and is strictly prohibited under Philippine law.
+
+fg-g00047 [forest-protection / Medium / practice]
+  What is the primary focus of the Community-Based Forest Management Agreement (CBFMA) in the context of forest protection?
+       a. To increase commercial logging operations within designated areas.
+       b. To allow foreign companies to exploit forest resources.
+      *c. To empower local communities to manage and protect forest resources sustainably.
+       d. To privatize forest lands for industrial use.
+    WHY: The primary focus of the Community-Based Forest Management Agreement (CBFMA) is to empower local communities to manage and protect forest resources sustainably. This approach ensures that those who are most directly affected by forest management decisions are involved in the process, leading to more effective and sustainable outcomes.
+
+fg-g00048 [forest-protection / Medium / practice]
+  Which of the following activities is strictly prohibited in Protected Areas under the National Integrated Protected Areas System (NIPAS) Act?
+       a. Sustainable eco-tourism activities.
+       b. Traditional farming by indigenous communities.
+      *c. Mining operations.
+       d. Scientific research with permit.
+    WHY: Mining operations are strictly prohibited in Protected Areas under the National Integrated Protected Areas System (NIPAS) Act to preserve the ecological integrity of these areas.
+
+fg-g00049 [forest-protection / Medium / practice]
+  In the Philippines, which agency is primarily responsible for enforcing forest protection laws and managing forest resources?
+       a. Department of Public Works and Highways (DPWH)
+       b. Department of Agriculture (DA)
+       c. National Economic and Development Authority (NEDA)
+      *d. Department of Environment and Natural Resources (DENR)
+    WHY: The Department of Environment and Natural Resources (DENR) is the primary agency responsible for enforcing forest protection laws and managing forest resources in the Philippines.
+
+fg-g00050 [forest-protection / Medium / practice]
+  Under RA 8371, what is a primary responsibility of indigenous peoples in managing ancestral domains concerning forest protection?
+       a. To convert forest lands into commercial estates.
+       b. To lease land to multinational corporations for development.
+      *c. To ensure the sustainable use and conservation of forest resources.
+       d. To exclusively use forest resources for personal gain.
+    WHY: Under RA 8371, indigenous peoples are primarily responsible for ensuring the sustainable use and conservation of forest resources within their ancestral domains.
+
+fg-g00051 [forest-protection / Medium / practice]
+  What is the primary purpose of establishing buffer zones around protected forest areas?
+       a. To facilitate the expansion of urban development.
+       b. To allow controlled logging activities.
+      *c. To provide a transition area that helps mitigate external impacts on core protected zones.
+       d. To encourage agricultural development in forested regions.
+    WHY: The primary purpose of establishing buffer zones around protected forest areas is to provide a transition area that helps mitigate external impacts on core protected zones.
+
+fg-g00052 [forest-protection / Medium / practice]
+  In the context of forest protection, what is the main role of Bantay Gubat volunteers in the Philippines?
+       a. To promote illegal logging activities.
+       b. To conduct commercial activities within protected areas.
+      *c. To assist in the enforcement of forest laws and protection of forest areas.
+       d. To manage wildlife trade within forests.
+    WHY: Bantay Gubat volunteers play a crucial role in assisting the enforcement of forest laws and the protection of forest areas in the Philippines.
+
+fg-g00053 [forest-protection / Medium / practice]
+  When a forest area in the Philippines is classified as a Permanent Forest Reserve, what is the primary legal implication for forest protection?
+      *a. It restricts any form of development or land conversion within the area.
+       b. It allows commercial logging activities with proper permits.
+       c. It designates the area for agricultural expansion to benefit local communities.
+       d. It prioritizes reforestation activities over conservation efforts.
+    WHY: The classification of a forest area as a Permanent Forest Reserve in the Philippines primarily means that the area is protected from any form of development or land conversion. This is to ensure the preservation of biodiversity and the ecological integrity of the forest, as stipulated in Presidential Decree No. 705, also known as the Revised Forestry Code of the Philippines.
+
+fg-g00054 [forest-protection / Hard / practice]
+  In the context of forest protection in the Philippines, which of the following actions is prioritized under the Revised Forestry Code (PD 705) for the prevention of illegal logging activities?
+       a. Conducting aerial surveillance and reconnaissance of forest areas
+       b. Establishing reforestation projects in degraded areas
+       c. Issuing tree-cutting permits for community-based forest management areas
+      *d. Regular patrolling and monitoring by forest rangers
+    WHY: Regular patrolling and monitoring by forest rangers is prioritized because it directly addresses the prevention of illegal logging by providing a constant presence and deterrence in forest areas. This aligns with the objectives of PD 705 to protect and conserve forest resources.
+
+fg-g00055 [forest-protection / Hard / practice]
+  According to RA 9147, what is a critical step in the process of rescue and rehabilitation of wildlife that also contributes to forest protection?
+       a. Engagement of local communities in wildlife monitoring
+      *b. Habitat restoration and improvement before returning wildlife
+       c. Immediate release of rescued wildlife back to their habitat
+       d. Establishment of wildlife sanctuaries in urban areas
+    WHY: Habitat restoration and improvement before returning wildlife is crucial as it ensures that the environment can support the wildlife, which is a key aspect of forest protection under RA 9147.
+
+fg-g00056 [forest-protection / Hard / practice]
+  Under the Indigenous Peoples Rights Act (RA 8371), how is the protection of forest resources within ancestral domains ensured?
+      *a. Through the creation and implementation of an Ancestral Domain Sustainable Development and Protection Plan (ADSDPP)
+       b. Through the issuance of forest land grazing leases to indigenous communities
+       c. By allowing the conversion of forest lands to agricultural lands for community use
+       d. By granting exclusive logging rights to indigenous peoples within their domain
+    WHY: The creation and implementation of an Ancestral Domain Sustainable Development and Protection Plan (ADSDPP) ensures that forest resources are managed sustainably and in accordance with indigenous practices under RA 8371.
+
+fg-g00057 [forest-protection / Hard / practice]
+  In the management of community-based forest projects, what is a key principle outlined in the Community-Based Forest Management Strategy that directly relates to forest protection?
+       a. Prioritizing commercial timber production over ecosystem services
+       b. Converting forest lands to non-forest uses to maximize revenue
+       c. Promoting forest resource utilization without the need for regeneration
+      *d. Ensuring equitable access to forest resources for all community members
+    WHY: Ensuring equitable access to forest resources for all community members is key because it promotes sustainable use and protection of resources, as outlined in the Community-Based Forest Management Strategy.
+
+fg-g00058 [environment-sustainable-development / Easy / practice]
+  What is the main goal of sustainable forest management?
+      *a. Conserve biodiversity while meeting social and economic needs.
+       b. Maximize timber production regardless of impact.
+       c. Focus solely on the preservation of wildlife habitat.
+       d. Prohibit all human activities in forest areas.
+    WHY: Sustainable forest management aims to balance ecological, social, and economic needs, ensuring that biodiversity is conserved while also supporting the livelihoods of people who depend on forest resources.
+
+fg-g00059 [environment-sustainable-development / Easy / practice]
+  Which Philippine statute focuses on the protection and conservation of wildlife resources and their habitats?
+       a. RA 7586
+      *b. RA 9147
+       c. PD 705
+       d. RA 8371
+    WHY: RA 9147, known as the Wildlife Resources Conservation and Protection Act, specifically addresses the conservation and protection of wildlife resources and their habitats in the Philippines.
+
+fg-g00060 [environment-sustainable-development / Easy / practice]
+  What is the primary purpose of the National Integrated Protected Areas System (NIPAS) Act?
+       a. To enhance agricultural production in forest lands.
+       b. To promote mining activities in forested areas.
+       c. To limit access to all public lands regardless of use.
+      *d. To establish a comprehensive system of protected areas in the Philippines.
+    WHY: The primary purpose of the NIPAS Act (RA 7586) is to establish a comprehensive system of protected areas in the Philippines, ensuring the conservation of biological diversity.
+
+fg-g00061 [environment-sustainable-development / Easy / practice]
+  What does the term 'sustainability' primarily emphasize in environmental development?
+       a. Economic growth at all costs.
+       b. Prioritizing industrial development over ecological health.
+       c. Eliminating all forms of resource use.
+      *d. Meeting present needs without compromising future generations.
+    WHY: Sustainability emphasizes meeting the needs of the present without compromising the ability of future generations to meet their own needs, ensuring long-term ecological balance.
+
+fg-g00062 [environment-sustainable-development / Easy / practice]
+  Which law recognizes the rights of indigenous peoples in the Philippines and provides for their protection and promotion?
+      *a. RA 8371
+       b. RA 7586
+       c. RA 9147
+       d. PD 705
+    WHY: RA 8371, known as the Indigenous Peoples' Rights Act, recognizes and promotes the rights of indigenous peoples in the Philippines, including their rights to ancestral domains and cultural integrity.
+
+fg-g00063 [environment-sustainable-development / Medium / practice]
+  What is the primary objective of implementing Community-Based Forest Management Agreements (CBFMA) in the Philippines?
+      *a. To decentralize forest management and empower local communities.
+       b. To enhance government revenue through forest resource extraction.
+       c. To focus exclusively on industrial timber production.
+       d. To promote exclusive commercial use of forest resources by private entities.
+    WHY: The primary objective of implementing Community-Based Forest Management Agreements (CBFMA) is to decentralize forest management and empower local communities. This approach aligns with the principles of sustainable development by involving local stakeholders in the management and conservation of forest resources, ensuring that the benefits are shared and that local knowledge is utilized.
+
+fg-g00064 [environment-sustainable-development / Medium / practice]
+  According to the principles of sustainable development, which is an essential practice in the management of forest ecosystems?
+       a. Clear-cutting all old-growth forests for timber production.
+      *b. Maintaining biodiversity and ecological balance within the forest.
+       c. Implementing a monoculture plantation to increase short-term economic gain.
+       d. Converting forest land for agricultural expansion.
+    WHY: Maintaining biodiversity and ecological balance within the forest is essential in the management of forest ecosystems according to sustainable development principles. This practice ensures the long-term health and resilience of forest ecosystems, supporting both environmental and human needs.
+
+fg-g00065 [environment-sustainable-development / Medium / practice]
+  In the context of the Philippine Environmental Impact Statement System, what is the fundamental aim of conducting an initial environmental examination (IEE)?
+       a. To expedite project approval without environmental considerations.
+       b. To prioritize economic benefits over environmental costs.
+      *c. To identify potential environmental impacts and propose mitigation measures for minor projects.
+       d. To ensure that the social benefits of a project are maximized regardless of environmental harm.
+    WHY: The fundamental aim of conducting an initial environmental examination (IEE) is to identify potential environmental impacts and propose mitigation measures for minor projects. This ensures that even smaller projects consider their environmental footprint and take steps to minimize negative impacts.
+
+fg-g00066 [environment-sustainable-development / Medium / practice]
+  What is a key feature of the Forest Stewardship Council (FSC) certification in promoting sustainable forest management?
+       a. Certification only focuses on the economic profitability of forest operations.
+      *b. FSC certification includes criteria for social, environmental, and economic responsibility.
+       c. It ensures all forest lands are converted to agricultural use.
+       d. The certification process excludes community and indigenous peoples’ rights.
+    WHY: A key feature of the Forest Stewardship Council (FSC) certification is that it includes criteria for social, environmental, and economic responsibility. This holistic approach ensures that forest management practices are sustainable and equitable.
+
+fg-g00067 [environment-sustainable-development / Medium / practice]
+  How does the Philippine Clean Air Act contribute to sustainable development in urban forest areas?
+       a. By promoting the exclusive use of fossil fuels in transportation.
+      *b. By setting air quality standards and promoting green spaces to improve urban air quality.
+       c. By encouraging deforestation to reduce urban congestion.
+       d. By prioritizing industrial growth over environmental health.
+    WHY: The Philippine Clean Air Act contributes to sustainable development in urban forest areas by setting air quality standards and promoting green spaces to improve urban air quality. This approach helps mitigate pollution and enhances the quality of life in urban environments.
+
+fg-g00068 [environment-sustainable-development / Medium / practice]
+  What is a critical component of the Adaptive Management approach in forestry?
+      *a. Continuously monitoring and adjusting management practices based on new information and changing conditions.
+       b. Relying solely on historical forest management data without adjustments.
+       c. Implementing static plans regardless of changes in environmental conditions.
+       d. Ignoring stakeholder input and focusing only on scientific data.
+    WHY: A critical component of the Adaptive Management approach in forestry is continuously monitoring and adjusting management practices based on new information and changing conditions. This dynamic approach allows for flexibility and responsiveness to environmental changes, enhancing sustainability.
+
+fg-g00069 [environment-sustainable-development / Medium / practice]
+  What is a primary consideration in developing a reforestation project under the principles of sustainable development in the Philippines?
+       a. Maximizing the number of trees planted per hectare to ensure quick canopy closure.
+       b. Selecting exotic fast-growing species to increase timber yield rapidly.
+      *c. Ensuring the involvement of local communities in project planning and implementation.
+       d. Reducing project costs by using the least expensive planting materials available.
+    WHY: Involving local communities in reforestation projects aligns with the principles of sustainable development, which emphasize social equity, economic viability, and environmental protection. Community involvement ensures that the project meets local needs and leverages local knowledge, leading to more successful and sustainable outcomes.
+
+fg-g00070 [environment-sustainable-development / Hard / practice]
+  In evaluating a proposal for a forest development project under the context of RA 8371 (the Indigenous Peoples' Rights Act), what multi-step process must be followed to ensure compliance with the Free, Prior, and Informed Consent (FPIC) requirement?
+       a. Consult the local government unit (LGU) for approval, notify the indigenous community of the project details, and proceed if no objections are raised within a 30-day period.
+      *b. Conduct a series of community assemblies with all stakeholders, obtain consent through a formal voting process, and document the entire process for submission to the National Commission on Indigenous Peoples (NCIP).
+       c. Submit a formal application to the NCIP, wait for a public hearing organized by the NCIP, and implement the project if the hearing concludes with majority consent.
+       d. Develop a Memorandum of Agreement (MOA) with the community, integrate the project into the local development plan, and implement the project immediately after obtaining signatures from community leaders.
+    WHY: Option a is correct because RA 8371 mandates that the Free, Prior, and Informed Consent (FPIC) process involves community assemblies to ensure that all stakeholders are informed and have the opportunity to participate in decision-making. The consent must be obtained through a formal process and documented for submission to the NCIP.
+
+fg-g00071 [environment-sustainable-development / Hard / practice]
+  In establishing a carbon offset project under the Clean Development Mechanism (CDM) in the Philippines, what is the correct sequence of steps a project developer must follow to ensure the project contributes to sustainable development and complies with international protocols?
+       a. Identify a suitable project site, conduct an environmental impact assessment (EIA), register the project with the United Nations Framework Convention on Climate Change (UNFCCC), and initiate project activities.
+      *b. Perform a feasibility study, develop a project design document (PDD), seek approval from the host country's designated national authority (DNA), and validate the project through an independent third party.
+       c. Select a viable project site, consult with local stakeholders for input and approval, obtain validation from a designated operational entity (DOE), and submit the project design document (PDD) to the UNFCCC.
+       d. Engage in community consultation to gain local support, draft a project implementation plan, receive certification from a national environmental agency, and notify the UNFCCC of the project's start date.
+    WHY: Option c is correct because it follows the necessary steps for establishing a CDM project, including conducting a feasibility study, developing a project design document (PDD), obtaining approval from the host country's DNA, and validating the project through an independent third party.
+
+fg-g00072 [professional-ethics / Easy / practice]
+  What is the primary law governing forest land management and use in the Philippines?
+      *a. Presidential Decree No. 705
+       b. Republic Act No. 7586
+       c. Republic Act No. 8371
+       d. Republic Act No. 9147
+    WHY: Presidential Decree No. 705, also known as the Revised Forestry Code of the Philippines, is the primary law that governs the management, utilization, and conservation of forest lands in the Philippines.
+
+fg-g00073 [professional-ethics / Easy / practice]
+  According to forestry professional ethics, which principle is most important when working with local communities?
+       a. Secrecy
+       b. Competition
+       c. Exclusivity
+      *d. Transparency
+    WHY: Transparency is crucial in professional ethics as it builds trust and fosters open communication with local communities, ensuring their involvement and cooperation in forestry projects.
+
+fg-g00074 [professional-ethics / Easy / practice]
+  Which Republic Act focuses on the protection of wildlife resources and their habitats in the Philippines?
+       a. Republic Act No. 7586
+       b. Republic Act No. 8371
+       c. Presidential Decree No. 705
+      *d. Republic Act No. 9147
+    WHY: Republic Act No. 9147, also known as the Wildlife Resources Conservation and Protection Act, is dedicated to the conservation and protection of wildlife resources and their habitats in the Philippines.
+
+fg-g00075 [professional-ethics / Easy / practice]
+  What is the key ethical responsibility of a forester when handling confidential information?
+       a. To disclose it freely to the public
+      *b. To maintain confidentiality unless required by law to disclose
+       c. To sell it to the highest bidder
+       d. To ignore any confidentiality agreements
+    WHY: Foresters have an ethical obligation to maintain confidentiality of information unless legally required to disclose it, ensuring trust and integrity in professional relationships.
+
+fg-g00076 [professional-ethics / Easy / practice]
+  Which document outlines the rights and recognition of Indigenous Peoples in the Philippines?
+       a. Republic Act No. 7586
+      *b. Republic Act No. 8371
+       c. Republic Act No. 9147
+       d. Presidential Decree No. 705
+    WHY: Republic Act No. 8371, known as the Indigenous Peoples' Rights Act, recognizes and promotes the rights of Indigenous Peoples in the Philippines, including their rights to ancestral domains and cultural integrity.
+
+fg-g00077 [professional-ethics / Medium / practice]
+  A forester is offered a gift by a local community member in return for prioritizing their permit application. Which professional ethics principle should guide the forester’s response?
+      *a. Integrity and impartiality
+       b. Reciprocity and mutual benefit
+       c. Efficiency and productivity
+       d. Empathy and understanding
+    WHY: Integrity and impartiality are crucial in maintaining professional ethics, as they ensure that decisions are made based on fairness and objectivity rather than personal gain.
+
+fg-g00078 [professional-ethics / Medium / practice]
+  In ensuring the sustainability of forest resources, which professional value is most directly related to balancing economic, social, and environmental objectives?
+       a. Accountability
+       b. Equity
+      *c. Sustainability
+       d. Transparency
+    WHY: Sustainability is the professional value that ensures forest resources are managed in a way that meets current needs without compromising future generations.
+
+fg-g00079 [professional-ethics / Medium / practice]
+  A community-based forest management agreement requires foresters to involve local stakeholders in decision-making. Which ethical value is primarily being upheld?
+       a. Efficiency
+       b. Accountability
+      *c. Inclusiveness
+       d. Authority
+    WHY: Inclusiveness ensures that all stakeholders have a voice in decision-making, which is essential in community-based forest management.
+
+fg-g00080 [professional-ethics / Medium / practice]
+  During a community consultation, a forester must balance the diverse interests of stakeholders. Which ethical principle is most relevant in this scenario?
+       a. Courage
+       b. Loyalty
+      *c. Fairness
+       d. Confidentiality
+    WHY: Fairness is crucial in balancing diverse interests, ensuring that all stakeholders are treated equitably and justly.
+
+fg-g00081 [professional-ethics / Medium / practice]
+  A forester is evaluating the long-term impacts of forestry projects on future generations. Which professional value aligns most closely with this evaluation?
+       a. Short-term gain
+       b. Exclusivity
+       c. Profitability
+      *d. Sustainability
+    WHY: Sustainability focuses on the long-term health and viability of forest ecosystems, ensuring resources are available for future generations.
+
+fg-g00082 [professional-ethics / Medium / practice]
+  In an effort to maintain trust with local communities, which ethical responsibility should a forester prioritize?
+      *a. Ensuring transparency in processes
+       b. Maximizing resource extraction
+       c. Minimizing consultation time
+       d. Centralizing decision-making
+    WHY: Transparency builds trust by ensuring that processes and decisions are open and clear to all stakeholders.
+
+fg-g00083 [professional-ethics / Medium / practice]
+  A forester discovers illegal logging activities in a forest under their supervision. According to professional ethics and values, what is the most appropriate initial action the forester should take?
+       a. Attempt to stop the illegal loggers directly and immediately.
+      *b. Report the activities to the appropriate authorities immediately.
+       c. Ignore the activities to avoid conflict with the local community.
+       d. Wait for further instructions from higher management before taking any action.
+    WHY: The correct action for a forester who discovers illegal logging is to report it to the appropriate authorities immediately. This aligns with professional ethics and responsibilities to uphold the law and protect forest resources.
+
+fg-g00084 [professional-ethics / Hard / practice]
+  A forester is developing a community-based forest management plan and must ensure that all activities are compliant with existing environmental laws. Which professional value is most critical in this scenario?
+       a. Accountability
+       b. Transparency
+       c. Collaboration
+      *d. Integrity
+    WHY: Integrity is crucial because it ensures that the forester adheres to ethical standards and legal requirements, maintaining trust and credibility in the management plan.
+
+fg-g00085 [professional-ethics / Hard / practice]
+  While working with an indigenous community on a reforestation project, a forester needs to incorporate traditional ecological knowledge with scientific methods. Which ethical principle best addresses this requirement?
+      *a. Cultural Sensitivity
+       b. Scientific Rigor
+       c. Respect for Authority
+       d. Efficiency
+    WHY: Cultural Sensitivity is essential when working with indigenous communities as it ensures respect and inclusion of their traditional knowledge and practices.
+
+fg-g00086 [professional-ethics / Hard / practice]
+  A forester is tasked with evaluating a proposed logging operation in an area with both high economic potential and significant biodiversity. Which professional value should guide the forester’s decision to ensure a balanced outcome?
+       a. Economic Feasibility
+       b. Political Neutrality
+      *c. Sustainability
+       d. Speed and Efficiency
+    WHY: Sustainability ensures that the forester's decision balances economic benefits with the conservation of biodiversity, promoting long-term ecological health.
+
+fg-g00087 [professional-ethics / Hard / practice]
+  During the implementation of a forest conservation project, a forester notices that the documented environmental impact assessment might not fully reflect the on-ground realities. What is the most ethical course of action for the forester to take?
+       a. Proceed with the project to avoid delays
+       b. Adjust the assessment quietly to match observed conditions
+       c. Seek expert opinion and make minor changes if necessary
+      *d. Report the discrepancy to the higher authorities for review
+    WHY: Reporting the discrepancy ensures that the forester acts ethically by addressing potential environmental impacts accurately and transparently.
+
+fu-g00001 [wood-structure-identification / Easy / practice]
+  What is the primary function of rays in wood structure?
+       a. Transport water and nutrients vertically.
+       b. Provide structural support to the tree.
+       c. Form the outer bark of the tree.
+      *d. Transport nutrients and water radially.
+    WHY: Rays in wood structure are responsible for the radial transport of nutrients and water, which is essential for the distribution of these resources across the tree's width.
+
+fu-g00002 [wood-structure-identification / Easy / practice]
+  In terms of wood anatomy, what does the term 'grain' primarily refer to?
+      *a. The direction of the wood fibers.
+       b. The color variation in wood.
+       c. The density of the wood.
+       d. The moisture content of the wood.
+    WHY: The term 'grain' in wood anatomy refers to the direction in which the wood fibers are aligned, which affects the wood's appearance and properties.
+
+fu-g00003 [wood-structure-identification / Easy / practice]
+  In wood identification, which structural feature is used to distinguish between different hardwood species?
+       a. The thickness of the bark.
+      *b. The size and arrangement of vessels.
+       c. The length of the roots.
+       d. The height of the tree.
+    WHY: The size and arrangement of vessels are key features in distinguishing between different hardwood species, as these characteristics vary significantly among species.
+
+fu-g00004 [wood-structure-identification / Medium / practice]
+  Which of the following Philippine species is characterized by interlocked grain, making it difficult to split but useful for carving?
        a. Molave / Vitex parviflora / Lamiaceae
-       b. Narra / Pterocarpus indicus / Fabaceae
-       c. Banaba / Lagerstroemia speciosa / Lythraceae
-      *d. Tindalo / Afzelia rhomboidea / Fabaceae
+       b. Yakal / Shorea astylosa / Dipterocarpaceae
+      *c. Narra / Pterocarpus indicus / Fabaceae
+       d. Bagtikan / Parashorea malaanonan / Dipterocarpaceae
+    WHY: Narra, or Pterocarpus indicus, is known for its interlocked grain, which makes it resistant to splitting and ideal for carving. This characteristic grain pattern is a key feature that distinguishes it from other species.
 
-fe-g00047 [forest-botany / Hard / practice]
-  Which mangrove species, scientifically known as Avicennia marina, belongs to the Acanthaceae family?
-       a. Pagatpat / Sonneratia alba / Lythraceae
-       b. Bakawan Babae / Rhizophora mucronata / Rhizophoraceae
-      *c. Api-api / Avicennia marina / Acanthaceae
-       d. Nipa / Nypa fruticans / Arecaceae
+fu-g00005 [wood-structure-identification / Medium / practice]
+  When identifying wood species, which microscopic feature is most useful for distinguishing between angiosperm and gymnosperm woods?
+       a. Resin canals in gymnosperms
+       b. Tracheids in gymnosperms
+       c. Rays in angiosperms
+      *d. Vessel elements in angiosperms
+    WHY: Vessel elements are a defining feature of angiosperms and are absent in gymnosperms, making them the most useful microscopic feature for distinguishing between these two groups of plants.
 
-fe-g00048 [forest-botany / Hard / practice]
-  Which tree, known for its highly durable wood, has the scientific name Shorea contorta and belongs to the Dipterocarpaceae family?
-       a. Apitong / Dipterocarpus grandiflorus / Dipterocarpaceae
-      *b. White Lauan / Shorea contorta / Dipterocarpaceae
-       c. Yakal / Shorea astylosa / Dipterocarpaceae
+fu-g00006 [wood-structure-identification / Medium / practice]
+  What is the typical effect of silica content on the machining properties of wood?
+       a. Decreases the wood's density, making it easier to machine
+       b. Does not affect the machining properties of wood
+      *c. Increases the wood's hardness, making it harder to cut
+       d. Enhances the wood's flexibility, making it easier to handle
+    WHY: Silica content in wood increases its hardness, making it more difficult to cut and machine. This is because silica particles are abrasive and can dull cutting tools.
+
+fu-g00007 [wood-structure-identification / Medium / practice]
+  Which Philippine wood species is commonly known for its high density and is often used in heavy construction and flooring?
+       a. Mayapis / Shorea palosapis / Dipterocarpaceae
+      *b. Molave / Vitex parviflora / Lamiaceae
+       c. Lauan / Shorea negrosensis / Dipterocarpaceae
        d. Tanguile / Shorea polysperma / Dipterocarpaceae
+    WHY: Molave, or Vitex parviflora, is renowned for its high density and is commonly used in heavy construction and flooring due to its strength and durability.
 
-fe-g00049 [forest-botany / Hard / practice]
-  Which species is scientifically known as Sterculia foetida and belongs to the Malvaceae family?
-       a. Banaba / Lagerstroemia speciosa / Lythraceae
-       b. Ilang-ilang / Cananga odorata / Annonaceae
-      *c. Kalumpang / Sterculia foetida / Malvaceae
-       d. Narra / Pterocarpus indicus / Fabaceae
+fu-g00008 [wood-structure-identification / Medium / practice]
+  In the context of wood structure, what does the term 'growth ring' signify?
+       a. A structural feature indicating the age of a tree only
+      *b. A band of cells formed during an annual cycle of growth
+       c. The area of wood with the highest concentration of extractives
+       d. The region where primary growth occurs in a tree
+    WHY: A growth ring is a band of cells formed during an annual cycle of growth, typically visible in cross-sections of tree trunks and indicative of the tree's age and growth conditions.
 
-fe-g00050 [forest-botany / Hard / practice]
-  Which tree species, belonging to the family Anacardiaceae, is scientifically named Mangifera indica?
-      *a. Mango / Mangifera indica / Anacardiaceae
-       b. Kasoy / Anacardium occidentale / Anacardiaceae
-       c. Talisay / Terminalia catappa / Combretaceae
-       d. Duhat / Syzygium cumini / Myrtaceae
+fu-g00009 [wood-structure-identification / Medium / practice]
+  A forester examining a sample of timber notices distinctive tyloses. This feature suggests the wood is likely from which type of tree?
+       a. Softwood, such as Pine
+      *b. Hardwood, such as Mahogany
+       c. Monocot, such as Bamboo
+       d. Non-vascular plant, such as Moss
+    WHY: Tyloses are outgrowths that block the vessels in hardwoods, such as Mahogany, and are not found in softwoods, monocots, or non-vascular plants.
+
+fu-g00010 [wood-structure-identification / Medium / practice]
+  In wood anatomy, what is the primary structural difference between hardwoods and softwoods?
+       a. Hardwoods have a higher cellulose content than softwoods.
+       b. Softwoods have more lignin content compared to hardwoods.
+      *c. Presence of vessels in hardwoods and absence in softwoods.
+       d. Softwoods have wider growth rings than hardwoods.
+    WHY: Hardwoods are characterized by the presence of vessels, which are tube-like structures that help in water conduction. Softwoods, on the other hand, lack these vessels and instead have tracheids for water transport.
+
+fu-g00011 [wood-structure-identification / Medium / practice]
+  Which structural characteristic of wood is primarily responsible for its strength and rigidity in construction applications?
+       a. The density of the wood species.
+       b. The presence of extractives in the wood.
+      *c. The alignment of cellulose fibers.
+       d. The color of the heartwood.
+    WHY: The alignment of cellulose fibers in wood is crucial for its strength and rigidity, as these fibers provide tensile strength and structural support.
+
+fu-g00012 [wood-structure-identification / Medium / practice]
+  A forester identifying a piece of wood examines the presence of vessels. This feature indicates the wood is likely from which type of tree?
+       a. Softwood tree, such as a pine or fir.
+       b. Monocotyledonous tree, such as a bamboo.
+       c. Gymnosperm tree, such as a cycads.
+      *d. Hardwood tree, such as a mahogany or narra.
+    WHY: The presence of vessels is a characteristic feature of hardwoods, which include trees like mahogany and narra. These vessels are absent in softwoods.
+
+fu-g00013 [wood-structure-identification / Hard / practice]
+  In wood identification, the presence of spiral thickening in vessel walls is a key characteristic used to differentiate between which two types of wood?
+       a. Tropical hardwoods and temperate softwoods
+      *b. Hardwoods of different genera, such as mahogany and teak
+       c. Juvenile and mature wood of the same species
+       d. Earlywood and latewood within a single growth ring
+    WHY: The presence of spiral thickening in vessel walls is a distinguishing feature that helps differentiate between hardwoods of different genera, such as mahogany and teak. This structural characteristic is specific to certain hardwoods and is not typically used to differentiate between other types of wood categories.
+
+fu-g00014 [wood-structure-identification / Hard / practice]
+  Which factor primarily affects the shrinkage of wood upon drying and is a critical consideration in the utilization of Philippine mahogany for fine furniture?
+       a. Cell wall thickness relative to lumen size
+      *b. Grain orientation and pattern
+       c. Silica content within the fibers
+       d. Presence of tyloses in the vessels
+    WHY: Grain orientation and pattern primarily affect the shrinkage of wood upon drying. This is crucial in the utilization of Philippine mahogany for fine furniture because it influences how the wood will behave as it loses moisture.
+
+fu-g00015 [wood-structure-identification / Hard / practice]
+  In determining the suitability of Philippine mango wood (Mangifera indica) for musical instruments, which characteristic of its wood structure is most critical?
+      *a. Uniform texture and fine grain
+       b. High frequency of wide rays
+       c. Presence of resin canals
+       d. High density and hardness
+    WHY: Uniform texture and fine grain are critical for the suitability of Philippine mango wood for musical instruments. These characteristics ensure consistent tonal quality and ease of working with the wood.
+
+fu-g00016 [wood-structure-identification / Hard / practice]
+  When identifying wood species, a forester encounters a sample displaying both distinct ray patterns and the presence of parenchyma cells. Which of the following Philippine tree species is characterized by these features along with possessing a generally fine texture?
+       a. Shorea polysperma (Tanguile)
+      *b. Pterocarpus indicus (Narra)
+       c. Ficus benjamina (Balete)
+       d. Acacia mangium (Acacia)
+    WHY: Pterocarpus indicus, commonly known as Narra, is characterized by its distinct ray patterns and the presence of parenchyma cells, which contribute to its fine texture. These anatomical features are key identifiers for Narra wood.
+
+fu-g00017 [wood-physics-mechanics / Easy / practice]
+  What is the term for the amount of moisture in wood expressed as a percentage of the oven-dry weight of that wood?
+       a. Fibre saturation point
+      *b. Moisture content
+       c. Equilibrium moisture content
+       d. Specific gravity
+    WHY: Moisture content is the term used to describe the amount of moisture in wood as a percentage of its oven-dry weight. This is a fundamental concept in wood science as it affects the wood's properties and behavior.
+
+fu-g00018 [wood-physics-mechanics / Easy / practice]
+  Which property of wood describes its ability to withstand bending stress?
+      *a. Modulus of rupture
+       b. Modulus of elasticity
+       c. Shear strength
+       d. Tensile strength
+    WHY: The modulus of rupture is the property of wood that describes its ability to withstand bending stress. It is a measure of the maximum load-carrying capacity of a wood specimen before failure in bending.
+
+fu-g00019 [wood-physics-mechanics / Easy / practice]
+  The modulus of elasticity is a measure of wood's ability to resist which type of deformation?
+       a. Compression
+      *b. Bending
+       c. Shear
+       d. Tension
+    WHY: The modulus of elasticity is a measure of wood's ability to resist bending deformation. It indicates how much a material will deform under a given load.
+
+fu-g00020 [wood-physics-mechanics / Easy / practice]
+  What is the term for the wood property that measures its resistance to shear stress parallel to the grain?
+      *a. Shear strength parallel to the grain
+       b. Compression strength perpendicular to the grain
+       c. Modulus of elasticity
+       d. Tensile strength parallel to the grain
+    WHY: Shear strength parallel to the grain is the term for the wood property that measures its resistance to shear stress parallel to the grain. This property is crucial in applications where wood is subject to sliding forces.
+
+fu-g00021 [wood-physics-mechanics / Easy / practice]
+  Which type of wood deformation occurs when wood is subject to a twisting force?
+       a. Bending
+       b. Compression
+      *c. Torsion
+       d. Shear
+    WHY: Torsion is the type of wood deformation that occurs when wood is subject to a twisting force. This is a specific type of stress that affects the material's structural integrity.
+
+fu-g00022 [wood-physics-mechanics / Medium / practice]
+  Which mechanical property of wood measures its resistance to indentation and is typically tested using a steel ball?
+      *a. Janka hardness
+       b. Modulus of rupture
+       c. Modulus of elasticity
+       d. Shear strength
+    WHY: Janka hardness is the measure of wood's resistance to indentation, specifically using a steel ball. This test is standardized to assess how well wood can withstand wear and denting.
+
+fu-g00023 [wood-physics-mechanics / Medium / practice]
+  A piece of wood with a volume of 0.002 cubic meters has an oven-dry mass of 1.5 kilograms. What is the specific gravity of the wood?
+       a. 0.85
+       b. 0.90
+       c. 0.95
+      *d. 0.75
+    WHY: Specific gravity is calculated by dividing the oven-dry mass by the volume of the wood and the density of water. Here, it is 1.5 kg divided by 0.002 m³ and 1000 kg/m³, resulting in 0.75.
+
+fu-g00024 [wood-physics-mechanics / Medium / practice]
+  Which property of wood is primarily responsible for the phenomenon where wood returns to its original shape after bending?
+       a. Plasticity
+       b. Creep
+      *c. Elasticity
+       d. Hardness
+    WHY: Elasticity is the property that allows wood to return to its original shape after bending, as it describes the material's ability to recover from deformation.
+
+fu-g00025 [wood-physics-mechanics / Medium / practice]
+  When wood is loaded longitudinally, which type of stress is primarily being tested?
+       a. Compressive stress
+      *b. Tensile stress
+       c. Shear stress
+       d. Bending stress
+    WHY: Tensile stress is the stress experienced by wood when it is stretched or pulled along its length, which is what happens when wood is loaded longitudinally.
+
+fu-g00026 [wood-physics-mechanics / Medium / practice]
+  A piece of wood has an initial moisture content of 60% and an oven-dry weight of 150 grams. What is its green weight?
+      *a. 240 grams
+       b. 210 grams
+       c. 180 grams
+       d. 195 grams
+    WHY: The green weight of wood is calculated by adding the oven-dry weight to the weight of the water content. With an initial moisture content of 60%, the water weight is 60% of the oven-dry weight. Therefore, the green weight is 150 grams plus 60% of 150 grams, which equals 240 grams.
+
+fu-g00027 [wood-physics-mechanics / Medium / practice]
+  In wood mechanics, which property describes the resistance of wood to deformation under a continuous load over time?
+       a. Plasticity
+      *b. Creep
+       c. Elasticity
+       d. Compression strength
+    WHY: Creep is the property of wood that describes its tendency to deform gradually under a constant load over time. This is distinct from elasticity or plasticity, which relate to immediate deformations.
+
+fu-g00028 [wood-physics-mechanics / Hard / practice]
+  The modulus of elasticity (MOE) of a wood sample is measured at 12 GPa. If the wood is subjected to a bending stress that results in a strain of 0.002, what is the resulting stress in the wood?
+       a. 6 MPa
+       b. 12 MPa
+      *c. 24 MPa
+       d. 18 MPa
+    WHY: The modulus of elasticity (MOE) is a measure of a material's ability to resist deformation under stress. It is defined as the ratio of stress to strain. Given the MOE and strain, the stress can be calculated by multiplying the MOE by the strain.
+
+fu-g00029 [wood-physics-mechanics / Hard / practice]
+  A wooden beam is originally 2.5 meters long. When subject to an axial compressive force, it shortens by 0.001 meters. If the original length of the beam was instead 5 meters and the same force was applied, what would be the expected change in length, assuming linear elastic behavior?
+       a. 0.0005 meters
+       b. 0.001 meters
+      *c. 0.002 meters
+       d. 0.0025 meters
+    WHY: In linear elastic behavior, the change in length is directly proportional to the original length. Doubling the original length while applying the same force results in doubling the change in length.
+
+fu-g00030 [wood-physics-mechanics / Hard / practice]
+  A rectangular wooden beam is 3 meters long, 0.1 meters wide, and 0.2 meters high. It is subjected to a bending moment of 1500 Nm. Given that the modulus of elasticity (MOE) of the wood is 10 GPa, calculate the maximum tensile stress experienced by the beam at the outermost fiber. Use the formula for bending stress: \( \sigma = \frac{M \cdot y}{I} \), where \( M \) is the bending moment, \( y \) is the distance from the neutral axis to the outermost fiber, and \( I \) is the moment of inertia for a rectangular section, \( I = \frac{b \cdot h^3}{12} \).
+       a. 7.5 MPa
+       b. 30 MPa
+      *c. 15 MPa
+       d. 50 MPa
+    WHY: The maximum tensile stress is calculated using the bending stress formula \( \sigma = \frac{M \cdot y}{I} \). Here, \( M = 1500 \text{ Nm} \), \( y = 0.1 \text{ m} \) (half the height of the beam), and \( I = \frac{0.1 \cdot (0.2)^3}{12} = 6.67 \times 10^{-5} \text{ m}^4 \). Substituting these into the formula gives \( \sigma = \frac{1500 \cdot 0.1}{6.67 \times 10^{-5}} = 15 \text{ MPa} \).
+
+fu-g00031 [wood-seasoning-preservation / Easy / practice]
+  What is the process of removing moisture from wood to improve its stability called?
+       a. Preservation
+       b. Sanding
+       c. Polishing
+      *d. Seasoning
+    WHY: Seasoning is the process of removing moisture from wood to enhance its stability and prevent defects such as warping and splitting. It prepares the wood for use in construction and manufacturing by reducing its moisture content to an appropriate level.
+
+fu-g00032 [wood-seasoning-preservation / Easy / practice]
+  Which method of wood preservation involves immersing wood in a chemical solution to prevent decay?
+      *a. Immersion treatment
+       b. Kiln drying
+       c. Sap displacement
+       d. Boron diffusion
+    WHY: Immersion treatment involves submerging wood in a chemical solution to protect it from decay, insects, and fungi. This method ensures deep penetration of preservatives, enhancing the wood's durability.
+
+fu-g00033 [wood-seasoning-preservation / Easy / practice]
+  What is the term for the undesirable cracking of wood occurring during drying?
+       a. Splitting
+       b. Warping
+       c. Twisting
+      *d. Checking
+    WHY: Checking refers to the formation of small cracks in wood as it dries. These cracks occur when the outer layers of wood dry and shrink faster than the inner layers, leading to stress and cracking.
+
+fu-g00034 [wood-seasoning-preservation / Easy / practice]
+  Which wood species commonly found in the Philippines is known for its natural resistance to termite attacks?
+       a. Yakal
+       b. Mahogany
+      *c. Molave
+       d. Gmelina
+    WHY: Molave is a hardwood species known for its natural resistance to termite attacks, making it a preferred choice for construction and furniture in termite-prone areas.
+
+fu-g00035 [wood-seasoning-preservation / Easy / practice]
+  What is the main advantage of air seasoning over kiln drying?
+       a. Faster moisture removal
+       b. Improved wood color
+      *c. Lower cost
+       d. Uniform moisture content
+    WHY: Air seasoning is less expensive than kiln drying because it uses natural air and ambient conditions, requiring no additional energy input or specialized equipment.
+
+fu-g00036 [wood-seasoning-preservation / Easy / practice]
+  What chemical is commonly used in the vacuum-pressure impregnation process to preserve wood?
+       a. Tung oil
+       b. Linseed oil
+      *c. Copper naphthenate
+       d. Shellac
+    WHY: Copper naphthenate is a common preservative used in the vacuum-pressure impregnation process to protect wood from decay and insect damage. It is effective and widely used due to its ability to penetrate deeply into the wood.
+
+fu-g00037 [wood-seasoning-preservation / Medium / practice]
+  When using the full-cell process in wood preservation, which factor is crucial to ensure maximum preservative penetration?
+       a. Duration of treatment
+      *b. Initial vacuum pressure
+       c. Final pressure applied
+       d. Wood's initial moisture content
+    WHY: Initial vacuum pressure is crucial in the full-cell process because it removes air from the wood cells, allowing the preservative to penetrate more deeply and uniformly when pressure is later applied.
+
+fu-g00038 [wood-seasoning-preservation / Medium / practice]
+  What is the primary reason for using baffles in a wood kiln during the drying process?
+       a. To increase the temperature of the kiln
+       b. To reduce the kiln's humidity level
+      *c. To direct airflow evenly across the lumber stack
+       d. To speed up the drying process indiscriminately
+    WHY: Baffles are used in a wood kiln to ensure that airflow is distributed evenly across the lumber stack, which is essential for uniform drying and preventing defects.
+
+fu-g00039 [wood-seasoning-preservation / Medium / practice]
+  In the seasoning of lumber, which drying defect is typically associated with rapid moisture loss from the wood's surface?
+       a. Case hardening
+       b. Honeycombing
+       c. Collapse
+      *d. Surface checking
+    WHY: Surface checking occurs when the surface of the wood loses moisture too quickly, causing it to shrink and crack while the inner wood remains moist and intact.
+
+fu-g00040 [wood-seasoning-preservation / Medium / practice]
+  Which chemical treatment method is specifically used to improve the fire resistance of wood products?
+      *a. Fire retardant impregnation
+       b. Water-borne preservatives
+       c. Creosote treatment
+       d. Natural oil treatment
+    WHY: Fire retardant impregnation involves treating wood with chemicals that enhance its resistance to fire, making it less flammable.
+
+fu-g00041 [wood-seasoning-preservation / Medium / practice]
+  For which type of wood product is the steaming process particularly useful in minimizing drying defects?
+       a. Plywood panels
+       b. Solid wood beams
+      *c. Veneer sheets
+       d. Finger-jointed boards
+    WHY: The steaming process is particularly useful for veneer sheets because it softens the wood, reducing the likelihood of cracking and splitting during drying.
+
+fu-g00042 [wood-seasoning-preservation / Medium / practice]
+  A forester is tasked with seasoning a batch of Benguet pine logs. To minimize checking during air drying, which initial step should be prioritized?
+       a. Stacking logs horizontally to promote even air flow.
+       b. Barking the logs to increase surface exposure.
+      *c. End-coating with wax or sealant to reduce moisture loss.
+       d. Applying a fungicide treatment before drying.
+    WHY: End-coating with wax or sealant is crucial because it reduces the rate of moisture loss from the ends of the logs, which are more prone to rapid drying and checking. This helps maintain the integrity of the wood during the air-drying process.
+
+fu-g00043 [wood-seasoning-preservation / Medium / practice]
+  During kiln drying of Philippine mahogany, the forester notices a higher moisture content in the core than the surface. What adjustment should be made to equalize drying?
+       a. Increase the temperature to speed up core drying.
+       b. Decrease the temperature to slow surface drying.
+       c. Decrease the circulation to focus drying on the core.
+      *d. Increase the humidity to allow moisture redistribution.
+    WHY: Increasing the humidity in the kiln allows the moisture in the wood to redistribute more evenly, helping to equalize the moisture content between the core and the surface.
+
+fu-g00044 [wood-seasoning-preservation / Medium / practice]
+  When using the Boucherie process for treating young Eucalyptus deglupta, what is the primary advantage over conventional pressure treatment?
+       a. It requires shorter immersion times in preservatives.
+      *b. It allows for treatment of freshly cut wood without drying.
+       c. It improves the natural color and grain of the wood.
+       d. It significantly reduces the cost of chemical preservatives.
+    WHY: The Boucherie process allows for the treatment of freshly cut wood without the need for prior drying, making it more efficient for treating green wood like young Eucalyptus deglupta.
+
+fu-g00045 [wood-seasoning-preservation / Medium / practice]
+  A forester is conducting a drying operation for a batch of Philippine mahogany using a kiln. To ensure uniform drying and prevent surface checks, what initial temperature should be set for the kiln?
+       a. 70°C
+       b. 90°C
+       c. 110°C
+      *d. 50°C
+    WHY: The correct initial temperature for kiln drying Philippine mahogany is 50°C because it allows for a gradual removal of moisture, reducing the risk of surface checks and internal stresses. Starting at a lower temperature ensures that the wood dries uniformly, which is crucial for maintaining its quality and structural integrity.
+
+fu-g00046 [wood-seasoning-preservation / Hard / practice]
+  In the seasoning of wood, what is the primary reason for using stickers in the drying stack arrangement?
+       a. To prevent fungal growth during the drying process.
+      *b. To increase air circulation and promote even drying throughout the stack.
+       c. To increase the weight on the stack and minimize warping.
+       d. To regulate the humidity levels within the kiln.
+    WHY: Stickers are used in wood drying stacks to create space between the layers of wood, allowing air to circulate freely. This increased air circulation helps to ensure that the wood dries evenly, reducing the risk of defects such as warping or uneven moisture content.
+
+fu-g00047 [wood-seasoning-preservation / Hard / practice]
+  A batch of Narra (Pterocarpus indicus) is being dried using a conventional kiln. The initial moisture content is 60%, and the target is to bring it down to 12%. If the kiln operates at an efficiency of 70% and removes 0.5 kg of water per hour, how much time is required to achieve the target moisture content from a 1000 kg batch?
+       a. 100 hours
+       b. 120 hours
+       c. 200 hours
+      *d. 140 hours
+    WHY: To calculate the time required, we first determine the total amount of water to be removed and then divide by the rate of water removal adjusted for kiln efficiency. This gives us the time needed to reach the target moisture content.
+
+fu-g00048 [wood-seasoning-preservation / Hard / practice]
+  When treating wood with preservatives, what is the key distinction between the Bethell process (full-cell process) and the Rueping process (empty-cell process)?
+      *a. The Bethell process aims for maximum preservative retention, while the Rueping process uses air pressure to minimize it.
+       b. The Bethell process uses a vacuum before and after the introduction of preservative, while the Rueping process only uses pressure.
+       c. The Rueping process involves soaking wood in preservative, whereas the Bethell process injects preservative under high pressure.
+       d. The Rueping process is designed for hardwoods, while the Bethell process is optimized for softwoods.
+    WHY: The Bethell process is designed to maximize preservative retention by using a vacuum to remove air from the wood cells before introducing the preservative, ensuring deep penetration. The Rueping process uses compressed air to limit preservative uptake, focusing on surface protection.
+
+fu-g00049 [wood-seasoning-preservation / Hard / practice]
+  In wood preservation, why is it important to adjust the concentration of chemicals used in pressure treatment depending on the species and condition of the wood?
+       a. Species with high oil content require higher concentrations to achieve effective preservation.
+      *b. Different species have varying sapwood permeability, affecting preservative absorption.
+       c. Hardwoods need less preservative concentration than softwoods due to their density.
+       d. Chemicals degrade faster in denser woods, necessitating higher concentrations.
+    WHY: Different wood species have varying sapwood permeability, which affects how well they absorb preservatives. Adjusting chemical concentrations ensures effective treatment based on these differences.
+
+fu-g00050 [forest-products-utilization / Easy / practice]
+  What is the main objective of kiln drying in wood processing?
+       a. To enhance the color of the wood.
+       b. To increase the natural resin content of the wood.
+       c. To form a protective bark layer on the wood.
+      *d. To reduce the moisture content of wood to a desired level.
+    WHY: Kiln drying is primarily used to reduce the moisture content of wood to a desired level, making it suitable for use in construction and other applications. This process helps prevent issues like warping, cracking, and decay.
+
+fu-g00051 [forest-products-utilization / Easy / practice]
+  In the context of wood preservation, what is the function of a preservative treatment?
+       a. To improve the wood's ability to absorb water.
+       b. To enhance the wood's flexibility.
+       c. To lighten the color of the wood.
+      *d. To increase the wood's resistance to decay and insects.
+    WHY: Preservative treatment is used to increase the wood's resistance to decay and insects, extending its lifespan and maintaining its structural integrity.
+
+fu-g00052 [forest-products-utilization / Easy / practice]
+  Which type of wood product is primarily used for structural applications due to its strength and form stability?
+       a. Plywood
+       b. Particleboard
+       c. Medium Density Fibreboard (MDF)
+      *d. Laminated Veneer Lumber (LVL)
+    WHY: Laminated Veneer Lumber (LVL) is primarily used for structural applications due to its high strength and form stability, making it ideal for beams and headers.
+
+fu-g00053 [forest-products-utilization / Easy / practice]
+  What is the principal reason for seasoning timber before it is used in construction?
+      *a. To prevent warping and shrinkage.
+       b. To ensure uniform color distribution.
+       c. To increase its density.
+       d. To enhance its natural aroma.
+    WHY: Seasoning timber is primarily done to prevent warping and shrinkage, ensuring the wood maintains its shape and size when used in construction.
+
+fu-g00054 [forest-products-utilization / Easy / practice]
+  Which of the following processes is used to convert wood chips into pulp for papermaking?
+       a. Bark peeling
+       b. Kiln drying
+       c. Wood drilling
+      *d. Chemical pulping
+    WHY: Chemical pulping is the process used to convert wood chips into pulp for papermaking, breaking down lignin and freeing cellulose fibers.
+
+fu-g00055 [forest-products-utilization / Easy / practice]
+  What is the main chemical component of wood that provides it with rigidity and structural support?
+       a. Lignin
+       b. Tannin
+      *c. Cellulose
+       d. Chitin
+    WHY: Cellulose is the primary chemical component of wood that provides rigidity and structural support. It forms long chains that create a strong fibrous structure, essential for the mechanical strength of wood.
+
+fu-g00056 [forest-products-utilization / Medium / practice]
+  In the production of paper, which process uses mechanical action to separate wood fibers without the use of chemicals, resulting in a high-yield pulp?
+       a. Kraft pulping
+       b. Sulfite pulping
+      *c. Mechanical pulping
+       d. Thermomechanical pulping
+    WHY: Mechanical pulping separates wood fibers using mechanical action without chemicals, resulting in high-yield pulp, which retains most of the wood's original components.
+
+fu-g00057 [forest-products-utilization / Medium / practice]
+  What is the main purpose of applying a surface finish to a wooden product?
+       a. To increase its moisture content
+       b. To make it more susceptible to fungal decay
+      *c. To enhance its appearance and protect it from moisture and insects
+       d. To ensure expansion when exposed to high humidity
+    WHY: Applying a surface finish enhances a wooden product's appearance and protects it from environmental factors like moisture and insects.
+
+fu-g00058 [forest-products-utilization / Medium / practice]
+  Which wood product is specifically manufactured to provide high dimensional stability by using small wood strands or flakes bonded under heat and pressure with adhesive?
+       a. Laminated Veneer Lumber (LVL)
+       b. Particleboard
+       c. Plywood
+      *d. Oriented Strand Board (OSB)
+    WHY: Oriented Strand Board (OSB) is designed for high dimensional stability using small wood strands bonded with adhesive under heat and pressure.
+
+fu-g00059 [forest-products-utilization / Medium / practice]
+  During the kiln drying process, which stage involves maintaining a constant temperature to ensure uniform moisture removal across all wood pieces?
+       a. Pre-drying
+       b. Conditioning
+       c. Final drying
+      *d. Equalizing
+    WHY: Equalizing maintains a constant temperature to ensure uniform moisture removal, preventing stress and defects in the wood.
+
+fu-g00060 [forest-products-utilization / Medium / practice]
+  In wood processing, what is the function of a planer?
+       a. To join two pieces of wood together
+      *b. To smooth the surface of the wood and ensure uniform thickness
+       c. To cut wood into small chips for pulping
+       d. To apply a chemical preservative to wood
+    WHY: A planer smooths the wood surface and ensures uniform thickness, essential for quality wood products.
+
+fu-g00061 [forest-products-utilization / Medium / practice]
+  In the context of wood adhesives, what is the primary role of a catalyst?
+       a. To increase the adhesive's viscosity, making it easier to apply
+      *b. To initiate or accelerate the chemical reaction that causes the adhesive to set and harden
+       c. To slow down the curing process, allowing for longer open times
+       d. To dissolve the adhesive for easier cleanup after application
+    WHY: A catalyst in wood adhesives speeds up the chemical reaction, causing the adhesive to set and harden more quickly.
